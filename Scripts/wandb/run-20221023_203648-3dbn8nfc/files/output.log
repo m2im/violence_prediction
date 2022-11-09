@@ -1,0 +1,61 @@
+
+Revision `neat-feather-5` does not exist. Created and checked out branch `neat-feather-5`.
+[INFO] loading the tokenizer and the model ...
+loading file https://huggingface.co/setu4993/LaBSE/resolve/main/vocab.txt from cache at /home/mmendieta/.cache/huggingface/transformers/e8627ea3796059a5af6469cdac41ea99354b04bd2e4f5c8943e8ed1c599ed9f0.8f2ffe7514c779e620b40da312123fd8536e25273a5873d73b975930ff3f3def
+loading file https://huggingface.co/setu4993/LaBSE/resolve/main/tokenizer.json from cache at /home/mmendieta/.cache/huggingface/transformers/7bb8637d7dd2bf3f1844099cffa3c6dd48ea15d13c123b7e7557f03a556c4580.eb59c97be3df9f113dbd88197e3744bd63efbc76bd68875345453aa01afc2372
+loading file https://huggingface.co/setu4993/LaBSE/resolve/main/added_tokens.json from cache at None
+loading file https://huggingface.co/setu4993/LaBSE/resolve/main/special_tokens_map.json from cache at /home/mmendieta/.cache/huggingface/transformers/f7976973d6e1d492e81cc7e3f495661fffb63be89dd6889a1f1b32911095fbbc.dd8bd9bfd3664b530ea4e645105f557769387b3da9f79bdb55ed556bdd80611d
+loading file https://huggingface.co/setu4993/LaBSE/resolve/main/tokenizer_config.json from cache at /home/mmendieta/.cache/huggingface/transformers/01bc61f45f47c0df8718fb3cfd2274394a70b3851d96f7d99181e3b7c189f50a.f39cd25e9f33bcb338b3ccb34933d4ef9a21254e59543632a76e2de2b20f17ee
+loading configuration file https://huggingface.co/setu4993/LaBSE/resolve/main/config.json from cache at /home/mmendieta/.cache/huggingface/transformers/5e8580c8bc79861e8f05c7107d3576aa1e21098fcc7a3d6767e6b9449f0de551.116d04e84078e39e9bdea46d4b87a28c400bbd7580ad6d06b3fd522c72e3a7e0
+Model config BertConfig {
+  "architectures": [
+    "BertModel"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "post7geo10",
+    "1": "post7geo30",
+    "2": "post7geo50",
+    "3": "pre7geo10",
+    "4": "pre7geo30",
+    "5": "pre7geo50"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "post7geo10": 0,
+    "post7geo30": 1,
+    "post7geo50": 2,
+    "pre7geo10": 3,
+    "pre7geo30": 4,
+    "pre7geo50": 5
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "problem_type": "multi_label_classification",
+  "torch_dtype": "float32",
+  "transformers_version": "4.19.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 501153
+}
+loading weights file https://huggingface.co/setu4993/LaBSE/resolve/main/pytorch_model.bin from cache at /home/mmendieta/.cache/huggingface/transformers/1cb7d97d64ce45b4859d55e285a4ec4c0188a88799241005ec5838635a8cc052.ac373a2dc5bee464cafa969eb3d8b68c881ad887ebc2fc122a98eabc1db6fe4b
+All model checkpoint weights were used when initializing BertForSequenceClassification.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at setu4993/LaBSE and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/mmendieta/transformers/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+[INFO] training starts...
+  0%|                                                    | 0/60 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "fine_tune_labse_script_accelerate.py", line 220, in <module>
+    accelerator.clip_grad_norm(model.named_parameters(), 1.0)
+AttributeError: 'Accelerator' object has no attribute 'clip_grad_norm'

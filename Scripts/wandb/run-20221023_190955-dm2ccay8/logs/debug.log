@@ -1,0 +1,18 @@
+2022-10-23 19:09:55,235 INFO    MainThread:50717 [wandb_setup.py:_flush():69] setting env: {}
+2022-10-23 19:09:55,236 INFO    MainThread:50717 [wandb_setup.py:_flush():69] setting login settings: {}
+2022-10-23 19:09:55,236 INFO    MainThread:50717 [wandb_init.py:_log_setup():342] Logging user logs to /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_190955-dm2ccay8/logs/debug.log
+2022-10-23 19:09:55,236 INFO    MainThread:50717 [wandb_init.py:_log_setup():343] Logging internal logs to /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_190955-dm2ccay8/logs/debug-internal.log
+2022-10-23 19:09:55,236 INFO    MainThread:50717 [wandb_init.py:init():375] calling init triggers
+2022-10-23 19:09:55,236 INFO    MainThread:50717 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {}
+2022-10-23 19:09:55,236 INFO    MainThread:50717 [wandb_init.py:init():424] starting backend
+2022-10-23 19:09:55,236 INFO    MainThread:50717 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-10-23 19:09:55,248 INFO    MainThread:50717 [backend.py:ensure_launched():135] starting backend process...
+2022-10-23 19:09:55,292 INFO    MainThread:50717 [backend.py:ensure_launched():139] started backend process with pid: 51424
+2022-10-23 19:09:55,294 INFO    MainThread:50717 [wandb_init.py:init():429] backend started and connected
+2022-10-23 19:09:55,296 INFO    MainThread:50717 [wandb_init.py:init():477] updated telemetry
+2022-10-23 19:09:55,297 INFO    MainThread:50717 [wandb_init.py:init():500] communicating current version
+2022-10-23 19:09:55,914 INFO    MainThread:50717 [wandb_init.py:init():505] got version response upgrade_message: "wandb version 0.13.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-10-23 19:09:55,914 INFO    MainThread:50717 [wandb_init.py:init():513] communicating run to backend with 30 second timeout
+2022-10-23 19:09:56,101 INFO    MainThread:50717 [wandb_init.py:init():540] starting run threads in backend

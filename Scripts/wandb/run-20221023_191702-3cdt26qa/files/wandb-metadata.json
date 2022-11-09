@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.4.0-126-generic-x86_64-with-glibc2.10",
+    "python": "3.8.3",
+    "heartbeatAt": "2022-10-24T02:17:02.974080",
+    "startedAt": "2022-10-24T02:17:02.442838",
+    "docker": null,
+    "gpu": "Tesla V100-SXM3-32GB",
+    "gpu_count": 16,
+    "cpu_count": 56,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "fine_tune_labse_script_accelerate.py",
+    "codePath": "fine_tune_labse_script_accelerate.py",
+    "host": "CODA-GPU-1",
+    "username": "mmendieta",
+    "executable": "/home/mmendieta/transformers/bin/python3"
+}

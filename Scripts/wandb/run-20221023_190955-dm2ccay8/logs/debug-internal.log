@@ -1,0 +1,42 @@
+2022-10-23 19:09:55,818 INFO    MainThread:51424 [internal.py:wandb_internal():86] W&B internal server running at pid: 51424, started at: 2022-10-23 19:09:55.818727
+2022-10-23 19:09:55,821 DEBUG   HandlerThread:51424 [handler.py:handle_request():128] handle_request: check_version
+2022-10-23 19:09:55,822 INFO    WriterThread:51424 [datastore.py:open_for_write():77] open: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_190955-dm2ccay8/run-dm2ccay8.wandb
+2022-10-23 19:09:55,825 DEBUG   SenderThread:51424 [sender.py:send():182] send: header
+2022-10-23 19:09:55,825 DEBUG   SenderThread:51424 [sender.py:send_request():196] send_request: check_version
+2022-10-23 19:09:55,916 DEBUG   SenderThread:51424 [sender.py:send():182] send: run
+2022-10-23 19:09:55,922 DEBUG   SenderThread:51424 [git.py:repo():33] git repository is invalid
+2022-10-23 19:09:56,101 INFO    SenderThread:51424 [dir_watcher.py:__init__():168] watching files in: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_190955-dm2ccay8/files
+2022-10-23 19:09:56,102 INFO    SenderThread:51424 [sender.py:_start_run_threads():740] run started: dm2ccay8 with start time 1666577395
+2022-10-23 19:09:56,102 DEBUG   SenderThread:51424 [sender.py:send():182] send: summary
+2022-10-23 19:09:56,102 DEBUG   HandlerThread:51424 [handler.py:handle_request():128] handle_request: run_start
+2022-10-23 19:09:56,104 INFO    SenderThread:51424 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-10-23 19:09:57,106 INFO    Thread-8  :51424 [dir_watcher.py:_on_file_created():216] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_190955-dm2ccay8/files/wandb-summary.json
+2022-10-23 19:09:57,652 DEBUG   HandlerThread:51424 [meta.py:__init__():39] meta init
+2022-10-23 19:09:57,652 DEBUG   HandlerThread:51424 [meta.py:__init__():53] meta init done
+2022-10-23 19:09:57,652 DEBUG   HandlerThread:51424 [meta.py:probe():210] probe
+2022-10-23 19:09:57,660 DEBUG   HandlerThread:51424 [git.py:repo():33] git repository is invalid
+2022-10-23 19:09:57,660 DEBUG   HandlerThread:51424 [meta.py:_save_pip():57] save pip
+2022-10-23 19:09:57,660 DEBUG   HandlerThread:51424 [meta.py:_save_pip():71] save pip done
+2022-10-23 19:09:57,660 DEBUG   HandlerThread:51424 [meta.py:probe():252] probe done
+2022-10-23 19:09:57,663 DEBUG   SenderThread:51424 [sender.py:send():182] send: files
+2022-10-23 19:09:57,664 INFO    SenderThread:51424 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2022-10-23 19:09:58,107 INFO    Thread-8  :51424 [dir_watcher.py:_on_file_created():216] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_190955-dm2ccay8/files/wandb-metadata.json
+2022-10-23 19:09:58,108 INFO    Thread-8  :51424 [dir_watcher.py:_on_file_created():216] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_190955-dm2ccay8/files/requirements.txt
+2022-10-23 19:09:58,205 INFO    Thread-11 :51424 [upload_job.py:push():137] Uploaded file /tmp/tmprh3x8yqpwandb/33rjyqek-wandb-metadata.json
+2022-10-23 19:10:04,850 WARNING MainThread:51424 [internal.py:is_dead():364] Internal process exiting, parent pid 50717 disappeared
+2022-10-23 19:10:04,851 ERROR   MainThread:51424 [internal.py:wandb_internal():141] Internal process shutdown.
+2022-10-23 19:10:05,666 INFO    WriterThread:51424 [datastore.py:close():281] close: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_190955-dm2ccay8/run-dm2ccay8.wandb
+2022-10-23 19:10:05,667 INFO    SenderThread:51424 [sender.py:finish():979] shutting down sender
+2022-10-23 19:10:05,667 INFO    SenderThread:51424 [dir_watcher.py:finish():282] shutting down directory watcher
+2022-10-23 19:10:05,673 INFO    HandlerThread:51424 [handler.py:finish():677] shutting down handler
+2022-10-23 19:10:06,111 INFO    SenderThread:51424 [dir_watcher.py:finish():312] scan: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_190955-dm2ccay8/files
+2022-10-23 19:10:06,111 INFO    SenderThread:51424 [dir_watcher.py:finish():318] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_190955-dm2ccay8/files/requirements.txt requirements.txt
+2022-10-23 19:10:06,112 INFO    SenderThread:51424 [dir_watcher.py:finish():318] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_190955-dm2ccay8/files/config.yaml config.yaml
+2022-10-23 19:10:06,121 INFO    SenderThread:51424 [dir_watcher.py:finish():318] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_190955-dm2ccay8/files/wandb-metadata.json wandb-metadata.json
+2022-10-23 19:10:06,121 INFO    SenderThread:51424 [dir_watcher.py:finish():318] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_190955-dm2ccay8/files/wandb-summary.json wandb-summary.json
+2022-10-23 19:10:06,122 INFO    SenderThread:51424 [file_pusher.py:finish():177] shutting down file pusher
+2022-10-23 19:10:06,128 INFO    SenderThread:51424 [file_pusher.py:join():182] waiting for file pusher
+2022-10-23 19:10:06,521 INFO    Thread-12 :51424 [upload_job.py:push():137] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_190955-dm2ccay8/files/requirements.txt
+2022-10-23 19:10:06,540 INFO    Thread-13 :51424 [upload_job.py:push():137] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_190955-dm2ccay8/files/config.yaml
+2022-10-23 19:10:06,557 INFO    Thread-14 :51424 [upload_job.py:push():137] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_190955-dm2ccay8/files/wandb-summary.json
+2022-10-23 19:10:07,220 INFO    MainThread:51424 [internal.py:handle_exit():76] Internal process exited

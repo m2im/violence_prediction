@@ -1,0 +1,974 @@
+2022-10-23 19:17:02,466 INFO    StreamThr :53226 [internal.py:wandb_internal():88] W&B internal server running at pid: 53226, started at: 2022-10-23 19:17:02.465638
+2022-10-23 19:17:02,470 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: status
+2022-10-23 19:17:02,641 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: status
+2022-10-23 19:17:02,644 DEBUG   SenderThread:53226 [sender.py:send():303] send: header
+2022-10-23 19:17:02,644 INFO    WriterThread:53226 [datastore.py:open_for_write():75] open: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/run-3cdt26qa.wandb
+2022-10-23 19:17:02,645 DEBUG   SenderThread:53226 [sender.py:send():303] send: run
+2022-10-23 19:17:02,853 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: check_version
+2022-10-23 19:17:02,853 INFO    SenderThread:53226 [dir_watcher.py:__init__():216] watching files in: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files
+2022-10-23 19:17:02,854 INFO    SenderThread:53226 [sender.py:_start_run_threads():928] run started: 3cdt26qa with start time 1666577822.457856
+2022-10-23 19:17:02,854 DEBUG   SenderThread:53226 [sender.py:send():303] send: summary
+2022-10-23 19:17:02,854 INFO    SenderThread:53226 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-23 19:17:02,854 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: check_version
+2022-10-23 19:17:02,949 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: run_start
+2022-10-23 19:17:02,973 DEBUG   HandlerThread:53226 [meta.py:__init__():34] meta init
+2022-10-23 19:17:02,974 DEBUG   HandlerThread:53226 [meta.py:__init__():49] meta init done
+2022-10-23 19:17:02,974 DEBUG   HandlerThread:53226 [meta.py:probe():215] probe
+2022-10-23 19:17:02,991 DEBUG   HandlerThread:53226 [git.py:repo():40] git repository is invalid
+2022-10-23 19:17:02,991 DEBUG   HandlerThread:53226 [meta.py:_save_pip():53] save pip
+2022-10-23 19:17:02,992 DEBUG   HandlerThread:53226 [meta.py:_save_pip():67] save pip done
+2022-10-23 19:17:02,992 DEBUG   HandlerThread:53226 [meta.py:probe():253] probe done
+2022-10-23 19:17:03,033 DEBUG   SenderThread:53226 [sender.py:send():303] send: files
+2022-10-23 19:17:03,034 INFO    SenderThread:53226 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-10-23 19:17:03,048 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:17:03,049 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:17:03,137 DEBUG   SenderThread:53226 [sender.py:send():303] send: telemetry
+2022-10-23 19:17:03,496 INFO    Thread-17 :53226 [upload_job.py:push():143] Uploaded file /tmp/tmp_vew61oowandb/29zi1ros-wandb-metadata.json
+2022-10-23 19:17:03,857 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:17:03,858 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/wandb-summary.json
+2022-10-23 19:17:03,858 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/requirements.txt
+2022-10-23 19:17:03,858 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/wandb-metadata.json
+2022-10-23 19:17:05,855 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:17:07,856 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:17:18,142 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:17:18,142 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:17:33,246 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:17:33,247 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:17:33,870 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/config.yaml
+2022-10-23 19:17:36,168 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:17:43,876 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:17:48,362 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:17:48,363 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:17:49,889 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:17:51,891 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:17:53,891 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:17:55,895 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:17:57,895 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:17:59,897 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:01,898 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:03,460 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:18:03,460 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:18:03,899 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:05,901 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:07,901 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:09,902 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:11,903 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:13,810 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:18:13,905 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:15,905 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:17,906 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:18,575 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:18:18,576 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:18:19,907 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:21,907 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:23,909 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:25,910 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:27,911 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:29,912 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:31,912 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:33,838 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:18:33,838 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:18:33,913 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:35,916 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:37,918 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:39,919 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:41,920 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:43,921 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:45,922 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:47,925 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:48,931 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:18:48,932 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:18:49,930 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:51,931 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:52,167 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:18:53,936 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:55,936 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:57,937 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:18:59,938 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:01,939 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:03,939 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:04,039 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:19:04,040 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:19:05,941 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:07,942 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:09,945 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:11,943 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:13,944 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:15,945 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:17,946 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:19,151 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:19:19,151 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:19:19,947 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:21,950 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:23,948 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:25,949 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:27,952 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:29,952 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:30,627 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:19:31,953 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:33,953 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:34,533 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:19:34,533 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:19:35,955 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:37,955 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:39,957 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:41,959 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:43,964 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:45,964 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:47,964 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:49,617 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:19:49,617 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:19:49,966 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:51,967 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:53,967 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:55,969 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:57,975 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:19:59,973 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:01,974 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:03,975 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:04,711 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:20:04,712 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:20:05,976 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:07,977 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:08,696 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:20:09,978 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:11,979 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:13,980 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:15,982 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:17,981 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:19,982 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:20,025 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:20:20,026 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:20:21,983 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:23,986 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:25,989 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:27,992 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:30,004 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:32,004 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:34,005 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:35,376 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:20:35,376 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:20:36,007 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:38,008 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:40,009 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:42,010 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:44,010 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:46,012 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:47,392 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:20:48,017 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:50,017 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:50,471 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:20:50,472 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:20:52,018 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:54,019 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:56,020 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:20:58,020 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:00,021 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:02,023 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:04,024 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:05,777 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:21:05,778 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:21:06,025 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:08,027 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:10,028 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:12,029 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:14,030 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:16,030 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:18,032 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:20,033 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:20,861 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:21:20,861 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:21:22,036 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:24,037 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:25,838 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:21:26,038 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:28,042 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:30,045 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:32,046 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:34,046 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:35,961 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:21:35,962 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:21:36,047 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:38,048 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:40,050 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:42,051 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:44,052 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:46,053 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:48,053 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:50,054 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:51,050 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:21:51,050 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:21:52,057 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:54,057 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:56,058 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:21:58,061 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:00,063 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:02,063 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:04,063 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:04,277 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:22:06,064 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:06,158 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:22:06,158 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:22:08,066 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:10,067 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:12,068 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:14,068 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:16,070 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:18,071 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:20,072 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:21,323 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:22:21,323 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:22:22,073 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:24,075 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:26,076 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:28,077 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:30,081 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:32,082 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:34,082 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:36,086 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:36,417 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:22:36,417 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:22:38,087 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:40,087 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:42,091 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:42,149 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:22:44,094 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:46,095 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:48,096 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:50,097 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:51,521 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:22:51,522 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:22:52,102 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:54,104 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:56,104 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:22:58,105 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:00,106 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:02,107 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:04,107 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:06,108 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:06,622 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:23:06,622 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:23:08,109 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:10,109 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:12,116 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:14,111 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:16,112 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:18,112 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:20,114 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:20,531 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:23:21,709 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:23:21,710 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:23:22,115 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:24,115 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:26,116 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:28,117 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:30,118 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:32,119 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:34,124 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:36,125 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:36,814 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:23:36,814 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:23:38,126 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:40,126 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:42,127 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:44,128 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:46,129 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:48,129 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:50,130 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:51,899 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:23:51,899 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:23:52,131 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:54,131 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:56,132 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:58,133 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:23:58,736 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:24:00,133 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:02,135 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:04,136 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:06,137 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:06,995 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:24:06,996 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:24:08,138 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:10,139 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:12,139 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:14,141 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:16,141 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:18,144 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:20,144 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:22,101 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:24:22,101 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:24:22,145 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:24,145 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:26,146 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:28,147 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:30,148 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:32,148 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:34,149 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:36,149 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:37,302 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:24:37,325 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:24:37,326 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:24:38,150 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:40,152 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:42,157 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:44,157 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:46,158 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:48,161 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:50,162 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:52,162 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:52,416 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:24:52,417 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:24:54,163 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:56,164 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:24:58,165 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:00,165 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:02,177 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:04,178 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:06,179 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:07,534 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:25:07,535 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:25:08,181 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:10,181 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:12,182 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:14,183 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:16,049 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:25:16,184 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:18,186 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:20,187 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:22,187 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:22,629 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:25:22,629 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:25:24,188 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:26,189 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:28,191 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:30,192 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:32,193 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:34,193 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:36,194 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:37,734 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:25:37,734 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:25:38,195 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:40,196 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:42,196 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:44,198 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:46,199 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:48,200 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:50,200 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:52,202 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:52,837 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:25:52,837 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:25:54,203 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:54,216 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:25:56,204 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:25:58,206 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:00,206 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:02,206 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:04,208 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:06,209 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:07,946 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:26:07,946 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:26:08,212 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:10,212 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:12,213 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:14,214 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:16,214 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:18,215 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:20,215 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:22,216 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:23,114 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:26:23,115 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:26:24,217 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:26,217 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:28,218 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:30,219 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:32,220 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:33,247 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:26:34,224 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:36,225 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:38,225 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:38,358 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:26:38,359 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:26:40,228 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:42,227 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:44,228 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:46,228 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:48,229 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:50,230 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:52,230 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:53,738 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:26:53,738 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:26:54,231 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:56,232 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:26:58,233 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:00,234 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:02,234 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:04,235 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:06,236 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:08,236 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:09,105 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:27:09,105 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:27:10,238 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:11,651 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:27:12,241 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:14,242 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:16,243 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:18,243 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:20,248 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:22,250 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:24,250 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:24,260 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:27:24,260 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:27:26,250 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:28,251 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:30,251 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:32,252 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:34,253 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:36,254 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:38,258 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:39,371 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:27:39,371 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:27:40,260 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:42,261 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:44,264 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:46,262 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:48,268 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:50,271 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:50,315 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:27:52,271 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:54,272 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:54,602 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:27:54,602 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:27:56,276 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:27:58,275 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:00,276 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:02,278 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:04,280 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:06,280 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:08,282 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:09,805 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:28:09,807 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:28:10,283 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:12,283 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:14,284 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:16,286 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:18,288 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:20,289 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:22,291 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:24,292 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:24,972 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:28:24,973 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:28:26,292 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:28,293 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:29,095 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:28:30,293 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:32,295 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:34,294 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:36,295 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:38,297 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:40,081 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:28:40,081 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:28:40,297 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:42,298 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:44,299 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:46,300 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:48,303 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:50,303 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:52,304 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:54,305 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:55,172 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:28:55,172 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:28:56,306 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:28:58,307 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:00,307 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:02,308 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:04,309 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:06,310 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:07,548 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:29:08,311 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:10,268 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:29:10,269 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:29:10,311 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:12,320 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:14,321 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:16,322 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:18,322 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:20,323 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:22,324 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:24,325 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:25,358 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:29:25,358 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:29:26,326 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:28,327 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:30,327 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:32,328 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:34,329 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:36,329 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:38,330 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:40,331 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:40,489 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:29:40,489 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:29:42,331 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:44,332 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:45,947 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:29:46,333 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:48,333 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:50,334 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:52,335 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:54,336 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:55,580 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:29:55,580 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:29:56,337 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:29:58,337 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:00,338 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:02,339 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:04,341 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:06,343 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:08,343 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:10,344 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:10,684 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:30:10,685 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:30:12,346 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:14,347 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:16,347 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:18,348 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:20,352 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:22,350 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:24,350 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:24,658 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:30:26,000 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:30:26,001 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:30:26,351 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:28,352 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:30,352 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:32,355 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:34,355 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:36,357 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:38,358 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:40,358 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:41,087 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:30:41,087 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:30:42,359 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:44,360 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:46,361 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:48,363 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:50,364 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:52,365 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:54,365 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:56,366 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:30:56,450 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:30:56,451 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:30:58,367 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:00,369 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:02,370 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:03,382 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:31:04,371 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:06,375 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:08,379 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:10,379 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:11,738 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:31:11,738 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:31:12,380 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:14,383 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:16,384 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:18,385 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:20,385 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:22,386 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:24,387 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:26,389 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:26,899 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:31:26,899 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:31:28,390 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:30,391 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:32,392 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:34,392 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:36,394 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:38,394 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:40,395 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:41,972 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:31:42,004 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:31:42,005 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:31:42,396 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:44,397 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:46,397 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:48,401 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:50,402 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:52,402 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:54,403 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:56,406 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:31:57,095 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:31:57,095 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:31:58,405 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:00,405 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:02,406 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:04,409 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:06,410 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:08,411 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:10,413 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:12,185 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:32:12,185 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:32:12,413 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:14,414 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:16,415 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:18,416 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:20,416 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:20,502 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:32:22,417 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:24,419 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:26,419 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:27,349 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:32:27,349 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:32:28,420 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:30,421 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:32,422 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:34,423 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:36,426 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:38,426 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:40,427 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:42,428 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:42,626 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:32:42,626 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:32:44,429 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:46,430 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:48,434 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:50,440 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:52,441 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:54,442 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:56,443 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:57,714 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:32:57,714 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:32:58,444 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:32:59,093 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:33:00,444 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:02,445 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:04,445 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:06,447 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:08,448 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:10,450 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:12,450 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:12,810 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:33:12,811 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:33:14,451 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:16,452 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:18,453 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:20,454 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:22,455 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:24,455 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:26,456 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:28,012 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:33:28,013 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:33:28,458 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:30,466 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:32,467 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:34,473 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:36,475 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:37,942 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:33:38,475 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:40,476 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:42,477 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:43,278 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:33:43,278 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:33:44,477 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:46,479 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:48,481 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:50,481 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:52,482 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:54,482 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:56,483 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:58,484 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:33:58,601 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:33:58,601 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:34:00,485 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:02,486 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:04,488 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:06,487 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:08,488 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:10,488 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:12,489 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:13,725 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:34:13,725 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:34:14,490 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:16,399 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:34:16,493 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:18,494 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:20,495 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:22,496 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:24,496 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:26,498 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:28,499 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:29,054 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:34:29,054 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:34:30,500 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:32,500 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:34,501 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:36,504 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:38,505 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:40,506 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:42,507 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:44,166 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:34:44,167 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:34:44,508 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:46,509 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:48,510 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:50,511 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:52,512 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:54,513 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:54,691 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:34:56,513 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:58,514 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:34:59,273 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:34:59,274 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:35:00,519 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:02,519 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:04,521 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:06,522 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:08,523 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:10,523 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:12,524 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:14,525 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:14,562 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:35:14,562 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:35:16,526 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:18,527 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:20,529 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:22,528 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:24,528 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:26,529 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:28,530 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:29,675 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:35:29,675 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:35:30,532 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:32,532 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:33,412 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:35:34,533 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:36,534 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:38,534 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:40,535 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:42,536 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:44,538 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:44,947 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:35:44,947 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:35:46,537 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:48,539 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:50,540 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:52,541 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:54,541 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:56,542 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:35:58,544 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:00,045 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:36:00,045 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:36:01,544 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:03,547 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:05,547 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:07,547 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:09,548 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:11,550 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:11,668 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:36:13,550 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:15,131 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:36:15,132 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:36:15,551 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:17,551 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:19,556 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:21,557 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:23,557 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:25,558 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:27,561 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:29,564 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:30,230 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:36:30,230 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:36:31,565 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:33,565 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:35,566 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:37,567 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:39,567 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:41,568 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:43,572 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:45,325 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:36:45,325 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:36:45,573 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:47,574 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:49,575 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:50,200 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:36:51,576 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:53,579 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:55,578 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:57,580 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:36:59,580 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:00,424 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:37:00,424 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:37:01,582 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:03,583 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:05,583 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:07,584 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:09,585 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:11,585 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:13,587 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:15,523 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:37:15,524 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:37:15,589 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:17,590 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:19,590 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:21,593 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:23,592 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:25,592 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:27,594 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:28,353 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:37:29,593 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:30,796 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:37:30,798 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:37:31,594 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:33,598 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:35,601 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:37,600 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:39,601 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:41,601 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:43,604 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:45,604 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:46,157 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:37:46,157 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:37:47,604 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:49,605 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:51,606 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:53,607 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:55,607 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:57,608 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:37:59,609 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:01,249 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:38:01,249 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:38:01,609 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:03,611 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:05,612 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:06,521 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:38:07,613 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:09,614 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:11,614 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:13,615 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:15,616 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:16,488 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:38:16,488 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:38:17,617 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:19,619 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:21,620 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:23,622 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:25,625 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:27,626 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:29,631 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:31,595 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:38:31,595 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:38:31,631 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:33,632 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:35,632 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:37,633 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:39,636 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:41,638 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:43,639 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:44,780 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:38:45,641 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:46,680 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:38:46,680 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:38:47,645 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:49,645 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:51,646 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:53,647 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:55,648 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:57,648 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:38:59,649 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:01,650 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:02,144 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:39:02,144 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:39:03,651 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:05,652 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:07,655 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:09,658 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:11,657 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:13,658 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:15,662 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:17,229 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:39:17,229 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:39:17,663 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:19,667 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:21,668 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:23,333 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:39:23,669 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:25,669 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:27,671 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:29,672 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:31,674 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:32,371 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:39:32,372 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:39:33,676 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:35,677 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:37,678 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:39,679 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:41,682 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:43,683 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:45,683 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:47,464 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:39:47,464 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:39:47,684 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:49,685 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:51,686 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:53,686 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:55,687 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:57,687 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:39:59,688 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:01,563 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:40:01,689 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:02,569 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:40:02,569 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:40:03,700 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:05,701 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:07,702 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:09,702 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:11,703 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:13,705 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:15,706 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:17,706 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:17,917 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:40:17,918 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:40:19,707 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:21,709 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:23,709 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:25,710 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:27,710 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:29,711 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:31,715 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:33,012 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:40:33,012 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:40:33,716 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:35,718 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:37,718 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:39,719 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:40,054 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:40:41,720 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:43,721 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:45,722 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:47,726 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:48,118 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:40:48,119 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:40:49,725 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:51,726 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:53,726 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:55,727 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:57,728 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:40:59,729 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:41:01,730 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:41:03,607 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:41:03,607 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:41:03,731 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:41:05,731 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:41:07,733 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:41:09,733 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:41:11,735 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:41:13,738 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:41:15,738 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:41:17,739 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:41:18,700 DEBUG   HandlerThread:53226 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-23 19:41:18,701 DEBUG   SenderThread:53226 [sender.py:send_request():317] send_request: stop_status
+2022-10-23 19:41:18,788 DEBUG   SenderThread:53226 [sender.py:send():303] send: stats
+2022-10-23 19:41:19,739 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:41:21,740 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:41:23,741 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:41:25,742 INFO    Thread-13 :53226 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221023_191702-3cdt26qa/files/output.log
+2022-10-23 19:41:27,574 INFO    MainThread:53226 [internal.py:handle_exit():78] Internal process exited
+2022-10-23 19:41:27,575 WARNING MsgRouterThr:53226 [router.py:message_loop():74] EOFError seen in message_loop
