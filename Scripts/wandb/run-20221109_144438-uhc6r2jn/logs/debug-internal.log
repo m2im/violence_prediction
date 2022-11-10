@@ -1,0 +1,269 @@
+2022-11-09 14:44:38,618 INFO    StreamThr :49671 [internal.py:wandb_internal():88] W&B internal server running at pid: 49671, started at: 2022-11-09 14:44:38.617569
+2022-11-09 14:44:38,621 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: status
+2022-11-09 14:44:38,797 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: status
+2022-11-09 14:44:38,800 DEBUG   SenderThread:49671 [sender.py:send():303] send: header
+2022-11-09 14:44:38,800 INFO    WriterThread:49671 [datastore.py:open_for_write():75] open: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/run-uhc6r2jn.wandb
+2022-11-09 14:44:38,801 DEBUG   SenderThread:49671 [sender.py:send():303] send: run
+2022-11-09 14:44:39,012 INFO    SenderThread:49671 [dir_watcher.py:__init__():216] watching files in: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files
+2022-11-09 14:44:39,012 INFO    SenderThread:49671 [sender.py:_start_run_threads():928] run started: uhc6r2jn with start time 1668033878.610226
+2022-11-09 14:44:39,012 DEBUG   SenderThread:49671 [sender.py:send():303] send: summary
+2022-11-09 14:44:39,012 INFO    SenderThread:49671 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-09 14:44:39,015 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: check_version
+2022-11-09 14:44:39,015 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: check_version
+2022-11-09 14:44:39,110 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: run_start
+2022-11-09 14:44:39,133 DEBUG   HandlerThread:49671 [meta.py:__init__():34] meta init
+2022-11-09 14:44:39,133 DEBUG   HandlerThread:49671 [meta.py:__init__():49] meta init done
+2022-11-09 14:44:39,133 DEBUG   HandlerThread:49671 [meta.py:probe():215] probe
+2022-11-09 14:44:39,149 DEBUG   HandlerThread:49671 [meta.py:_setup_git():205] setup git
+2022-11-09 14:44:39,170 DEBUG   HandlerThread:49671 [meta.py:_setup_git():212] setup git done
+2022-11-09 14:44:39,170 DEBUG   HandlerThread:49671 [meta.py:_save_pip():53] save pip
+2022-11-09 14:44:39,171 DEBUG   HandlerThread:49671 [meta.py:_save_pip():67] save pip done
+2022-11-09 14:44:39,171 DEBUG   HandlerThread:49671 [meta.py:probe():253] probe done
+2022-11-09 14:44:39,212 DEBUG   SenderThread:49671 [sender.py:send():303] send: files
+2022-11-09 14:44:39,213 INFO    SenderThread:49671 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-09 14:44:39,226 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:44:39,227 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:44:39,317 DEBUG   SenderThread:49671 [sender.py:send():303] send: telemetry
+2022-11-09 14:44:39,818 INFO    Thread-17 :49671 [upload_job.py:push():143] Uploaded file /tmp/tmpc23o11nnwandb/tm01dh6s-wandb-metadata.json
+2022-11-09 14:44:40,015 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:44:40,016 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/requirements.txt
+2022-11-09 14:44:40,016 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/wandb-summary.json
+2022-11-09 14:44:40,016 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/wandb-metadata.json
+2022-11-09 14:44:42,014 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:44:44,015 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:44:48,018 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:44:54,323 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:44:54,324 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:44:56,023 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:44:58,024 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:45:00,025 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:45:02,026 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:45:04,040 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:45:06,041 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:45:08,042 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:45:09,042 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/config.yaml
+2022-11-09 14:45:09,415 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:45:09,415 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:45:10,043 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:45:12,044 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:45:17,564 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:45:24,532 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:45:24,533 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:45:39,662 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:45:39,663 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:45:54,776 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:45:54,776 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:45:56,089 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:46:09,889 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:46:09,889 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:46:25,025 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:46:25,026 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:46:34,576 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:46:40,255 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:46:40,256 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:46:55,380 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:46:55,381 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:47:10,512 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:47:10,512 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:47:13,062 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:47:25,632 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:47:25,633 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:47:40,750 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:47:40,751 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:47:51,629 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:47:55,863 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:47:55,863 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:48:11,132 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:48:11,133 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:48:26,229 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:48:26,230 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:48:30,166 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:48:41,456 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:48:41,456 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:48:56,570 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:48:56,570 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:49:08,613 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:49:11,683 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:49:11,684 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:49:26,813 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:49:26,814 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:49:41,932 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:49:41,932 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:49:47,030 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:49:57,126 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:49:58,578 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:50:13,708 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:50:13,708 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:50:25,508 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:50:28,844 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:50:28,844 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:50:43,980 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:50:43,980 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:50:59,090 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:50:59,091 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:51:03,983 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:51:14,225 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:51:14,226 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:51:29,360 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:51:29,361 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:51:42,395 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:51:44,584 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:51:44,584 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:51:59,727 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:51:59,728 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:52:15,030 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:52:15,031 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:52:20,913 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:52:30,165 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:52:30,165 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:52:45,396 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:52:45,397 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:52:59,438 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:53:00,511 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:53:00,512 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:53:15,605 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:53:15,605 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:53:30,838 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:53:30,839 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:53:38,059 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:53:45,953 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:53:45,954 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:54:01,066 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:54:01,067 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:54:16,095 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:54:16,338 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:54:16,339 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:54:31,556 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:54:31,557 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:54:43,375 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:54:54,476 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:55:32,909 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:56:11,402 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:56:50,076 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:57:28,658 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:57:40,687 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:57:40,688 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:58:05,443 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:58:05,444 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:58:07,290 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:58:20,538 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:58:20,538 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:58:35,636 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:58:35,636 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:58:46,441 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:58:50,735 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-09 14:58:50,735 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: stop_status
+2022-11-09 14:58:55,520 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:58:59,463 DEBUG   SenderThread:49671 [sender.py:send():303] send: exit
+2022-11-09 14:58:59,464 INFO    SenderThread:49671 [sender.py:send_exit():442] handling exit code: 1
+2022-11-09 14:58:59,464 INFO    SenderThread:49671 [sender.py:send_exit():444] handling runtime: 860
+2022-11-09 14:58:59,466 INFO    SenderThread:49671 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-09 14:58:59,466 INFO    SenderThread:49671 [sender.py:send_exit():450] send defer
+2022-11-09 14:58:59,467 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: defer
+2022-11-09 14:58:59,467 INFO    HandlerThread:49671 [handler.py:handle_request_defer():161] handle defer: 0
+2022-11-09 14:58:59,468 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: defer
+2022-11-09 14:58:59,468 INFO    SenderThread:49671 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-11-09 14:58:59,468 INFO    SenderThread:49671 [sender.py:transition_state():463] send defer: 1
+2022-11-09 14:58:59,468 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: defer
+2022-11-09 14:58:59,468 INFO    HandlerThread:49671 [handler.py:handle_request_defer():161] handle defer: 1
+2022-11-09 14:58:59,523 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:58:59,523 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/wandb-summary.json
+2022-11-09 14:59:00,090 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: defer
+2022-11-09 14:59:00,091 INFO    SenderThread:49671 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-11-09 14:59:00,092 INFO    SenderThread:49671 [sender.py:transition_state():463] send defer: 2
+2022-11-09 14:59:00,092 DEBUG   SenderThread:49671 [sender.py:send():303] send: stats
+2022-11-09 14:59:00,094 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: defer
+2022-11-09 14:59:00,094 INFO    HandlerThread:49671 [handler.py:handle_request_defer():161] handle defer: 2
+2022-11-09 14:59:00,094 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: defer
+2022-11-09 14:59:00,095 INFO    SenderThread:49671 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-11-09 14:59:00,095 INFO    SenderThread:49671 [sender.py:transition_state():463] send defer: 3
+2022-11-09 14:59:00,095 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: defer
+2022-11-09 14:59:00,095 INFO    HandlerThread:49671 [handler.py:handle_request_defer():161] handle defer: 3
+2022-11-09 14:59:00,096 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: defer
+2022-11-09 14:59:00,096 INFO    SenderThread:49671 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-11-09 14:59:00,096 INFO    SenderThread:49671 [sender.py:transition_state():463] send defer: 4
+2022-11-09 14:59:00,096 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: defer
+2022-11-09 14:59:00,096 INFO    HandlerThread:49671 [handler.py:handle_request_defer():161] handle defer: 4
+2022-11-09 14:59:00,097 DEBUG   SenderThread:49671 [sender.py:send():303] send: summary
+2022-11-09 14:59:00,098 INFO    SenderThread:49671 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-09 14:59:00,098 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: defer
+2022-11-09 14:59:00,098 INFO    SenderThread:49671 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-11-09 14:59:00,099 INFO    SenderThread:49671 [sender.py:transition_state():463] send defer: 5
+2022-11-09 14:59:00,099 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: defer
+2022-11-09 14:59:00,099 INFO    HandlerThread:49671 [handler.py:handle_request_defer():161] handle defer: 5
+2022-11-09 14:59:00,100 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: defer
+2022-11-09 14:59:00,100 INFO    SenderThread:49671 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-11-09 14:59:00,100 INFO    SenderThread:49671 [sender.py:transition_state():463] send defer: 6
+2022-11-09 14:59:00,100 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: defer
+2022-11-09 14:59:00,100 INFO    HandlerThread:49671 [handler.py:handle_request_defer():161] handle defer: 6
+2022-11-09 14:59:00,100 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: defer
+2022-11-09 14:59:00,101 INFO    SenderThread:49671 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-11-09 14:59:00,464 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-09 14:59:00,523 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/wandb-summary.json
+2022-11-09 14:59:00,930 INFO    SenderThread:49671 [sender.py:transition_state():463] send defer: 7
+2022-11-09 14:59:00,930 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: poll_exit
+2022-11-09 14:59:00,931 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: defer
+2022-11-09 14:59:00,932 INFO    HandlerThread:49671 [handler.py:handle_request_defer():161] handle defer: 7
+2022-11-09 14:59:00,932 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: defer
+2022-11-09 14:59:00,932 INFO    SenderThread:49671 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-11-09 14:59:00,932 INFO    SenderThread:49671 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-11-09 14:59:01,466 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-09 14:59:01,524 INFO    Thread-13 :49671 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:59:01,525 INFO    SenderThread:49671 [dir_watcher.py:finish():392] scan: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files
+2022-11-09 14:59:01,525 INFO    SenderThread:49671 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/requirements.txt requirements.txt
+2022-11-09 14:59:01,525 INFO    SenderThread:49671 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log output.log
+2022-11-09 14:59:01,526 INFO    SenderThread:49671 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/config.yaml config.yaml
+2022-11-09 14:59:01,526 INFO    SenderThread:49671 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/wandb-metadata.json wandb-metadata.json
+2022-11-09 14:59:01,527 INFO    SenderThread:49671 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/wandb-summary.json wandb-summary.json
+2022-11-09 14:59:01,546 INFO    SenderThread:49671 [sender.py:transition_state():463] send defer: 8
+2022-11-09 14:59:01,546 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: poll_exit
+2022-11-09 14:59:01,549 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: defer
+2022-11-09 14:59:01,555 INFO    HandlerThread:49671 [handler.py:handle_request_defer():161] handle defer: 8
+2022-11-09 14:59:01,558 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: defer
+2022-11-09 14:59:01,558 INFO    SenderThread:49671 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-11-09 14:59:01,558 INFO    SenderThread:49671 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-09 14:59:01,975 INFO    Thread-20 :49671 [upload_job.py:push():143] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/config.yaml
+2022-11-09 14:59:01,979 INFO    Thread-21 :49671 [upload_job.py:push():143] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/wandb-summary.json
+2022-11-09 14:59:01,984 INFO    Thread-18 :49671 [upload_job.py:push():143] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/requirements.txt
+2022-11-09 14:59:01,995 INFO    Thread-19 :49671 [upload_job.py:push():143] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/files/output.log
+2022-11-09 14:59:02,197 INFO    Thread-12 :49671 [sender.py:transition_state():463] send defer: 9
+2022-11-09 14:59:02,198 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: defer
+2022-11-09 14:59:02,198 INFO    HandlerThread:49671 [handler.py:handle_request_defer():161] handle defer: 9
+2022-11-09 14:59:02,198 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: defer
+2022-11-09 14:59:02,198 INFO    SenderThread:49671 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-11-09 14:59:02,199 INFO    SenderThread:49671 [file_pusher.py:join():173] waiting for file pusher
+2022-11-09 14:59:02,199 INFO    SenderThread:49671 [sender.py:transition_state():463] send defer: 10
+2022-11-09 14:59:02,199 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: defer
+2022-11-09 14:59:02,199 INFO    HandlerThread:49671 [handler.py:handle_request_defer():161] handle defer: 10
+2022-11-09 14:59:02,200 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: defer
+2022-11-09 14:59:02,200 INFO    SenderThread:49671 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-11-09 14:59:02,437 INFO    SenderThread:49671 [sender.py:transition_state():463] send defer: 11
+2022-11-09 14:59:02,438 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: defer
+2022-11-09 14:59:02,438 INFO    HandlerThread:49671 [handler.py:handle_request_defer():161] handle defer: 11
+2022-11-09 14:59:02,439 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: defer
+2022-11-09 14:59:02,439 INFO    SenderThread:49671 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-11-09 14:59:02,439 INFO    SenderThread:49671 [sender.py:transition_state():463] send defer: 12
+2022-11-09 14:59:02,440 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: defer
+2022-11-09 14:59:02,440 DEBUG   SenderThread:49671 [sender.py:send():303] send: final
+2022-11-09 14:59:02,440 INFO    HandlerThread:49671 [handler.py:handle_request_defer():161] handle defer: 12
+2022-11-09 14:59:02,441 DEBUG   SenderThread:49671 [sender.py:send():303] send: footer
+2022-11-09 14:59:02,441 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: defer
+2022-11-09 14:59:02,441 INFO    SenderThread:49671 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-11-09 14:59:02,443 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-09 14:59:02,443 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: poll_exit
+2022-11-09 14:59:02,445 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: poll_exit
+2022-11-09 14:59:02,445 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: poll_exit
+2022-11-09 14:59:02,446 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: server_info
+2022-11-09 14:59:02,446 DEBUG   SenderThread:49671 [sender.py:send_request():317] send_request: server_info
+2022-11-09 14:59:02,452 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: get_summary
+2022-11-09 14:59:02,453 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: sampled_history
+2022-11-09 14:59:02,621 INFO    MainThread:49671 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-09 14:59:02,621 INFO    MainThread:49671 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-09 14:59:02,621 INFO    MainThread:49671 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-11-09 14:59:02,623 DEBUG   HandlerThread:49671 [handler.py:handle_request():138] handle_request: shutdown
+2022-11-09 14:59:02,623 INFO    HandlerThread:49671 [handler.py:finish():814] shutting down handler
+2022-11-09 14:59:03,441 INFO    WriterThread:49671 [datastore.py:close():279] close: /home/mmendieta/violence_prediction/Scripts/wandb/run-20221109_144438-uhc6r2jn/run-uhc6r2jn.wandb
+2022-11-09 14:59:03,620 INFO    SenderThread:49671 [sender.py:finish():1331] shutting down sender
+2022-11-09 14:59:03,621 INFO    SenderThread:49671 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-09 14:59:03,621 INFO    SenderThread:49671 [file_pusher.py:join():173] waiting for file pusher
+2022-11-09 14:59:03,627 INFO    MainThread:49671 [internal.py:handle_exit():78] Internal process exited

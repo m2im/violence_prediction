@@ -50,7 +50,7 @@ resume_from_checkpoint = None
 num_labels = 6
 
 # Push saved model to the hub.
-push_to_hub = True 
+push_to_hub = False 
 
 # Name of the wandb project.
 wandb_project = "small_Labse"
