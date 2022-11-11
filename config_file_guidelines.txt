@@ -1,0 +1,19 @@
+Changes to the configuration file everytime we need to fine tune a new model
+
+1. model_repo_hub
+The name of the repo in Hugging Face (i.e. m2im/smallLabse_finetuned_twitter, m2im/labse_finetuned_twitter, m2im/XLM-T_finetuned_violence_twitter)
+
+Create the repo in the Hugging Face Hub
+
+2. save_dir
+Local dir where the repo is cloned and models updates are saved to
+We need to create this folder before training the model (i.e. mkdir)
+
+3. dataset_name
+tokenizer dataset used for training
+
+4. wand_project
+create the project name where we will log our metrics for the specific model we are training
+Use the UI interface in W&B
+
+Import the configuration file in the main script
