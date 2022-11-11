@@ -1,0 +1,112 @@
+
+[INFO] loading the tokenizer and the model ...
+loading file https://huggingface.co/setu4993/smaller-LaBSE/resolve/main/vocab.txt from cache at /home/mmendieta/.cache/huggingface/transformers/87ec72964995bb5c610d5042c94285970a40fd9c6cf04ab57342328326ae38f6.3ade8b1770aeef091606ffa0e8969014dbd4e1f0bf35a8845b0f7ff21bb1dcb2
+loading file https://huggingface.co/setu4993/smaller-LaBSE/resolve/main/tokenizer.json from cache at /home/mmendieta/.cache/huggingface/transformers/43ee856e4c1957f05838aaa8c32e2343da9e3b0a585e80ab613c00b592f2af05.4e988685603b71e6c0455e48ebd1d1f7eedc09076b4bcfb2baa9efbb11425540
+loading file https://huggingface.co/setu4993/smaller-LaBSE/resolve/main/added_tokens.json from cache at None
+loading file https://huggingface.co/setu4993/smaller-LaBSE/resolve/main/special_tokens_map.json from cache at /home/mmendieta/.cache/huggingface/transformers/5e403c9dae12fc78f73f9265d6b139e00851cc88193f691ad0257976412c1799.dd8bd9bfd3664b530ea4e645105f557769387b3da9f79bdb55ed556bdd80611d
+loading file https://huggingface.co/setu4993/smaller-LaBSE/resolve/main/tokenizer_config.json from cache at /home/mmendieta/.cache/huggingface/transformers/a7c8f4f4add45adbd7ac84e2ffb0c72dc36a27cf0676cb2d9a6227034e545d9b.e14dc93124dbeb4d7f7d78750a1de9c3978f7870e3c5b397a9991a90656b80c7
+loading configuration file https://huggingface.co/setu4993/smaller-LaBSE/resolve/main/config.json from cache at /home/mmendieta/.cache/huggingface/transformers/5ed833891c98d610fe746dc0d26c2b420287041ce37a39621ec928c93eb66a1d.cd57a169745286c498ddfacad62f9a3c2d27dbf20e337eafb9b094094b44c963
+Model config BertConfig {
+  "_name_or_path": "setu4993/smaller-LaBSE",
+  "architectures": [
+    "BertModel"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "post7geo10",
+    "1": "post7geo30",
+    "2": "post7geo50",
+    "3": "pre7geo10",
+    "4": "pre7geo30",
+    "5": "pre7geo50"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "post7geo10": 0,
+    "post7geo30": 1,
+    "post7geo50": 2,
+    "pre7geo10": 3,
+    "pre7geo30": 4,
+    "pre7geo50": 5
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "problem_type": "multi_label_classification",
+  "torch_dtype": "float32",
+  "transformers_version": "4.19.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 173347
+}
+loading weights file https://huggingface.co/setu4993/smaller-LaBSE/resolve/main/pytorch_model.bin from cache at /home/mmendieta/.cache/huggingface/transformers/d680d8e050e3678d1202a3ecd17b928f5be93b3eddf5fdce524b5668b9b6e1a3.b51d51a841e17c8bd354b057fd16bcf92608dccc88362725714d1a4971a64c70
+49131
+All model checkpoint weights were used when initializing BertForSequenceClassification.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at setu4993/smaller-LaBSE and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/mmendieta/transformers/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+[INFO] training starts...
+  0%|                                                     | 0/3 [00:00<?, ?it/s]
+  0%|                                                     | 0/3 [00:00<?, ?it/s]DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140514891258800 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Timeout on acquiring lock 140514891258800 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140509955713104 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-800c04b4-c8ab-48d7-a12d-67c971fe8b7c-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140509955713104 acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-800c04b4-c8ab-48d7-a12d-67c971fe8b7c-1-0.arrow.lock
+DEBUG:datasets.arrow_writer:Done writing 1015808 examples in 56885248 bytes /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-800c04b4-c8ab-48d7-a12d-67c971fe8b7c-1-0.arrow.
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.
+DEBUG:datasets.utils.filelock:Attempting to release lock 140509955713104 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-800c04b4-c8ab-48d7-a12d-67c971fe8b7c-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140509955713104 released on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-800c04b4-c8ab-48d7-a12d-67c971fe8b7c-1-0.arrow.lock
+Traceback (most recent call last):
+  File "fine_tune_mllm_script_accelerate.py", line 243, in <module>
+    if roc.items() > old_roc:
+TypeError: '>' not supported between instances of 'dict_items' and 'int'

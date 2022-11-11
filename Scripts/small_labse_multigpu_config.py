@@ -20,7 +20,7 @@ valid_batch_size = 1024
 threshold = 0.5
 
 # Number of epochs used during training
-num_epochs = 3
+num_epochs = 20
 
 # Value of weight decay.
 weight_decay = 0.1
@@ -50,7 +50,7 @@ resume_from_checkpoint = None
 num_labels = 6
 
 # Push saved model to the hub.
-push_to_hub = False 
+push_to_hub = True 
 
 # Name of the wandb project.
 wandb_project = "small_Labse"

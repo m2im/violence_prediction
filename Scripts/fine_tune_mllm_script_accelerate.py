@@ -1,4 +1,4 @@
-# import the neccesary packages
+ import the neccesary packages
 import os
 import time
 import torch
@@ -10,15 +10,13 @@ import wandb
 import evaluate
 import small_labse_multigpu_config as args
 
-from pathlib import Path
+=======
 from accelerate import Accelerator
 from tqdm.auto import tqdm
 from datasets import load_from_disk
-# from datasets import Value, Sequence
-# from transformers import BertTokenizerFast, BertForSequenceClassification
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from transformers import DataCollatorWithPadding, get_scheduler, AdamW, set_seed
-from torch.nn.functional import cross_entropy
+>>>>>>> 120fbbca036752c3734dd55e4c20944976b3c8fb
 from torch.utils.data import DataLoader
 from huggingface_hub import Repository, get_full_repo_name
 
@@ -64,7 +62,8 @@ def log_metrics(metrics):
 
 
 # Load required metrics
-# accuracy_metric = evaluate.load("accuracy")
+=======
+>>>>>>> 120fbbca036752c3734dd55e4c20944976b3c8fb
 roc_auc_metric = evaluate.load("roc_auc", "multilabel")
 precision_micro_metric = evaluate.load("precision")
 precision_weighted_metric = evaluate.load("precision")
@@ -83,35 +82,37 @@ def evaluate_fn(args):
         logits = outputs.logits
         pred_prob = torch.sigmoid(logits)
         preds = (pred_prob > args.threshold)*1
+=======
+        roc_auc_metric.add_batch(prediction_scores=accelerator.gather(pred_prob),
+                                 references=accelerator.gather(batch["labels"]))
             
-        for references, predictions in zip (batch["labels"], preds):
-            # accuracy_metric.add_batch(predictions=accelerator.gather(predictions), 
-            #    references=accelerator.gather(references))
-            roc_auc_metric.add_batch(prediction_scores=accelerator.gather(pred_prob), 
-                                  references=accelerator.gather(batch["labels"]))
-            precision_micro_metric.add_batch(predictions=accelerator.gather(predictions), 
-                references=accelerator.gather(references))
-            precision_weighted_metric.add_batch(predictions=accelerator.gather(predictions), 
-                references=accelerator.gather(references))
-            recall_micro_metric.add_batch(predictions=accelerator.gather(predictions), 
-                references=accelerator.gather(references))
-            recall_weighted_metric.add_batch(predictions=accelerator.gather(predictions), 
-                references=accelerator.gather(references))
-            f1_micro_metric.add_batch(predictions=accelerator.gather(predictions), 
-                references=accelerator.gather(references))
-            f1_weighted_metric.add_batch(predictions=accelerator.gather(predictions), 
-                references=accelerator.gather(references))
+        # for references, predictions in zip (batch["labels"], preds):
+        #    roc_auc_metric.add_batch(prediction_scores=accelerator.gather(pred_prob), 
+        #                          references=accelerator.gather(batch["labels"]))
+        #    precision_micro_metric.add_batch(predictions=accelerator.gather(predictions), 
+        #        references=accelerator.gather(references))
+        #    precision_weighted_metric.add_batch(predictions=accelerator.gather(predictions), 
+        #        references=accelerator.gather(references))
+        #    recall_micro_metric.add_batch(predictions=accelerator.gather(predictions), 
+        #        references=accelerator.gather(references))
+        #    recall_weighted_metric.add_batch(predictions=accelerator.gather(predictions), 
+        #        references=accelerator.gather(references))
+        #    f1_micro_metric.add_batch(predictions=accelerator.gather(predictions), 
+        #        references=accelerator.gather(references))
+        #    f1_weighted_metric.add_batch(predictions=accelerator.gather(predictions), 
+        #        references=accelerator.gather(references))
    
     # accuracy_res = accuracy_metric.compute()
     roc_auc_res = roc_auc_metric.compute(average="micro")
-    precision_micro_res = precision_micro_metric.compute(average="micro")
-    precision_weighted_res = precision_weighted_metric.compute(average="weighted")
-    recall_micro_res = recall_micro_metric.compute(average="micro")
-    recall_weighted_res = recall_weighted_metric.compute(average="weighted")
-    f1_micro_res = f1_micro_metric.compute(average="micro")
-    f1_weighted_res = f1_weighted_metric.compute(average="weighted")
+    # precision_micro_res = precision_micro_metric.compute(average="micro")
+    # precision_weighted_res = precision_weighted_metric.compute(average="weighted")
+    # recall_micro_res = recall_micro_metric.compute(average="micro")
+    # recall_weighted_res = recall_weighted_metric.compute(average="weighted")
+    # f1_micro_res = f1_micro_metric.compute(average="micro")
+    # f1_weighted_res = f1_weighted_metric.compute(average="weighted")
 
-    return roc_auc_res, precision_micro_res, precision_weighted_res, recall_micro_res, recall_weighted_res, f1_micro_res, f1_weighted_res, eval_loss
+    return roc_auc_res, eval_loss
+>>>>>>> 120fbbca036752c3734dd55e4c20944976b3c8fb
 
 
 # Load the dataset from disk
@@ -151,22 +152,23 @@ model = AutoModelForSequenceClassification.from_pretrained(model_ckpt,
 
 data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 
-
-# Select a subsample for testing purposes
-train_tokenized_ds = tokenized_ds["train"].select(range(27600))
-validation_tokenized_ds = tokenized_ds["validation"].select(range(5000))
-
-
+=======
 # Define the Dataloaders
-# train_dataloader = DataLoader(tokenized_ds["train"], shuffle=True, 
-#                               batch_size=args.batch_size, collate_fn=data_collator)
-# eval_dataloader = DataLoader(tokenized_ds["validation"],
-#                             batch_size=args.batch_size, collate_fn=data_collator)
-train_dataloader = DataLoader(train_tokenized_ds, shuffle=True, 
-	batch_size=args.train_batch_size, collate_fn=data_collator)
-eval_dataloader = DataLoader(validation_tokenized_ds,
-	batch_size=args.valid_batch_size, collate_fn=data_collator)
+# Select a subsample for testing purposes
+# train_tokenized_ds = tokenized_ds["train"].select(range(27600))
+# validation_tokenized_ds = tokenized_ds["validation"].select(range(2000000))
 
+# train_dataloader = DataLoader(train_tokenized_ds, shuffle=True, 
+# 	batch_size=args.train_batch_size, collate_fn=data_collator)
+#eval_dataloader = DataLoader(validation_tokenized_ds,
+#                              batch_size=args.valid_batch_size, collate_fn=data_collator)
+
+# Define the Dataloaders with full dataset
+train_dataloader = DataLoader(tokenized_ds["train"], shuffle=True, 
+                              batch_size=args.train_batch_size, collate_fn=data_collator)
+eval_dataloader = DataLoader(tokenized_ds["validation"],
+                             batch_size=args.valid_batch_size, collate_fn=data_collator)
+>>>>>>> 120fbbca036752c3734dd55e4c20944976b3c8fb
 
 # Define the optimizer
 optimizer = AdamW(get_grouped_params(model), lr=args.learning_rate)
@@ -211,6 +213,9 @@ progress_bar = tqdm(range(num_epochs), disable = not accelerator.is_local_main_p
 
 
 t_start = time.time()
+=======
+old_roc = 0
+>>>>>>> 120fbbca036752c3734dd55e4c20944976b3c8fb
 for epoch in range(num_epochs):
     model.train()
     for batch in train_dl:
@@ -225,45 +230,51 @@ for epoch in range(num_epochs):
         lr_scheduler.step()
         optimizer.zero_grad()
 
-    accelerator.print('[INFO] evaluating and saving model checkpoint...')
+    accelerator.print('[INFO] evaluating and saving model checkpoint...')      
+=======
+    roc, eval_loss = evaluate_fn(args)
     elapsed_time = time.time() - t_start
-    roc, precMi, precW, recMi, recW, f1Mi, f1W, eval_loss = evaluate_fn(args)        
+>>>>>>> 120fbbca036752c3734dd55e4c20944976b3c8fb
     log_metrics({"epoch": epoch,
         "elapsed_time": elapsed_time,
         "loss/train": loss.item(), 
         "loss/eval": eval_loss.item(),
         "lr": lr, 
-        "roc_auc_score": roc,
-        "precision_micro": precMi,
-        "precision_weighted": precW,
-        "recall_micro": recMi,
-        "recall_weighted": recW,
-        "f1_micro": f1Mi,
-        "f1_weighted": f1W})
+=======
+        "roc_auc_score": roc
+        # "precision_micro": precMi,
+        # "precision_weighted": precW,
+        # "recall_micro": recMi,
+        # "recall_weighted": recW,
+        # "f1_micro": f1Mi,
+        # "f1_weighted": f1W
+                })
     accelerator.wait_for_everyone()
     unwrapped_model = accelerator.unwrap_model(model)
     
-    if epoch < num_epochs - 1:
+    # Save and push only the model that improves roc_auc_score on the validation set
+    if roc['roc_auc'] > old_roc:
         save_dir = os.path.join(os.path.join(args.save_dir, run_name), f"epoch_{epoch}")
-        #accelerator.save_state(save_dir)
-
+>>>>>>> 120fbbca036752c3734dd55e4c20944976b3c8fb
         if accelerator.is_main_process:
             unwrapped_model.save_pretrained(save_dir, save_function=accelerator.save)
             if args.push_to_hub:
                 hf_repo.push_to_hub(commit_message=f"epoch_{epoch}")
 
-    else: # Evaluate and save the last checkpoint
-        accelerator.print('[INFO] evaluating and saving final model after training...')
-        save_dir = os.path.join(os.path.join(args.save_dir, run_name), f"epoch_final")
-        #accelerator.save_state(save_dir)
-        if accelerator.is_main_process:
-            unwrapped_model.save_pretrained(save_dir, save_function=accelerator.save)
-            if args.push_to_hub:
-                hf_repo.push_to_hub(commit_message =f"final model")
+=======
+    # else: # Evaluate and save the last checkpoint
+    #    accelerator.print('[INFO] evaluating and saving final model after training...')
+    #    save_dir = os.path.join(os.path.join(args.save_dir, run_name), f"epoch_final")
+    #    if accelerator.is_main_process:
+    #        unwrapped_model.save_pretrained(save_dir, save_function=accelerator.save)
+    #        if args.push_to_hub:
+    #            hf_repo.push_to_hub(commit_message =f"final model")
         
+    old_ruc = roc['roc_auc']
     progress_bar.update(1)
 
-    accelerator.print(f"epoch: {epoch}, train/loss: {loss.item()}, eval/loss: {eval_loss.item()}, roc_auc: {roc}, elapsed_time: {elapsed_time}")
+    accelerator.print(f"epoch: {epoch}, train/loss: {loss.item()}, eval/loss: {eval_loss.item()}, roc_auc: {roc['roc_auc']}, elapsed_time: {elapsed_time}")
+>>>>>>> 120fbbca036752c3734dd55e4c20944976b3c8fb
 
 
 
