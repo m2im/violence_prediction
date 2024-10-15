@@ -1,0 +1,184 @@
+Revision `dazzling-sunset-1` does not exist. Created and checked out branch `dazzling-sunset-1`.
+Could not locate the tokenizer configuration file, will try to use the model config instead.
+loading configuration file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment/resolve/main/config.json from cache at /home/mmendieta/.cache/huggingface/transformers/9628a03bf91a381b0f93e02e13ed34077a805ede6a568ad868817f87437a55ea.ea50decabb7db740257ca1cdefd63c25ffafb958ec595a0ff0c8dbac3f4b1ae6
+Model config XLMRobertaConfig {
+  "_name_or_path": "cardiffnlp/twitter-xlm-roberta-base-sentiment",
+  "architectures": [
+    "XLMRobertaForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "Negative",
+    "1": "Neutral",
+    "2": "Positive"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "Negative": 0,
+    "Neutral": 1,
+    "Positive": 2
+  },
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "xlm-roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.19.0",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 250002
+}
+[INFO] loading the tokenizer and the model ...
+loading file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment/resolve/main/sentencepiece.bpe.model from cache at /home/mmendieta/.cache/huggingface/transformers/fa0936a0eed8b226fb1679d5c7062921e8e84e3d1536ff26b5ed08bdcd444d93.71e50b08dbe7e5375398e165096cacc3d2086119d6a449364490da6908de655e
+loading file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment/resolve/main/tokenizer.json from cache at None
+loading file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment/resolve/main/added_tokens.json from cache at None
+loading file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment/resolve/main/special_tokens_map.json from cache at /home/mmendieta/.cache/huggingface/transformers/6654a835c284613a15c3b583fce96f417606b95fab5ef47cc3da33de8ac237b6.0dc5b1041f62041ebbd23b1297f2f573769d5c97d8b7c28180ec86b8f6185aa8
+loading file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment/resolve/main/tokenizer_config.json from cache at None
+loading configuration file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment/resolve/main/config.json from cache at /home/mmendieta/.cache/huggingface/transformers/9628a03bf91a381b0f93e02e13ed34077a805ede6a568ad868817f87437a55ea.ea50decabb7db740257ca1cdefd63c25ffafb958ec595a0ff0c8dbac3f4b1ae6
+Model config XLMRobertaConfig {
+  "_name_or_path": "cardiffnlp/twitter-xlm-roberta-base-sentiment",
+  "architectures": [
+    "XLMRobertaForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "Negative",
+    "1": "Neutral",
+    "2": "Positive"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "Negative": 0,
+    "Neutral": 1,
+    "Positive": 2
+  },
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "xlm-roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.19.0",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 250002
+}
+loading configuration file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment/resolve/main/config.json from cache at /home/mmendieta/.cache/huggingface/transformers/9628a03bf91a381b0f93e02e13ed34077a805ede6a568ad868817f87437a55ea.ea50decabb7db740257ca1cdefd63c25ffafb958ec595a0ff0c8dbac3f4b1ae6
+Model config XLMRobertaConfig {
+  "_name_or_path": "cardiffnlp/twitter-xlm-roberta-base-sentiment",
+  "architectures": [
+    "XLMRobertaForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "Negative",
+    "1": "Neutral",
+    "2": "Positive"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "Negative": 0,
+    "Neutral": 1,
+    "Positive": 2
+  },
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "xlm-roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.19.0",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 250002
+}
+loading configuration file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment/resolve/main/config.json from cache at /home/mmendieta/.cache/huggingface/transformers/9628a03bf91a381b0f93e02e13ed34077a805ede6a568ad868817f87437a55ea.ea50decabb7db740257ca1cdefd63c25ffafb958ec595a0ff0c8dbac3f4b1ae6
+Model config XLMRobertaConfig {
+  "_name_or_path": "cardiffnlp/twitter-xlm-roberta-base-sentiment",
+  "architectures": [
+    "XLMRobertaForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "post7geo10",
+    "1": "post7geo30",
+    "2": "post7geo50",
+    "3": "pre7geo10",
+    "4": "pre7geo30",
+    "5": "pre7geo50"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "post7geo10": 0,
+    "post7geo30": 1,
+    "post7geo50": 2,
+    "pre7geo10": 3,
+    "pre7geo30": 4,
+    "pre7geo50": 5
+  },
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "xlm-roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "problem_type": "multi_label_classification",
+  "transformers_version": "4.19.0",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 250002
+}
+loading weights file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment/resolve/main/pytorch_model.bin from cache at /home/mmendieta/.cache/huggingface/transformers/4356cbb44d246494fb9361d024371aee59c2fc67b648f4f964f1dbb2ba53e5b5.a22545cd79d055b2220db85f4707145de60be10ed4b5cdebfe0bd19b5a8c3a43
+Traceback (most recent call last):
+  File "fine_tune_mllm_script_accelerate.py", line 141, in <module>
+    model = AutoModelForSequenceClassification.from_pretrained(model_ckpt,
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/transformers/models/auto/auto_factory.py", line 446, in from_pretrained
+    return model_class.from_pretrained(pretrained_model_name_or_path, *model_args, config=config, **kwargs)
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/transformers/modeling_utils.py", line 2059, in from_pretrained
+    model, missing_keys, unexpected_keys, mismatched_keys, error_msgs = cls._load_pretrained_model(
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/transformers/modeling_utils.py", line 2251, in _load_pretrained_model
+    raise RuntimeError(f"Error(s) in loading state_dict for {model.__class__.__name__}:\n\t{error_msg}")
+RuntimeError: Error(s) in loading state_dict for XLMRobertaForSequenceClassification:
+	size mismatch for classifier.out_proj.weight: copying a param with shape torch.Size([3, 768]) from checkpoint, the shape in current model is torch.Size([6, 768]).
+	size mismatch for classifier.out_proj.bias: copying a param with shape torch.Size([3]) from checkpoint, the shape in current model is torch.Size([6]).

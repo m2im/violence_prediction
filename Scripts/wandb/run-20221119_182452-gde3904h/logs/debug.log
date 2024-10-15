@@ -1,0 +1,39 @@
+2022-11-19 18:24:52,947 INFO    Thread-125:32553 [wandb_setup.py:_flush():68] Configure stats pid to 32553
+2022-11-19 18:24:52,947 INFO    Thread-125:32553 [wandb_setup.py:_flush():68] Loading settings from /home/mmendieta/.config/wandb/settings
+2022-11-19 18:24:52,947 INFO    Thread-125:32553 [wandb_setup.py:_flush():68] Loading settings from /home/mmendieta/violence_prediction/Scripts/wandb/settings
+2022-11-19 18:24:52,947 INFO    Thread-125:32553 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'rf_param_opt', 'entity': 'npsdaor', 'root_dir': '/home/mmendieta/violence_prediction/Scripts', 'run_id': 'gde3904h', 'sweep_param_path': '/home/mmendieta/violence_prediction/Scripts/wandb/sweep-e9ww50tw/config-gde3904h.yaml', 'sweep_id': 'e9ww50tw'}
+2022-11-19 18:24:52,947 INFO    Thread-125:32553 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-11-19 18:24:52,947 INFO    Thread-125:32553 [wandb_init.py:_log_setup():476] Logging user logs to /home/mmendieta/violence_prediction/Scripts/wandb/run-20221119_182452-gde3904h/logs/debug.log
+2022-11-19 18:24:52,948 INFO    Thread-125:32553 [wandb_init.py:_log_setup():477] Logging internal logs to /home/mmendieta/violence_prediction/Scripts/wandb/run-20221119_182452-gde3904h/logs/debug-internal.log
+2022-11-19 18:24:52,948 INFO    Thread-125:32553 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f7802cbf4f0>
+2022-11-19 18:24:52,948 INFO    Thread-125:32553 [wandb_init.py:init():516] calling init triggers
+2022-11-19 18:24:52,949 INFO    Thread-125:32553 [wandb_init.py:init():519] wandb.init called with sweep_config: {'criterion': 'entropy', 'min_samples_leaf': 10, 'min_samples_split': 10, 'n_estimators': 50}
+config: {}
+2022-11-19 18:24:52,949 INFO    Thread-125:32553 [wandb_init.py:init():569] starting backend
+2022-11-19 18:24:52,949 INFO    Thread-125:32553 [wandb_init.py:init():573] setting up manager
+2022-11-19 18:24:52,956 INFO    Thread-125:32553 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-11-19 18:24:52,960 INFO    Thread-125:32553 [wandb_init.py:init():580] backend started and connected
+2022-11-19 18:24:52,978 INFO    Thread-125:32553 [wandb_run.py:_config_callback():1160] config_cb None None {'criterion': 'entropy', 'min_samples_leaf': 10, 'min_samples_split': 10, 'n_estimators': 50}
+2022-11-19 18:24:52,981 INFO    Thread-125:32553 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-11-19 18:24:52,982 INFO    Thread-125:32553 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-11-19 18:24:52,982 INFO    Thread-125:32553 [wandb_init.py:init():658] updated telemetry
+2022-11-19 18:24:53,094 INFO    Thread-125:32553 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-11-19 18:24:53,364 INFO    Thread-125:32553 [wandb_run.py:_on_init():2000] communicating current version
+2022-11-19 18:24:53,451 INFO    Thread-125:32553 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.13.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-11-19 18:24:53,451 INFO    Thread-125:32553 [wandb_init.py:init():728] starting run threads in backend
+2022-11-19 18:24:53,581 INFO    Thread-125:32553 [wandb_run.py:_console_start():1980] atexit reg
+2022-11-19 18:24:53,581 INFO    Thread-125:32553 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-11-19 18:24:53,582 INFO    Thread-125:32553 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-11-19 18:24:53,582 INFO    Thread-125:32553 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-11-19 18:24:53,583 INFO    Thread-125:32553 [wandb_init.py:init():765] run started, returning control to user process
+2022-11-19 18:27:59,926 INFO    Thread-125:32553 [wandb_run.py:_finish():1746] finishing run npsdaor/rf_param_opt/gde3904h
+2022-11-19 18:27:59,926 INFO    Thread-125:32553 [jupyter.py:save_history():448] not saving jupyter history
+2022-11-19 18:27:59,927 INFO    Thread-125:32553 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-11-19 18:27:59,927 INFO    Thread-125:32553 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2022-11-19 18:27:59,927 INFO    Thread-125:32553 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-11-19 18:27:59,928 INFO    Thread-125:32553 [wandb_run.py:_restore():1932] restore
+2022-11-19 18:27:59,928 INFO    Thread-125:32553 [wandb_run.py:_restore():1938] restore done
+2022-11-19 18:28:02,606 INFO    Thread-125:32553 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-19 18:28:02,606 INFO    Thread-125:32553 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-19 18:28:02,615 INFO    Thread-125:32553 [wandb_run.py:_footer_sync_info():3333] logging synced files

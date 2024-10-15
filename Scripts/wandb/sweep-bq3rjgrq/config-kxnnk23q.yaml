@@ -1,0 +1,10 @@
+wandb_version: 1
+
+criterion:
+  value: entropy
+min_samples_leaf:
+  value: 50
+min_samples_split:
+  value: 10
+n_estimators:
+  value: 500

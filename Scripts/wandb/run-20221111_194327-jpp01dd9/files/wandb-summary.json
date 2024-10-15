@@ -1,0 +1,1 @@
+{"roc_auc": 0.53, "weighted_precision": 0.6034, "weighted_recall": 0.5159, "weighted_f1": 0.4554, "micro_precision": 0.5817, "micro_recall": 0.5159, "micro_f1": 0.5468, "_timestamp": 1668227645.1334813, "_runtime": 3037.778926372528, "_step": 0, "_wandb": {"runtime": 3037}}

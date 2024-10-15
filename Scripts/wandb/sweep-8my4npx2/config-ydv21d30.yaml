@@ -1,0 +1,10 @@
+wandb_version: 1
+
+criterion:
+  value: gini
+min_samples_leaf:
+  value: 50
+min_samples_split:
+  value: 100
+n_estimators:
+  value: 500

@@ -1,4 +1,4 @@
- import the neccesary packages
+# import the neccesary packages
 import os
 import time
 import torch
@@ -8,15 +8,13 @@ import pandas as pd
 import numpy as np
 import wandb
 import evaluate
-import small_labse_multigpu_config as args
+import labse_multigpu_config as args
 
-=======
 from accelerate import Accelerator
 from tqdm.auto import tqdm
 from datasets import load_from_disk
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from transformers import DataCollatorWithPadding, get_scheduler, AdamW, set_seed
->>>>>>> 120fbbca036752c3734dd55e4c20944976b3c8fb
 from torch.utils.data import DataLoader
 from huggingface_hub import Repository, get_full_repo_name
 
@@ -62,8 +60,6 @@ def log_metrics(metrics):
 
 
 # Load required metrics
-=======
->>>>>>> 120fbbca036752c3734dd55e4c20944976b3c8fb
 roc_auc_metric = evaluate.load("roc_auc", "multilabel")
 precision_micro_metric = evaluate.load("precision")
 precision_weighted_metric = evaluate.load("precision")
@@ -82,7 +78,6 @@ def evaluate_fn(args):
         logits = outputs.logits
         pred_prob = torch.sigmoid(logits)
         preds = (pred_prob > args.threshold)*1
-=======
         roc_auc_metric.add_batch(prediction_scores=accelerator.gather(pred_prob),
                                  references=accelerator.gather(batch["labels"]))
             
@@ -112,7 +107,6 @@ def evaluate_fn(args):
     # f1_weighted_res = f1_weighted_metric.compute(average="weighted")
 
     return roc_auc_res, eval_loss
->>>>>>> 120fbbca036752c3734dd55e4c20944976b3c8fb
 
 
 # Load the dataset from disk
@@ -152,7 +146,6 @@ model = AutoModelForSequenceClassification.from_pretrained(model_ckpt,
 
 data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 
-=======
 # Define the Dataloaders
 # Select a subsample for testing purposes
 # train_tokenized_ds = tokenized_ds["train"].select(range(27600))
@@ -168,7 +161,6 @@ train_dataloader = DataLoader(tokenized_ds["train"], shuffle=True,
                               batch_size=args.train_batch_size, collate_fn=data_collator)
 eval_dataloader = DataLoader(tokenized_ds["validation"],
                              batch_size=args.valid_batch_size, collate_fn=data_collator)
->>>>>>> 120fbbca036752c3734dd55e4c20944976b3c8fb
 
 # Define the optimizer
 optimizer = AdamW(get_grouped_params(model), lr=args.learning_rate)
@@ -213,9 +205,7 @@ progress_bar = tqdm(range(num_epochs), disable = not accelerator.is_local_main_p
 
 
 t_start = time.time()
-=======
 old_roc = 0
->>>>>>> 120fbbca036752c3734dd55e4c20944976b3c8fb
 for epoch in range(num_epochs):
     model.train()
     for batch in train_dl:
@@ -231,16 +221,13 @@ for epoch in range(num_epochs):
         optimizer.zero_grad()
 
     accelerator.print('[INFO] evaluating and saving model checkpoint...')      
-=======
     roc, eval_loss = evaluate_fn(args)
     elapsed_time = time.time() - t_start
->>>>>>> 120fbbca036752c3734dd55e4c20944976b3c8fb
     log_metrics({"epoch": epoch,
         "elapsed_time": elapsed_time,
         "loss/train": loss.item(), 
         "loss/eval": eval_loss.item(),
         "lr": lr, 
-=======
         "roc_auc_score": roc
         # "precision_micro": precMi,
         # "precision_weighted": precW,
@@ -255,13 +242,11 @@ for epoch in range(num_epochs):
     # Save and push only the model that improves roc_auc_score on the validation set
     if roc['roc_auc'] > old_roc:
         save_dir = os.path.join(os.path.join(args.save_dir, run_name), f"epoch_{epoch}")
->>>>>>> 120fbbca036752c3734dd55e4c20944976b3c8fb
         if accelerator.is_main_process:
             unwrapped_model.save_pretrained(save_dir, save_function=accelerator.save)
             if args.push_to_hub:
                 hf_repo.push_to_hub(commit_message=f"epoch_{epoch}")
 
-=======
     # else: # Evaluate and save the last checkpoint
     #    accelerator.print('[INFO] evaluating and saving final model after training...')
     #    save_dir = os.path.join(os.path.join(args.save_dir, run_name), f"epoch_final")
@@ -274,7 +259,6 @@ for epoch in range(num_epochs):
     progress_bar.update(1)
 
     accelerator.print(f"epoch: {epoch}, train/loss: {loss.item()}, eval/loss: {eval_loss.item()}, roc_auc: {roc['roc_auc']}, elapsed_time: {elapsed_time}")
->>>>>>> 120fbbca036752c3734dd55e4c20944976b3c8fb
 
 
 

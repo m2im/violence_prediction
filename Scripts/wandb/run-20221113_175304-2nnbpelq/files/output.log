@@ -1,0 +1,478 @@
+
+Revision `dazzling-violet-5` does not exist. Created and checked out branch `dazzling-violet-5`.
+[INFO] loading the tokenizer and the model ...
+loading file https://huggingface.co/setu4993/LaBSE/resolve/main/vocab.txt from cache at /home/mmendieta/.cache/huggingface/transformers/e8627ea3796059a5af6469cdac41ea99354b04bd2e4f5c8943e8ed1c599ed9f0.8f2ffe7514c779e620b40da312123fd8536e25273a5873d73b975930ff3f3def
+loading file https://huggingface.co/setu4993/LaBSE/resolve/main/tokenizer.json from cache at /home/mmendieta/.cache/huggingface/transformers/7bb8637d7dd2bf3f1844099cffa3c6dd48ea15d13c123b7e7557f03a556c4580.eb59c97be3df9f113dbd88197e3744bd63efbc76bd68875345453aa01afc2372
+loading file https://huggingface.co/setu4993/LaBSE/resolve/main/added_tokens.json from cache at None
+loading file https://huggingface.co/setu4993/LaBSE/resolve/main/special_tokens_map.json from cache at /home/mmendieta/.cache/huggingface/transformers/f7976973d6e1d492e81cc7e3f495661fffb63be89dd6889a1f1b32911095fbbc.dd8bd9bfd3664b530ea4e645105f557769387b3da9f79bdb55ed556bdd80611d
+loading file https://huggingface.co/setu4993/LaBSE/resolve/main/tokenizer_config.json from cache at /home/mmendieta/.cache/huggingface/transformers/01bc61f45f47c0df8718fb3cfd2274394a70b3851d96f7d99181e3b7c189f50a.f39cd25e9f33bcb338b3ccb34933d4ef9a21254e59543632a76e2de2b20f17ee
+loading configuration file https://huggingface.co/setu4993/LaBSE/resolve/main/config.json from cache at /home/mmendieta/.cache/huggingface/transformers/5e8580c8bc79861e8f05c7107d3576aa1e21098fcc7a3d6767e6b9449f0de551.116d04e84078e39e9bdea46d4b87a28c400bbd7580ad6d06b3fd522c72e3a7e0
+Model config BertConfig {
+  "_name_or_path": "setu4993/LaBSE",
+  "architectures": [
+    "BertModel"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "post7geo10",
+    "1": "post7geo30",
+    "2": "post7geo50",
+    "3": "pre7geo10",
+    "4": "pre7geo30",
+    "5": "pre7geo50"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "post7geo10": 0,
+    "post7geo30": 1,
+    "post7geo50": 2,
+    "pre7geo10": 3,
+    "pre7geo30": 4,
+    "pre7geo50": 5
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "problem_type": "multi_label_classification",
+  "torch_dtype": "float32",
+  "transformers_version": "4.19.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 501153
+}
+loading weights file https://huggingface.co/setu4993/LaBSE/resolve/main/pytorch_model.bin from cache at /home/mmendieta/.cache/huggingface/transformers/1cb7d97d64ce45b4859d55e285a4ec4c0188a88799241005ec5838635a8cc052.ac373a2dc5bee464cafa969eb3d8b68c881ad887ebc2fc122a98eabc1db6fe4b
+327540
+All model checkpoint weights were used when initializing BertForSequenceClassification.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at setu4993/LaBSE and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/mmendieta/transformers/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+[INFO] training starts...
+  0%|                                                    | 0/20 [00:00<?, ?it/s]
+  0%|                                                    | 0/20 [00:00<?, ?it/s]DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140424036600464 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Timeout on acquiring lock 140424036600464 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140418187189744 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-f6e76297-ef48-401f-8c44-82ae7c1e6beb-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140418187189744 acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-f6e76297-ef48-401f-8c44-82ae7c1e6beb-1-0.arrow.lock
+DEBUG:datasets.arrow_writer:Done writing 4194304 examples in 234881024 bytes /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-f6e76297-ef48-401f-8c44-82ae7c1e6beb-1-0.arrow.
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.
+DEBUG:datasets.utils.filelock:Attempting to release lock 140418187189744 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-f6e76297-ef48-401f-8c44-82ae7c1e6beb-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140418187189744 released on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-f6e76297-ef48-401f-8c44-82ae7c1e6beb-1-0.arrow.lock
+Configuration saved in ../../labse_finetuned_twitter/dazzling-violet-5/epoch_0/config.json
+Model weights saved in ../../labse_finetuned_twitter/dazzling-violet-5/epoch_0/pytorch_model.bin
+Upload file dazzling-violet-5/epoch_0/pytorch_model.bin:   0%| | 224k/1.75G [00:
+Upload file woven-haze-4/epoch_1/pytorch_model.bin:   0%| | 32.0k/1.75G [00:00<?
+Upload file woven-haze-4/epoch_11/pytorch_model.bin:   0%| | 32.0k/1.75G [00:00<
+Upload file woven-haze-4/epoch_13/pytorch_model.bin:   0%| | 32.0k/1.75G [00:00<
+Upload file woven-haze-4/epoch_10/pytorch_model.bin:   0%| | 32.0k/1.75G [00:00<
+Upload file woven-haze-4/epoch_14/pytorch_model.bin:   0%| | 32.0k/1.75G [00:00<
+Upload file woven-haze-4/epoch_12/pytorch_model.bin:   0%| | 32.0k/1.75G [00:00<
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:   1%| | 26.1M/1.75G [00:02<
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:   3%| | 51.9M/1.75G [00:04<
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:   4%| | 76.7M/1.75G [00:06<
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:   5%| | 85.9M/1.75G [00:07<
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:   5%| | 97.2M/1.75G [00:12<
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:   7%| | 119M/1.75G [00:14<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:   7%| | 128M/1.75G [00:15<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:   8%| | 148M/1.75G [00:17<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:   9%| | 164M/1.75G [00:19<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  10%| | 182M/1.75G [00:21<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_15/pytorch_model.bin:  11%| | 196M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_13/pytorch_model.bin:  82%|▊| 1.43G/1.75G [01:30<
+Upload file woven-haze-4/epoch_13/pytorch_model.bin:  82%|▊| 1.43G/1.75G [01:30<
+Upload file woven-haze-4/epoch_13/pytorch_model.bin:  82%|▊| 1.43G/1.75G [01:30<
+Upload file woven-haze-4/epoch_13/pytorch_model.bin:  82%|▊| 1.43G/1.75G [01:30<
+Upload file woven-haze-4/epoch_13/pytorch_model.bin:  82%|▊| 1.43G/1.75G [01:30<
+Upload file woven-haze-4/epoch_13/pytorch_model.bin:  82%|▊| 1.43G/1.75G [01:30<
+Upload file woven-haze-4/epoch_13/pytorch_model.bin:  82%|▊| 1.43G/1.75G [01:30<
+Upload file woven-haze-4/epoch_13/pytorch_model.bin:  82%|▊| 1.43G/1.75G [01:30<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:   0%| | 32.0k/1.75G [00:00<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:   2%| | 35.8M/1.75G [00:02<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:   4%| | 76.4M/1.75G [00:04<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:   7%| | 117M/1.75G [00:06<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:   9%| | 154M/1.75G [00:08<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  11%| | 193M/1.75G [00:10<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  13%|▏| 231M/1.75G [00:12<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  15%|▏| 270M/1.75G [00:14<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  17%|▏| 307M/1.75G [00:16<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  19%|▏| 342M/1.75G [00:18<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  20%|▏| 357M/1.75G [00:19<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  21%|▏| 386M/1.75G [00:21<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  23%|▏| 416M/1.75G [00:23<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  25%|▎| 450M/1.75G [00:25<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  27%|▎| 482M/1.75G [00:27<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  29%|▎| 515M/1.75G [00:29<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  31%|▎| 550M/1.75G [00:31<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  33%|▎| 586M/1.75G [00:33<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  35%|▎| 621M/1.75G [00:35<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  37%|▎| 658M/1.75G [00:37<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  39%|▍| 696M/1.75G [00:39<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  41%|▍| 734M/1.75G [00:41<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  43%|▍| 773M/1.75G [00:43<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  45%|▍| 811M/1.75G [00:45<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  47%|▍| 846M/1.75G [00:47<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  49%|▍| 882M/1.75G [00:50<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  51%|▌| 918M/1.75G [00:52<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  53%|▌| 951M/1.75G [00:54<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  55%|▌| 984M/1.75G [00:56<0
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  57%|▌| 0.99G/1.75G [00:58<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  58%|▌| 1.02G/1.75G [01:00<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  60%|▌| 1.06G/1.75G [01:02<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  62%|▌| 1.09G/1.75G [01:04<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  64%|▋| 1.13G/1.75G [01:06<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  66%|▋| 1.16G/1.75G [01:08<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  68%|▋| 1.19G/1.75G [01:10<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  70%|▋| 1.23G/1.75G [01:12<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  72%|▋| 1.26G/1.75G [01:14<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  74%|▋| 1.29G/1.75G [01:16<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  75%|▊| 1.32G/1.75G [01:18<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  77%|▊| 1.36G/1.75G [01:20<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  79%|▊| 1.39G/1.75G [01:22<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  81%|▊| 1.42G/1.75G [01:24<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  83%|▊| 1.46G/1.75G [01:26<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  85%|▊| 1.49G/1.75G [01:28<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  86%|▊| 1.51G/1.75G [01:29<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  88%|▉| 1.54G/1.75G [01:31<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  90%|▉| 1.58G/1.75G [01:33<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  92%|▉| 1.61G/1.75G [01:35<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  94%|▉| 1.65G/1.75G [01:37<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  96%|▉| 1.68G/1.75G [01:39<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  97%|▉| 1.71G/1.75G [01:42<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin:  99%|▉| 1.74G/1.75G [01:44<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin: 100%|▉| 1.75G/1.75G [01:45<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin: 100%|▉| 1.75G/1.75G [01:45<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin: 100%|▉| 1.75G/1.75G [01:45<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin: 100%|▉| 1.75G/1.75G [01:45<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin: 100%|▉| 1.75G/1.75G [01:45<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin: 100%|█| 1.75G/1.75G [01:56<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin: 100%|█| 1.75G/1.75G [01:56<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin: 100%|█| 1.75G/1.75G [01:56<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin: 100%|█| 1.75G/1.75G [01:56<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin: 100%|█| 1.75G/1.75G [01:56<
+Upload file woven-haze-4/epoch_16/pytorch_model.bin: 100%|█| 1.75G/1.75G [01:56<
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:   0%| | 3.69M/1.75G [00:01<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:   2%| | 31.8M/1.75G [00:03<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:   4%| | 63.8M/1.75G [00:05<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:   5%| | 95.5M/1.75G [00:07<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:   7%| | 124M/1.75G [00:09<01
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:   8%| | 152M/1.75G [00:11<01
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  10%| | 181M/1.75G [00:13<01
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  12%| | 211M/1.75G [00:15<01
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  13%|▏| 227M/1.75G [00:16<01
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  14%|▏| 257M/1.75G [00:18<01
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  16%|▏| 289M/1.75G [00:20<01
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  18%|▏| 323M/1.75G [00:22<01
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  20%|▏| 360M/1.75G [00:24<01
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  22%|▏| 399M/1.75G [00:26<01
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  24%|▏| 438M/1.75G [00:28<01
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  27%|▎| 479M/1.75G [00:30<01
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  29%|▎| 519M/1.75G [00:32<01
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  31%|▎| 560M/1.75G [00:34<01
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  34%|▎| 604M/1.75G [00:36<00
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  36%|▎| 647M/1.75G [00:38<00
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  39%|▍| 694M/1.75G [00:40<00
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  41%|▍| 741M/1.75G [00:42<00
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  44%|▍| 788M/1.75G [00:44<00
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  47%|▍| 835M/1.75G [00:46<00
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  49%|▍| 882M/1.75G [00:48<00
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  52%|▌| 929M/1.75G [00:50<00
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  54%|▌| 976M/1.75G [00:53<00
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  57%|▌| 1.00G/1.75G [00:55<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  59%|▌| 1.04G/1.75G [00:57<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  61%|▌| 1.06G/1.75G [00:58<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  63%|▋| 1.11G/1.75G [01:00<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  66%|▋| 1.15G/1.75G [01:02<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  68%|▋| 1.19G/1.75G [01:04<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  70%|▋| 1.23G/1.75G [01:06<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  72%|▋| 1.27G/1.75G [01:08<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  74%|▋| 1.31G/1.75G [01:10<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  77%|▊| 1.34G/1.75G [01:12<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  79%|▊| 1.38G/1.75G [01:14<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  81%|▊| 1.42G/1.75G [01:16<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  83%|▊| 1.46G/1.75G [01:18<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  85%|▊| 1.50G/1.75G [01:20<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  88%|▉| 1.54G/1.75G [01:22<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  91%|▉| 1.59G/1.75G [01:24<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  93%|▉| 1.63G/1.75G [01:26<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  96%|▉| 1.68G/1.75G [01:28<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  99%|▉| 1.74G/1.75G [01:30<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  99%|▉| 1.74G/1.75G [01:30<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  99%|▉| 1.74G/1.75G [01:30<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  99%|▉| 1.74G/1.75G [01:30<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  99%|▉| 1.74G/1.75G [01:30<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  99%|▉| 1.74G/1.75G [01:30<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  99%|▉| 1.74G/1.75G [01:30<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  99%|▉| 1.74G/1.75G [01:30<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin:  99%|▉| 1.74G/1.75G [01:30<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin: 100%|█| 1.75G/1.75G [01:48<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin: 100%|█| 1.75G/1.75G [01:48<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin: 100%|█| 1.75G/1.75G [01:48<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin: 100%|█| 1.75G/1.75G [01:48<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin: 100%|█| 1.75G/1.75G [01:48<0
+Upload file woven-haze-4/epoch_7/pytorch_model.bin: 100%|█| 1.75G/1.75G [01:58<0remote: Scanning LFS files for validity, may be slow...
+Upload file woven-haze-4/epoch_7/pytorch_model.bin: 100%|█| 1.75G/1.75G [01:58<0remote: Scanning LFS files for validity, may be slow...
+epoch: 0, train/loss: 0.6360888481140137, eval/loss: 0.62376868724823, roc_auc: 0.6832199916984032, elapsed_time: 1225.3515365123749
+DEBUG:datasets.utils.filelock:Lock 140417348511056 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348509808 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-19664ac0-f95e-429d-9cab-e2b3978bcd3c-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348509808 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-19664ac0-f95e-429d-9cab-e2b3978bcd3c-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348509808 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-19664ac0-f95e-429d-9cab-e2b3978bcd3c-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348509808 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-19664ac0-f95e-429d-9cab-e2b3978bcd3c-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348509808 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-19664ac0-f95e-429d-9cab-e2b3978bcd3c-1-0.arrow.lock
+WARNING:huggingface_hub.repository:Several commits (2) will be pushed upstream.me/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-19664ac0-f95e-429d-9cab-e2b3978bcd3c-1-0.arrow.lock
+ 10%|████                                    | 2/20 [56:15<8:06:46, 1622.59s/it]e/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-19664ac0-f95e-429d-9cab-e2b3978bcd3c-1-0.arrow.lock
+ 10%|████                                    | 2/20 [56:15<8:06:46, 1622.59s/it]e/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-19664ac0-f95e-429d-9cab-e2b3978bcd3c-1-0.arrow.lock
+ 10%|████                                    | 2/20 [56:15<8:06:46, 1622.59s/it]DEBUG:datasets.utils.filelock:Attempting to acquire lock 140408708133696 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+ 10%|████                                    | 2/20 [56:15<8:06:46, 1622.59s/it]DEBUG:datasets.utils.filelock:Attempting to acquire lock 140408708133696 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140408708133696 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+epoch: 2, train/loss: 0.6096708178520203, eval/loss: 0.6046109795570374, roc_auc: 0.7006979477789154, elapsed_time: 4706.76149058342
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348513600 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+epoch: 3, train/loss: 0.6059087514877319, eval/loss: 0.5984253883361816, roc_auc: 0.70805146567656, elapsed_time: 6122.854097604752
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140418187406544 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+ 25%|█████████▌                            | 5/20 [2:06:16<6:02:57, 1451.84s/it]for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+ 25%|█████████▌                            | 5/20 [2:06:16<6:02:57, 1451.84s/it]DEBUG:datasets.utils.filelock:Attempting to acquire lock 140418186927984 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+ 25%|█████████▌                            | 5/20 [2:06:16<6:02:57, 1451.84s/it]DEBUG:datasets.utils.filelock:Attempting to acquire lock 140418186927984 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140418186927984 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140418186927984 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140418186927984 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140418186927984 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+Model weights saved in ../../labse_finetuned_twitter/dazzling-violet-5/epoch_5/pytorch_model.binhe/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+Model weights saved in ../../labse_finetuned_twitter/dazzling-violet-5/epoch_5/pytorch_model.binhe/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterazzling-violet-5/epoch_5/pytorch_model.binhe/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterazzling-violet-5/epoch_5/pytorch_model.binhe/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+epoch: 5, train/loss: 0.5990622043609619, eval/loss: 0.5895676612854004, roc_auc: 0.7142711069648946, elapsed_time: 8945.69396185875
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140385373382880 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348573120 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+ 40%|███████████████▏                      | 8/20 [3:16:57<4:45:40, 1428.35s/it]for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+ 40%|███████████████▏                      | 8/20 [3:16:57<4:45:40, 1428.35s/it]for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+epoch: 7, train/loss: 0.5905663371086121, eval/loss: 0.5888497829437256, roc_auc: 0.7183161599805857, elapsed_time: 11777.399204730988
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140408542982928 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+epoch: 8, train/loss: 0.5792178511619568, eval/loss: 0.5906922221183777, roc_auc: 0.7204181613597007, elapsed_time: 13213.832120656967
+DEBUG:datasets.utils.filelock:Lock 140408542982352 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140408542982352 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+Several commits (10) will be pushed upstream.key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+Several commits (10) will be pushed upstream.key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348573024 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348573024 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348573024 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348573024 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140417348571824 released on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-70135127-8e9d-4eec-8fbb-c125699934a9-1-0.arrow.lockrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140417348571824 released on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-70135127-8e9d-4eec-8fbb-c125699934a9-1-0.arrow.lockrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140417348571824 released on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-70135127-8e9d-4eec-8fbb-c125699934a9-1-0.arrow.lockrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140417348571824 released on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-70135127-8e9d-4eec-8fbb-c125699934a9-1-0.arrow.lockrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140417348571824 released on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-70135127-8e9d-4eec-8fbb-c125699934a9-1-0.arrow.lockrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twittereased on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-70135127-8e9d-4eec-8fbb-c125699934a9-1-0.arrow.lockrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twittereased on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-70135127-8e9d-4eec-8fbb-c125699934a9-1-0.arrow.lockrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140408542984752 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+epoch: 11, train/loss: 0.5647664666175842, eval/loss: 0.5880914926528931, roc_auc: 0.7237667804000012, elapsed_time: 17544.490451335907
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348454864 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+epoch: 12, train/loss: 0.5773284435272217, eval/loss: 0.5898721218109131, roc_auc: 0.7239971620774988, elapsed_time: 18982.02983880043
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140414535233648 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+epoch: 13, train/loss: 0.5806229114532471, eval/loss: 0.5900527238845825, roc_auc: 0.7240242656610363, elapsed_time: 20389.140768051147
+DEBUG:datasets.utils.filelock:Lock 140418187375568 not acquired on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock, waiting 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140418187375568 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+Several commits (15) will be pushed upstream.key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+Several commits (15) will be pushed upstream.key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348573984 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348573984 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348572112 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-614389ad-7380-4de2-909a-fcfac7f87d15-1-0.arrow.lockultilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348572112 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-614389ad-7380-4de2-909a-fcfac7f87d15-1-0.arrow.lockultilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348572112 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-614389ad-7380-4de2-909a-fcfac7f87d15-1-0.arrow.lockultilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348572112 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-614389ad-7380-4de2-909a-fcfac7f87d15-1-0.arrow.lockultilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348572112 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-614389ad-7380-4de2-909a-fcfac7f87d15-1-0.arrow.lockultilabel/default_experiment-1-0.arrow.lock
+Model weights saved in ../../labse_finetuned_twitter/dazzling-violet-5/epoch_15/pytorch_model.bine/huggingface/metrics/rocauc/multilabel/default_experiment-614389ad-7380-4de2-909a-fcfac7f87d15-1-0.arrow.lockultilabel/default_experiment-1-0.arrow.lock
+Several commits (16) will be pushed upstream.twitter/dazzling-violet-5/epoch_15/pytorch_model.bine/huggingface/metrics/rocauc/multilabel/default_experiment-614389ad-7380-4de2-909a-fcfac7f87d15-1-0.arrow.lockultilabel/default_experiment-1-0.arrow.lock
+Several commits (16) will be pushed upstream.twitter/dazzling-violet-5/epoch_15/pytorch_model.bine/huggingface/metrics/rocauc/multilabel/default_experiment-614389ad-7380-4de2-909a-fcfac7f87d15-1-0.arrow.lockultilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterazzling-violet-5/epoch_15/pytorch_model.bine/huggingface/metrics/rocauc/multilabel/default_experiment-614389ad-7380-4de2-909a-fcfac7f87d15-1-0.arrow.lockultilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterazzling-violet-5/epoch_15/DEBUG:datasets.utils.filelock:Attempting to acquire lock 140418187376096 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterazzling-violet-5/epoch_15/DEBUG:datasets.utils.filelock:Attempting to acquire lock 140418187376096 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140418187376096 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140418187376096 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140418187377200 released on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-200f735b-b054-482b-aa2e-6f3f492e214d-1-0.arrow.lockrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140418187377200 released on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-200f735b-b054-482b-aa2e-6f3f492e214d-1-0.arrow.lockrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140418187377200 released on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-200f735b-b054-482b-aa2e-6f3f492e214d-1-0.arrow.lockrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140418187377200 released on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-200f735b-b054-482b-aa2e-6f3f492e214d-1-0.arrow.lockrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Lock 140418187377200 released on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-200f735b-b054-482b-aa2e-6f3f492e214d-1-0.arrow.lockrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+epoch: 16, train/loss: 0.5621406435966492, eval/loss: 0.5887390375137329, roc_auc: 0.7252795735692495, elapsed_time: 24664.334505796432
+DEBUG:datasets.utils.filelock:Lock 140418187377200 released on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-200f735b-b054-482b-aa2e-6f3f492e214d-1-0.arrow.lockrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140385373330976 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+epoch: 17, train/loss: 0.5679595470428467, eval/loss: 0.5888776779174805, roc_auc: 0.7260584269364977, elapsed_time: 26108.97344326973
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140418187377200 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348509808 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.utils.filelock:Attempting to acquire lock 140417348509808 on /home/mmendieta/.cache/huggingface/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+DEBUG:datasets.arrow_dataset:Set __getitem__(key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+Several commits (20) will be pushed upstream.key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+Several commits (20) will be pushed upstream.key) output type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock
+To https://huggingface.co/m2im/labse_finetuned_twitterut type to python objects for no columns  (when key is int or slice) and don't output other (un-formatted) columns.k 0.05 seconds ...ace/metrics/rocauc/multilabel/default_experiment-1-0.arrow.lock

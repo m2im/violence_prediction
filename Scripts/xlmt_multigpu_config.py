@@ -1,5 +1,5 @@
 # Model name or path of model to be trained
-model_ckpt = "cardiffnlp/twitter-xlm-roberta-base-sentiment"
+model_ckpt = "cardiffnlp/twitter-xlm-roberta-base"
 
 # Model name or path of model to be trained.
 model_repo_hub = "m2im/XLM-T_finetuned_violence_twitter"
@@ -8,7 +8,7 @@ model_repo_hub = "m2im/XLM-T_finetuned_violence_twitter"
 save_dir = "../../xlmt_finetuned_twitter"
 
 # Name or path of training dataset.
-dataset_name = "../../Violence_data/geo_corpus.0.0.1_tok_ds_xmlt" 
+dataset_name = "../../Violence_data/geo_corpus.0.0.1_tok_ds_xlmt" 
 
 # Batch size for training.
 train_batch_size = 1024

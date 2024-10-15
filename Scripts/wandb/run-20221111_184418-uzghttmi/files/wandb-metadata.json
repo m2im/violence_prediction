@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.4.0-131-generic-x86_64-with-glibc2.10",
+    "python": "3.8.3",
+    "heartbeatAt": "2022-11-12T02:44:18.841667",
+    "startedAt": "2022-11-12T02:44:18.237422",
+    "docker": null,
+    "gpu": "Tesla V100-SXM3-32GB",
+    "gpu_count": 16,
+    "cpu_count": 56,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Scripts/rf_wandb_hyper_tuning.ipynb",
+    "root": "/home/mmendieta/violence_prediction",
+    "git": {
+        "remote": "https://github.com/m2im/violence_prediction.git",
+        "commit": "723c51a473e63920fef568fd73b696f90a706b39"
+    },
+    "email": "milton.mendieta.im@gmail.com",
+    "host": "CODA-GPU-1",
+    "username": "mmendieta",
+    "executable": "/home/mmendieta/transformers/bin/python3"
+}
