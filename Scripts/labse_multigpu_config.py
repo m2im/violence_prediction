@@ -1,14 +1,17 @@
 # Model name or path of model to be trained
-model_ckpt = "setu4993/LaBSE"
+model_ckpt = "/data3/mmendieta/models/labse/"
 
 # Model name or path of model to be trained.
-model_repo_hub = "m2im/labse_finetuned_twitter"
+model_repo_hub = "m2im/labse_finetuned_twitter_all_labels"
 
 # Save dir where model repo is cloned and models updates are saved to.
-save_dir = "../../labse_finetuned_twitter"
+save_dir = "/data4/mmendieta/models/labse_finetuned_twitter_all_labels"
 
 # Name or path of training dataset.
-dataset_name = "../../Violence_data/geo_corpus.0.0.1_tok_ds_labse" 
+dataset_name = "/data3/mmendieta/Violence_data/geo_corpus.0.0.1_tok_ds_labse_all_labels" 
+
+# output of plots and data after training
+training_output = "/data4/mmendieta/training_output/labse/"
 
 # Batch size for training.
 train_batch_size = 1024
@@ -41,17 +44,20 @@ seq_length = 32
 seed = 42
 
 # Interval to evaluate the model and save checkpoints.
-save_checkpoint_steps = 20
+# save_checkpoint_steps = 20
+
+# Set gradient accumulation
+gradient_accumulation_steps = 1
  
 # States path if the training should continue from a checkpoint folder. 
 resume_from_checkpoint = None 
 
 # Number of labels for the multilabel classification problem
-num_labels = 6
+num_labels = 40
 
 # Push saved model to the hub.
 push_to_hub = True 
 
 # Name of the wandb project.
-wandb_project = "Labse"
+wandb_project = "Labse_all_labels"
 

@@ -1,0 +1,199 @@
+Revision `fearless-wood-8` does not exist. Created and checked out branch `fearless-wood-8`.
+Could not locate the tokenizer configuration file, will try to use the model config instead.
+loading configuration file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/config.json from cache at /home/mmendieta/.cache/huggingface/transformers/a6b90a261219601cbdef14759cac8d96efe5cca8d364560ac79d3c2acbabd35c.f4d0ffccbbe43c94133958daf6651c5bf05e8ec5de8efd46ddab90dd67b50fb2
+Model config XLMRobertaConfig {
+  "_name_or_path": "cardiffnlp/twitter-xlm-roberta-base",
+  "architectures": [
+    "XLMRobertaForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "xlm-roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.19.0",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 250002
+}
+loading file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/sentencepiece.bpe.model from cache at /home/mmendieta/.cache/huggingface/transformers/6e74f475a3ac17548fcd7f24a1116652919ba2225b290de8ef3e7d4ad36393fb.71e50b08dbe7e5375398e165096cacc3d2086119d6a449364490da6908de655e
+loading file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/tokenizer.json from cache at /home/mmendieta/.cache/huggingface/transformers/c949b67b285c79e2b38b50fb89ca8d00428266f364d9fe0c10721a0492dbbeba.a984cf52fc87644bd4a2165f1e07e0ac880272c1e82d648b4674907056912bd7
+loading file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/added_tokens.json from cache at None
+loading file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/special_tokens_map.json from cache at None
+loading file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/tokenizer_config.json from cache at None
+loading configuration file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/config.json from cache at /home/mmendieta/.cache/huggingface/transformers/a6b90a261219601cbdef14759cac8d96efe5cca8d364560ac79d3c2acbabd35c.f4d0ffccbbe43c94133958daf6651c5bf05e8ec5de8efd46ddab90dd67b50fb2
+Model config XLMRobertaConfig {
+  "_name_or_path": "cardiffnlp/twitter-xlm-roberta-base",
+  "architectures": [
+    "XLMRobertaForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "xlm-roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.19.0",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 250002
+}
+[INFO] loading the tokenizer and the model ...
+loading configuration file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/config.json from cache at /home/mmendieta/.cache/huggingface/transformers/a6b90a261219601cbdef14759cac8d96efe5cca8d364560ac79d3c2acbabd35c.f4d0ffccbbe43c94133958daf6651c5bf05e8ec5de8efd46ddab90dd67b50fb2
+Model config XLMRobertaConfig {
+  "_name_or_path": "cardiffnlp/twitter-xlm-roberta-base",
+  "architectures": [
+    "XLMRobertaForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "post1geo10",
+    "1": "post1geo20",
+    "2": "post1geo30",
+    "3": "post1geo50",
+    "4": "post1geo70",
+    "5": "post2geo10",
+    "6": "post2geo20",
+    "7": "post2geo30",
+    "8": "post2geo50",
+    "9": "post2geo70",
+    "10": "post3geo10",
+    "11": "post3geo20",
+    "12": "post3geo30",
+    "13": "post3geo50",
+    "14": "post3geo70",
+    "15": "post7geo10",
+    "16": "post7geo20",
+    "17": "post7geo30",
+    "18": "post7geo50",
+    "19": "post7geo70",
+    "20": "pre1geo10",
+    "21": "pre1geo20",
+    "22": "pre1geo30",
+    "23": "pre1geo50",
+    "24": "pre1geo70",
+    "25": "pre2geo10",
+    "26": "pre2geo20",
+    "27": "pre2geo30",
+    "28": "pre2geo50",
+    "29": "pre2geo70",
+    "30": "pre3geo10",
+    "31": "pre3geo20",
+    "32": "pre3geo30",
+    "33": "pre3geo50",
+    "34": "pre3geo70",
+    "35": "pre7geo10",
+    "36": "pre7geo20",
+    "37": "pre7geo30",
+    "38": "pre7geo50",
+    "39": "pre7geo70"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "post1geo10": 0,
+    "post1geo20": 1,
+    "post1geo30": 2,
+    "post1geo50": 3,
+    "post1geo70": 4,
+    "post2geo10": 5,
+    "post2geo20": 6,
+    "post2geo30": 7,
+    "post2geo50": 8,
+    "post2geo70": 9,
+    "post3geo10": 10,
+    "post3geo20": 11,
+    "post3geo30": 12,
+    "post3geo50": 13,
+    "post3geo70": 14,
+    "post7geo10": 15,
+    "post7geo20": 16,
+    "post7geo30": 17,
+    "post7geo50": 18,
+    "post7geo70": 19,
+    "pre1geo10": 20,
+    "pre1geo20": 21,
+    "pre1geo30": 22,
+    "pre1geo50": 23,
+    "pre1geo70": 24,
+    "pre2geo10": 25,
+    "pre2geo20": 26,
+    "pre2geo30": 27,
+    "pre2geo50": 28,
+    "pre2geo70": 29,
+    "pre3geo10": 30,
+    "pre3geo20": 31,
+    "pre3geo30": 32,
+    "pre3geo50": 33,
+    "pre3geo70": 34,
+    "pre7geo10": 35,
+    "pre7geo20": 36,
+    "pre7geo30": 37,
+    "pre7geo50": 38,
+    "pre7geo70": 39
+  },
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "xlm-roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "problem_type": "multi_label_classification",
+  "transformers_version": "4.19.0",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 250002
+}
+loading weights file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/pytorch_model.bin from cache at /home/mmendieta/.cache/huggingface/transformers/de8103490e7e03ee5861271a32167a4f170ce820c6ab3aba4df4d6b00fe65163.824322f81a7eced2993b9bf64487652aa08c7cd2a81b38e00b0464c51b97280d
+Some weights of the model checkpoint at cardiffnlp/twitter-xlm-roberta-base were not used when initializing XLMRobertaForSequenceClassification: ['lm_head.dense.bias', 'lm_head.decoder.weight', 'lm_head.bias', 'lm_head.decoder.bias', 'lm_head.dense.weight', 'lm_head.layer_norm.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing XLMRobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing XLMRobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of XLMRobertaForSequenceClassification were not initialized from the model checkpoint at cardiffnlp/twitter-xlm-roberta-base and are newly initialized: ['classifier.out_proj.weight', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+30
+fine_tune_mllm_script_all_labels_accelerate.py:233: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  label_tensor = torch.tensor(tokenized_ds["train"]["labels"])
+/home/mmendieta/transformers/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+[INFO] training starts...
+  0%|                                                     | 0/3 [00:00<?, ?it/s]
+  0%|                                                     | 0/3 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "fine_tune_mllm_script_all_labels_accelerate.py", line 301, in <module>
+    metrics_dict, eval_loss = evaluate_fn(args)
+  File "fine_tune_mllm_script_all_labels_accelerate.py", line 79, in evaluate_fn
+    roc_auc_metric.clear()
+AttributeError: 'ROCAUC' object has no attribute 'clear'

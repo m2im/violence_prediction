@@ -1,0 +1,751 @@
+Revision `legendary-eon-1` does not exist. Created and checked out branch `legendary-eon-1`.
+Didn't find file /data3/mmendieta/models/labse/added_tokens.json. We won't load it.
+loading file /data3/mmendieta/models/labse/vocab.txt
+loading file /data3/mmendieta/models/labse/tokenizer.json
+loading file None
+loading file /data3/mmendieta/models/labse/special_tokens_map.json
+loading file /data3/mmendieta/models/labse/tokenizer_config.json
+loading configuration file /data3/mmendieta/models/labse/config.json
+Model config BertConfig {
+  "_name_or_path": "/data3/mmendieta/models/labse/",
+  "architectures": [
+    "BertModel"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "post1geo10",
+    "1": "post1geo20",
+    "2": "post1geo30",
+    "3": "post1geo50",
+    "4": "post1geo70",
+    "5": "post2geo10",
+    "6": "post2geo20",
+    "7": "post2geo30",
+    "8": "post2geo50",
+    "9": "post2geo70",
+    "10": "post3geo10",
+    "11": "post3geo20",
+    "12": "post3geo30",
+    "13": "post3geo50",
+    "14": "post3geo70",
+    "15": "post7geo10",
+    "16": "post7geo20",
+    "17": "post7geo30",
+    "18": "post7geo50",
+    "19": "post7geo70",
+    "20": "pre1geo10",
+    "21": "pre1geo20",
+    "22": "pre1geo30",
+    "23": "pre1geo50",
+    "24": "pre1geo70",
+    "25": "pre2geo10",
+    "26": "pre2geo20",
+    "27": "pre2geo30",
+    "28": "pre2geo50",
+    "29": "pre2geo70",
+    "30": "pre3geo10",
+    "31": "pre3geo20",
+    "32": "pre3geo30",
+    "33": "pre3geo50",
+    "34": "pre3geo70",
+    "35": "pre7geo10",
+    "36": "pre7geo20",
+    "37": "pre7geo30",
+    "38": "pre7geo50",
+    "39": "pre7geo70"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "post1geo10": 0,
+    "post1geo20": 1,
+    "post1geo30": 2,
+    "post1geo50": 3,
+    "post1geo70": 4,
+    "post2geo10": 5,
+    "post2geo20": 6,
+    "post2geo30": 7,
+    "post2geo50": 8,
+    "post2geo70": 9,
+    "post3geo10": 10,
+    "post3geo20": 11,
+    "post3geo30": 12,
+    "post3geo50": 13,
+    "post3geo70": 14,
+    "post7geo10": 15,
+    "post7geo20": 16,
+    "post7geo30": 17,
+    "post7geo50": 18,
+    "post7geo70": 19,
+    "pre1geo10": 20,
+    "pre1geo20": 21,
+    "pre1geo30": 22,
+    "pre1geo50": 23,
+    "pre1geo70": 24,
+    "pre2geo10": 25,
+    "pre2geo20": 26,
+    "pre2geo30": 27,
+    "pre2geo50": 28,
+    "pre2geo70": 29,
+    "pre3geo10": 30,
+    "pre3geo20": 31,
+    "pre3geo30": 32,
+    "pre3geo50": 33,
+    "pre3geo70": 34,
+    "pre7geo10": 35,
+    "pre7geo20": 36,
+    "pre7geo30": 37,
+    "pre7geo50": 38,
+    "pre7geo70": 39
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "problem_type": "multi_label_classification",
+  "torch_dtype": "float32",
+  "transformers_version": "4.19.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 501153
+}
+loading weights file /data3/mmendieta/models/labse/pytorch_model.bin
+[INFO] loading the tokenizer and the model ...
+All model checkpoint weights were used when initializing BertForSequenceClassification.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at /data3/mmendieta/models/labse/ and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+fine_tune_mllm_script_all_labels_accelerate.py:144: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  label_tensor = torch.tensor(tokenized_ds["train"]["labels"])
+327540
+/home/mmendieta/transformers/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+[INFO] training starts...
+[INFO] Starting epoch 0
+  0%|                                                     | 0/20 [00:00<?, ?it/s]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+  0%|                                                     | 0/20 [00:00<?, ?it/s]Configuration saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_0/config.json
+Model weights saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_0/pytorch_model.bin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * [new branch]      legendary-eon-1 -> legendary-eon-11.76GB [00:50, 42.1MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/labse_finetuned_twitter_all_labels
+ * [new branch]      legendary-eon-1 -> legendary-eon-1
+Upload file legendary-eon-1/epoch_0/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:51
+Upload file legendary-eon-1/epoch_0/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:51
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/labse/per_label_metrics.json
+[epoch 0] train/loss: 0.9678 | eval/loss: 0.6914 | roc_auc_micro: 0.5881 | roc_auc_weighted: 0.5008 | precision_micro: 0.3833 | precision_weighted: 0.0919 | recall_micro: 0.1965 | recall_weighted: 0.1965 | f1_micro: 0.2598 | f1_weighted: 0.1207 | elapsed_time: 1653.28s
+
+  5%|██                                       | 1/20 [28:56<9:09:49, 1736.31s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 10%|████                                     | 2/20 [56:04<8:21:46, 1672.58s/it]
+[epoch 1] train/loss: 0.9865 | eval/loss: 0.6877 | roc_auc_micro: 0.5680 | roc_auc_weighted: 0.5060 | precision_micro: 0.3542 | precision_weighted: 0.0986 | recall_micro: 0.2421 | recall_weighted: 0.2421 | f1_micro: 0.2877 | f1_weighted: 0.1361 | elapsed_time: 3352.37s
+[INFO] Starting epoch 2
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 10%|████                                     | 2/20 [56:04<8:21:46, 1672.58s/it]Configuration saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_2/config.json
+Model weights saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_2/pytorch_model.bin
+Several commits (2) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (2) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   9f4af7a..bd03b1b  legendary-eon-1 -> legendary-eon-1 99%|▉| 1.74G/1.75G [00:49
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/labse_finetuned_twitter_all_labels
+   9f4af7a..bd03b1b  legendary-eon-1 -> legendary-eon-1
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/labse/per_label_metrics.json
+[epoch 2] train/loss: 0.9686 | eval/loss: 0.6610 | roc_auc_micro: 0.6442 | roc_auc_weighted: 0.5671 | precision_micro: 0.3868 | precision_weighted: 0.4541 | recall_micro: 0.2713 | recall_weighted: 0.2713 | f1_micro: 0.3189 | f1_weighted: 0.3229 | elapsed_time: 5211.40s
+[INFO] Starting epoch 3
+Upload file legendary-eon-1/epoch_2/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:51
+ 15%|█████▊                                 | 3/20 [1:28:15<8:27:19, 1790.56s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+[INFO] Processed eval batch 256/256
+[epoch 3] train/loss: 0.9416 | eval/loss: 0.6604 | roc_auc_micro: 0.6300 | roc_auc_weighted: 0.6092 | precision_micro: 0.3870 | precision_weighted: 0.4349 | recall_micro: 0.5418 | recall_weighted: 0.5418 | f1_micro: 0.4515 | f1_weighted: 0.4615 | elapsed_time: 7159.70s
+
+ 20%|███████▊                               | 4/20 [1:59:27<8:06:04, 1822.80s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 25%|█████████▊                             | 5/20 [2:30:39<7:40:08, 1840.55s/it]
+[epoch 4] train/loss: 0.9373 | eval/loss: 0.6578 | roc_auc_micro: 0.6434 | roc_auc_weighted: 0.6268 | precision_micro: 0.3951 | precision_weighted: 0.4415 | recall_micro: 0.5760 | recall_weighted: 0.5760 | f1_micro: 0.4687 | f1_weighted: 0.4824 | elapsed_time: 9029.33s
+[INFO] Starting epoch 5
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 25%|█████████▊                             | 5/20 [2:30:39<7:40:08, 1840.55s/it]Configuration saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_5/config.json
+Model weights saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_5/pytorch_model.bin
+Several commits (3) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (3) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   bd03b1b..64b7521  legendary-eon-1 -> legendary-eon-1 99%|▉| 1.73G/1.75G [00:47
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/labse_finetuned_twitter_all_labels
+   bd03b1b..64b7521  legendary-eon-1 -> legendary-eon-1
+Upload file legendary-eon-1/epoch_5/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:48
+ 30%|███████████▋                           | 6/20 [3:02:33<7:15:18, 1865.64s/it]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/labse/per_label_metrics.json
+[epoch 5] train/loss: 0.8924 | eval/loss: 0.6487 | roc_auc_micro: 0.6562 | roc_auc_weighted: 0.6388 | precision_micro: 0.4027 | precision_weighted: 0.4524 | recall_micro: 0.5540 | recall_weighted: 0.5540 | f1_micro: 0.4664 | f1_weighted: 0.4822 | elapsed_time: 10853.95s
+[INFO] Starting epoch 6
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 30%|███████████▋                           | 6/20 [3:02:33<7:15:18, 1865.64s/it]Configuration saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_6/config.json
+Model weights saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_6/pytorch_model.bin
+Several commits (4) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (4) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   64b7521..9452c7a  legendary-eon-1 -> legendary-eon-11.76GB [00:49, 43.8MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/labse_finetuned_twitter_all_labels
+   64b7521..9452c7a  legendary-eon-1 -> legendary-eon-1
+Upload file legendary-eon-1/epoch_6/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:50
+Upload file legendary-eon-1/epoch_6/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:50
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/labse/per_label_metrics.json
+[epoch 6] train/loss: 0.9285 | eval/loss: 0.6442 | roc_auc_micro: 0.6618 | roc_auc_weighted: 0.6472 | precision_micro: 0.4094 | precision_weighted: 0.4603 | recall_micro: 0.5463 | recall_weighted: 0.5463 | f1_micro: 0.4680 | f1_weighted: 0.4831 | elapsed_time: 12796.64s
+
+ 35%|█████████████▋                         | 7/20 [3:34:38<6:48:24, 1884.93s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 35%|█████████████▋                         | 7/20 [3:34:38<6:48:24, 1884.93s/it]Configuration saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_7/config.json
+Model weights saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_7/pytorch_model.bin
+Several commits (5) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (5) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   9452c7a..83f76d3  legendary-eon-1 -> legendary-eon-1 99%|▉| 1.73G/1.75G [00:45
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/labse_finetuned_twitter_all_labels
+   9452c7a..83f76d3  legendary-eon-1 -> legendary-eon-1
+Upload file legendary-eon-1/epoch_7/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:46
+Upload file legendary-eon-1/epoch_7/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:46
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/labse/per_label_metrics.json
+[epoch 7] train/loss: 0.8806 | eval/loss: 0.6364 | roc_auc_micro: 0.6641 | roc_auc_weighted: 0.6525 | precision_micro: 0.4129 | precision_weighted: 0.4639 | recall_micro: 0.5548 | recall_weighted: 0.5548 | f1_micro: 0.4734 | f1_weighted: 0.4870 | elapsed_time: 14713.20s
+
+ 40%|███████████████▌                       | 8/20 [4:06:35<6:19:00, 1895.04s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 40%|███████████████▌                       | 8/20 [4:06:35<6:19:00, 1895.04s/it]Configuration saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_8/config.json
+Model weights saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_8/pytorch_model.bin
+Several commits (6) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (6) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   83f76d3..96654fa  legendary-eon-1 -> legendary-eon-11.76GB [00:46, 45.1MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/labse_finetuned_twitter_all_labels
+   83f76d3..96654fa  legendary-eon-1 -> legendary-eon-1
+Upload file legendary-eon-1/epoch_8/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:47
+Upload file legendary-eon-1/epoch_8/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:47
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/labse/per_label_metrics.json
+[epoch 8] train/loss: 0.8969 | eval/loss: 0.6331 | roc_auc_micro: 0.6700 | roc_auc_weighted: 0.6575 | precision_micro: 0.4165 | precision_weighted: 0.4707 | recall_micro: 0.5359 | recall_weighted: 0.5359 | f1_micro: 0.4687 | f1_weighted: 0.4841 | elapsed_time: 16610.94s
+
+ 45%|█████████████████▌                     | 9/20 [4:38:21<5:48:03, 1898.49s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 45%|█████████████████▌                     | 9/20 [4:38:21<5:48:03, 1898.49s/it]Configuration saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_9/config.json
+Model weights saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_9/pytorch_model.bin
+Several commits (7) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (7) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   96654fa..9df108f  legendary-eon-1 -> legendary-eon-1 99%|▉| 1.74G/1.75G [00:45
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/labse_finetuned_twitter_all_labels
+   96654fa..9df108f  legendary-eon-1 -> legendary-eon-1
+Upload file legendary-eon-1/epoch_9/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:46
+ 50%|███████████████████                   | 10/20 [5:09:48<5:15:50, 1895.00s/it]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/labse/per_label_metrics.json
+[epoch 9] train/loss: 0.8909 | eval/loss: 0.6356 | roc_auc_micro: 0.6714 | roc_auc_weighted: 0.6614 | precision_micro: 0.4132 | precision_weighted: 0.4675 | recall_micro: 0.5580 | recall_weighted: 0.5580 | f1_micro: 0.4748 | f1_weighted: 0.4931 | elapsed_time: 18510.47s
+[INFO] Starting epoch 10
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 50%|███████████████████                   | 10/20 [5:09:48<5:15:50, 1895.00s/it]Configuration saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_10/config.json
+Model weights saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_10/pytorch_model.bin
+Several commits (8) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (8) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   9df108f..1792996  legendary-eon-1 -> legendary-eon-1  99%|▉| 1.73G/1.75G [00:4
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/labse_finetuned_twitter_all_labels
+   9df108f..1792996  legendary-eon-1 -> legendary-eon-1
+Upload file legendary-eon-1/epoch_10/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:5
+Upload file legendary-eon-1/epoch_10/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:5
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/labse/per_label_metrics.json
+[epoch 10] train/loss: 0.8649 | eval/loss: 0.6223 | roc_auc_micro: 0.6824 | roc_auc_weighted: 0.6640 | precision_micro: 0.4266 | precision_weighted: 0.4741 | recall_micro: 0.5467 | recall_weighted: 0.5467 | f1_micro: 0.4793 | f1_weighted: 0.4933 | elapsed_time: 20419.31s
+
+ 55%|████████████████████▉                 | 11/20 [5:41:49<4:45:27, 1903.05s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+[INFO] Processed eval batch 256/256
+[epoch 11] train/loss: 0.8927 | eval/loss: 0.6330 | roc_auc_micro: 0.6775 | roc_auc_weighted: 0.6671 | precision_micro: 0.4116 | precision_weighted: 0.4645 | recall_micro: 0.5959 | recall_weighted: 0.5959 | f1_micro: 0.4869 | f1_weighted: 0.5049 | elapsed_time: 22301.96s
+
+ 60%|██████████████████████▊               | 12/20 [6:11:46<4:09:24, 1870.58s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+[INFO] Processed eval batch 256/256
+[epoch 12] train/loss: 0.8601 | eval/loss: 0.6342 | roc_auc_micro: 0.6773 | roc_auc_weighted: 0.6695 | precision_micro: 0.4126 | precision_weighted: 0.4695 | recall_micro: 0.5794 | recall_weighted: 0.5794 | f1_micro: 0.4820 | f1_weighted: 0.5004 | elapsed_time: 24048.72s
+
+ 65%|████████████████████████▋             | 13/20 [6:41:09<3:34:26, 1838.08s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+[INFO] Processed eval batch 256/256
+[epoch 13] train/loss: 0.8598 | eval/loss: 0.6334 | roc_auc_micro: 0.6767 | roc_auc_weighted: 0.6706 | precision_micro: 0.4133 | precision_weighted: 0.4717 | recall_micro: 0.5730 | recall_weighted: 0.5730 | f1_micro: 0.4802 | f1_weighted: 0.4983 | elapsed_time: 25903.46s
+
+ 70%|██████████████████████████▌           | 14/20 [7:11:49<3:03:51, 1838.63s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 70%|██████████████████████████▌           | 14/20 [7:11:49<3:03:51, 1838.63s/it]Configuration saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_14/config.json
+Model weights saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_14/pytorch_model.bin
+Several commits (9) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (9) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   1792996..9f653f5  legendary-eon-1 -> legendary-eon-1  99%|▉| 1.74G/1.75G [00:5
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/labse_finetuned_twitter_all_labels
+   1792996..9f653f5  legendary-eon-1 -> legendary-eon-1
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/labse/per_label_metrics.json
+[epoch 14] train/loss: 0.8358 | eval/loss: 0.6256 | roc_auc_micro: 0.6835 | roc_auc_weighted: 0.6722 | precision_micro: 0.4183 | precision_weighted: 0.4720 | recall_micro: 0.5765 | recall_weighted: 0.5765 | f1_micro: 0.4848 | f1_weighted: 0.5021 | elapsed_time: 27723.16s
+[INFO] Starting epoch 15
+Upload file legendary-eon-1/epoch_14/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:5
+ 75%|████████████████████████████▌         | 15/20 [7:43:31<2:34:49, 1857.96s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 75%|████████████████████████████▌         | 15/20 [7:43:31<2:34:49, 1857.96s/it]Configuration saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_15/config.json
+Model weights saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_15/pytorch_model.bin
+Several commits (10) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (10) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   9f653f5..08763ed  legendary-eon-1 -> legendary-eon-1  99%|▉| 1.74G/1.75G [00:4
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/labse_finetuned_twitter_all_labels
+   9f653f5..08763ed  legendary-eon-1 -> legendary-eon-1
+Upload file legendary-eon-1/epoch_15/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:4
+Upload file legendary-eon-1/epoch_15/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:4
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/labse/per_label_metrics.json
+[epoch 15] train/loss: 0.8527 | eval/loss: 0.6169 | roc_auc_micro: 0.6888 | roc_auc_weighted: 0.6735 | precision_micro: 0.4273 | precision_weighted: 0.4794 | recall_micro: 0.5552 | recall_weighted: 0.5552 | f1_micro: 0.4829 | f1_weighted: 0.4979 | elapsed_time: 29620.61s
+
+ 80%|██████████████████████████████▍       | 16/20 [8:15:15<2:04:46, 1871.63s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 85%|████████████████████████████████▎     | 17/20 [8:45:45<1:32:57, 1859.03s/it]
+[epoch 16] train/loss: 0.8469 | eval/loss: 0.6282 | roc_auc_micro: 0.6820 | roc_auc_weighted: 0.6749 | precision_micro: 0.4144 | precision_weighted: 0.4724 | recall_micro: 0.5819 | recall_weighted: 0.5819 | f1_micro: 0.4841 | f1_weighted: 0.5033 | elapsed_time: 31545.09s
+[INFO] Starting epoch 17
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+[INFO] Processed eval batch 256/256
+[epoch 17] train/loss: 0.8659 | eval/loss: 0.6184 | roc_auc_micro: 0.6853 | roc_auc_weighted: 0.6747 | precision_micro: 0.4222 | precision_weighted: 0.4772 | recall_micro: 0.5634 | recall_weighted: 0.5634 | f1_micro: 0.4827 | f1_weighted: 0.4991 | elapsed_time: 33361.98s
+
+ 90%|██████████████████████████████████▏   | 18/20 [9:16:04<1:01:34, 1847.00s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 95%|██████████████████████████████████████  | 19/20 [9:46:22<30:38, 1838.26s/it]
+[epoch 18] train/loss: 0.8635 | eval/loss: 0.6349 | roc_auc_micro: 0.6816 | roc_auc_weighted: 0.6754 | precision_micro: 0.4088 | precision_weighted: 0.4679 | recall_micro: 0.6037 | recall_weighted: 0.6037 | f1_micro: 0.4875 | f1_weighted: 0.5077 | elapsed_time: 35167.26s
+[INFO] Starting epoch 19
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 95%|██████████████████████████████████████  | 19/20 [9:46:22<30:38, 1838.26s/it]Configuration saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_19/config.json
+Model weights saved in /data4/mmendieta/models/labse_finetuned_twitter_all_labels/legendary-eon-1/epoch_19/pytorch_model.bin
+Several commits (11) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (11) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   08763ed..04b13b4  legendary-eon-1 -> legendary-eon-1  99%|▉| 1.73G/1.75G [00:5
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/labse_finetuned_twitter_all_labels
+   08763ed..04b13b4  legendary-eon-1 -> legendary-eon-1
+Upload file legendary-eon-1/epoch_19/pytorch_model.bin: 100%|█| 1.75G/1.75G [00:5
+100%|███████████████████████████████████████| 20/20 [10:18:05<00:00, 1857.97s/it]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/labse/per_label_metrics.json
+[epoch 19] train/loss: 0.8270 | eval/loss: 0.6241 | roc_auc_micro: 0.6893 | roc_auc_weighted: 0.6759 | precision_micro: 0.4185 | precision_weighted: 0.4718 | recall_micro: 0.5893 | recall_weighted: 0.5893 | f1_micro: 0.4894 | f1_weighted: 0.5082 | elapsed_time: 36977.22s

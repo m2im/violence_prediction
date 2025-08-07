@@ -1,0 +1,1292 @@
+Revision `fanciful-sunset-7` does not exist. Created and checked out branch `fanciful-sunset-7`.
+Didn't find file /data3/mmendieta/models/ml_e5_large/added_tokens.json. We won't load it.
+loading file /data3/mmendieta/models/ml_e5_large/sentencepiece.bpe.model
+loading file /data3/mmendieta/models/ml_e5_large/tokenizer.json
+loading file None
+loading file /data3/mmendieta/models/ml_e5_large/special_tokens_map.json
+loading file /data3/mmendieta/models/ml_e5_large/tokenizer_config.json
+loading configuration file /data3/mmendieta/models/ml_e5_large/config.json
+Model config XLMRobertaConfig {
+  "_name_or_path": "/data3/mmendieta/models/ml_e5_large/",
+  "architectures": [
+    "XLMRobertaModel"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "id2label": {
+    "0": "post1geo10",
+    "1": "post1geo20",
+    "2": "post1geo30",
+    "3": "post1geo50",
+    "4": "post1geo70",
+    "5": "post2geo10",
+    "6": "post2geo20",
+    "7": "post2geo30",
+    "8": "post2geo50",
+    "9": "post2geo70",
+    "10": "post3geo10",
+    "11": "post3geo20",
+    "12": "post3geo30",
+    "13": "post3geo50",
+    "14": "post3geo70",
+    "15": "post7geo10",
+    "16": "post7geo20",
+    "17": "post7geo30",
+    "18": "post7geo50",
+    "19": "post7geo70",
+    "20": "pre1geo10",
+    "21": "pre1geo20",
+    "22": "pre1geo30",
+    "23": "pre1geo50",
+    "24": "pre1geo70",
+    "25": "pre2geo10",
+    "26": "pre2geo20",
+    "27": "pre2geo30",
+    "28": "pre2geo50",
+    "29": "pre2geo70",
+    "30": "pre3geo10",
+    "31": "pre3geo20",
+    "32": "pre3geo30",
+    "33": "pre3geo50",
+    "34": "pre3geo70",
+    "35": "pre7geo10",
+    "36": "pre7geo20",
+    "37": "pre7geo30",
+    "38": "pre7geo50",
+    "39": "pre7geo70"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "label2id": {
+    "post1geo10": 0,
+    "post1geo20": 1,
+    "post1geo30": 2,
+    "post1geo50": 3,
+    "post1geo70": 4,
+    "post2geo10": 5,
+    "post2geo20": 6,
+    "post2geo30": 7,
+    "post2geo50": 8,
+    "post2geo70": 9,
+    "post3geo10": 10,
+    "post3geo20": 11,
+    "post3geo30": 12,
+    "post3geo50": 13,
+    "post3geo70": 14,
+    "post7geo10": 15,
+    "post7geo20": 16,
+    "post7geo30": 17,
+    "post7geo50": 18,
+    "post7geo70": 19,
+    "pre1geo10": 20,
+    "pre1geo20": 21,
+    "pre1geo30": 22,
+    "pre1geo50": 23,
+    "pre1geo70": 24,
+    "pre2geo10": 25,
+    "pre2geo20": 26,
+    "pre2geo30": 27,
+    "pre2geo50": 28,
+    "pre2geo70": 29,
+    "pre3geo10": 30,
+    "pre3geo20": 31,
+    "pre3geo30": 32,
+    "pre3geo50": 33,
+    "pre3geo70": 34,
+    "pre7geo10": 35,
+    "pre7geo20": 36,
+    "pre7geo30": 37,
+    "pre7geo50": 38,
+    "pre7geo70": 39
+  },
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "xlm-roberta",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "output_past": true,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "problem_type": "multi_label_classification",
+  "torch_dtype": "float32",
+  "transformers_version": "4.19.0",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 250002
+}
+loading weights file /data3/mmendieta/models/ml_e5_large/pytorch_model.bin
+[INFO] loading the tokenizer and the model ...
+Some weights of the model checkpoint at /data3/mmendieta/models/ml_e5_large/ were not used when initializing XLMRobertaForSequenceClassification: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing XLMRobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing XLMRobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of XLMRobertaForSequenceClassification were not initialized from the model checkpoint at /data3/mmendieta/models/ml_e5_large/ and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.out_proj.weight', 'classifier.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+fine_tune_mllm_script_all_labels_accelerate.py:144: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  label_tensor = torch.tensor(tokenized_ds["train"]["labels"])
+655080
+/home/mmendieta/transformers/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+[INFO] training starts...
+[INFO] Starting epoch 0
+  0%|                                                    | 0/20 [00:00<?, ?it/s]
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+  0%|                                                    | 0/20 [00:00<?, ?it/s]Configuration saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_0/config.json
+Model weights saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_0/pytorch_model.bin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * [new branch]      fanciful-sunset-7 -> fanciful-sunset-709GB [02:09, 22.2MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/ml-e5-large_finetuned_violence_twitter_all_labels
+ * [new branch]      fanciful-sunset-7 -> fanciful-sunset-7
+Upload file fanciful-sunset-7/epoch_0/pytorch_model.bin: 100%|█| 2.09G/2.09G [02
+Upload file fanciful-sunset-7/epoch_0/pytorch_model.bin: 100%|█| 2.09G/2.09G [02
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/ml_e5/per_label_metrics.json
+[epoch 0] train/loss: 0.9330 | eval/loss: 0.6340 | roc_auc_micro: 0.6716 | roc_auc_weighted: 0.6583 | precision_micro: 0.4176 | precision_weighted: 0.4697 | recall_micro: 0.5440 | recall_weighted: 0.5440 | f1_micro: 0.4724 | f1_weighted: 0.4878 | elapsed_time: 2831.90s
+
+  5%|█▉                                     | 1/20 [50:10<15:53:28, 3010.95s/it]
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+  5%|█▉                                     | 1/20 [50:10<15:53:28, 3010.95s/it]Configuration saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_1/config.json
+Model weights saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_1/pytorch_model.bin
+Several commits (2) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (2) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   29be272..a5ef7e6  fanciful-sunset-7 -> fanciful-sunset-709GB [02:08, 16.1MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/ml-e5-large_finetuned_violence_twitter_all_labels
+   29be272..a5ef7e6  fanciful-sunset-7 -> fanciful-sunset-7
+Upload file fanciful-sunset-7/epoch_1/pytorch_model.bin: 100%|█| 2.09G/2.09G [02
+ 10%|███▋                                 | 2/20 [1:40:19<15:02:55, 3009.78s/it]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/ml_e5/per_label_metrics.json
+[epoch 1] train/loss: 0.8695 | eval/loss: 0.6254 | roc_auc_micro: 0.6855 | roc_auc_weighted: 0.6714 | precision_micro: 0.4239 | precision_weighted: 0.4753 | recall_micro: 0.5686 | recall_weighted: 0.5686 | f1_micro: 0.4857 | f1_weighted: 0.5012 | elapsed_time: 5842.25s
+[INFO] Starting epoch 2
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+ 10%|███▋                                 | 2/20 [1:40:19<15:02:55, 3009.78s/it]Configuration saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_2/config.json
+Model weights saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_2/pytorch_model.bin
+Several commits (3) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (3) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Upload file fanciful-sunset-7/epoch_2/pytorch_model.bin: 2.09GB [02:18, 15.7MB/s]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/ml_e5/per_label_metrics.json
+[epoch 2] train/loss: 0.8322 | eval/loss: 0.6164 | roc_auc_micro: 0.6946 | roc_auc_weighted: 0.6786 | precision_micro: 0.4332 | precision_weighted: 0.4841 | recall_micro: 0.5554 | recall_weighted: 0.5554 | f1_micro: 0.4867 | f1_weighted: 0.5016 | elapsed_time: 8845.06s
+   a5ef7e6..e97da25  fanciful-sunset-7 -> fanciful-sunset-709GB [02:18, 15.7MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/ml-e5-large_finetuned_violence_twitter_all_labels
+   a5ef7e6..e97da25  fanciful-sunset-7 -> fanciful-sunset-7
+Upload file fanciful-sunset-7/epoch_2/pytorch_model.bin: 100%|█| 2.09G/2.09G [02
+ 15%|█████▌                               | 3/20 [2:30:35<14:13:29, 3012.34s/it]
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+ 20%|███████▍                             | 4/20 [3:18:12<13:07:00, 2951.26s/it]
+[epoch 3] train/loss: 0.8605 | eval/loss: 0.6169 | roc_auc_micro: 0.6942 | roc_auc_weighted: 0.6835 | precision_micro: 0.4271 | precision_weighted: 0.4814 | recall_micro: 0.5804 | recall_weighted: 0.5804 | f1_micro: 0.4921 | f1_weighted: 0.5086 | elapsed_time: 11880.67s
+[INFO] Starting epoch 4
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+ 20%|███████▍                             | 4/20 [3:18:12<13:07:00, 2951.26s/it]Configuration saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_4/config.json
+Model weights saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_4/pytorch_model.bin
+Several commits (4) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (4) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   e97da25..3bb7125  fanciful-sunset-7 -> fanciful-sunset-709GB [02:11, 17.6MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/ml-e5-large_finetuned_violence_twitter_all_labels
+   e97da25..3bb7125  fanciful-sunset-7 -> fanciful-sunset-7
+Upload file fanciful-sunset-7/epoch_4/pytorch_model.bin: 100%|█| 2.09G/2.09G [02
+Upload file fanciful-sunset-7/epoch_4/pytorch_model.bin: 100%|█| 2.09G/2.09G [02
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/ml_e5/per_label_metrics.json
+[epoch 4] train/loss: 0.8247 | eval/loss: 0.6219 | roc_auc_micro: 0.6993 | roc_auc_weighted: 0.6867 | precision_micro: 0.4253 | precision_weighted: 0.4770 | recall_micro: 0.6077 | recall_weighted: 0.6077 | f1_micro: 0.5004 | f1_weighted: 0.5180 | elapsed_time: 14740.07s
+
+ 25%|█████████▎                           | 5/20 [4:09:19<12:28:12, 2992.86s/it]
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+ 25%|█████████▎                           | 5/20 [4:09:19<12:28:12, 2992.86s/it]Configuration saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_5/config.json
+Model weights saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_5/pytorch_model.bin
+Several commits (5) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (5) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   3bb7125..10c6f93  fanciful-sunset-7 -> fanciful-sunset-709GB [02:11, 19.0MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/ml-e5-large_finetuned_violence_twitter_all_labels
+   3bb7125..10c6f93  fanciful-sunset-7 -> fanciful-sunset-7
+Upload file fanciful-sunset-7/epoch_5/pytorch_model.bin: 100%|█| 2.09G/2.09G [02
+ 30%|███████████                          | 6/20 [4:59:58<11:41:59, 3008.52s/it]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/ml_e5/per_label_metrics.json
+[epoch 5] train/loss: 0.8458 | eval/loss: 0.6085 | roc_auc_micro: 0.7013 | roc_auc_weighted: 0.6868 | precision_micro: 0.4329 | precision_weighted: 0.4845 | recall_micro: 0.5778 | recall_weighted: 0.5778 | f1_micro: 0.4950 | f1_weighted: 0.5114 | elapsed_time: 17793.83s
+[INFO] Starting epoch 6
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+ 30%|███████████                          | 6/20 [4:59:58<11:41:59, 3008.52s/it]Configuration saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_6/config.json
+Model weights saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_6/pytorch_model.bin
+Several commits (6) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (6) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   10c6f93..714c0ab  fanciful-sunset-7 -> fanciful-sunset-709GB [02:13, 16.8MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/ml-e5-large_finetuned_violence_twitter_all_labels
+   10c6f93..714c0ab  fanciful-sunset-7 -> fanciful-sunset-7
+Upload file fanciful-sunset-7/epoch_6/pytorch_model.bin: 100%|█| 2.09G/2.09G [02
+Upload file fanciful-sunset-7/epoch_6/pytorch_model.bin: 100%|█| 2.09G/2.09G [02
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/ml_e5/per_label_metrics.json
+[epoch 6] train/loss: 0.7902 | eval/loss: 0.6138 | roc_auc_micro: 0.7017 | roc_auc_weighted: 0.6891 | precision_micro: 0.4290 | precision_weighted: 0.4822 | recall_micro: 0.5939 | recall_weighted: 0.5939 | f1_micro: 0.4982 | f1_weighted: 0.5158 | elapsed_time: 20846.41s
+
+ 35%|████████████▉                        | 7/20 [5:50:31<10:53:34, 3016.47s/it]
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+ 40%|███████████████▏                      | 8/20 [6:37:58<9:52:29, 2962.45s/it]
+[epoch 7] train/loss: 0.8391 | eval/loss: 0.6154 | roc_auc_micro: 0.6989 | roc_auc_weighted: 0.6890 | precision_micro: 0.4237 | precision_weighted: 0.4808 | recall_micro: 0.5949 | recall_weighted: 0.5949 | f1_micro: 0.4949 | f1_weighted: 0.5143 | elapsed_time: 23856.06s
+[INFO] Starting epoch 8
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+ 40%|███████████████▏                      | 8/20 [6:37:58<9:52:29, 2962.45s/it]Configuration saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_8/config.json
+Model weights saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_8/pytorch_model.bin
+Several commits (7) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (7) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   714c0ab..665a245  fanciful-sunset-7 -> fanciful-sunset-709GB [02:14, 16.5MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/ml-e5-large_finetuned_violence_twitter_all_labels
+   714c0ab..665a245  fanciful-sunset-7 -> fanciful-sunset-7
+Upload file fanciful-sunset-7/epoch_8/pytorch_model.bin: 100%|█| 2.09G/2.09G [02
+ 45%|█████████████████                     | 9/20 [7:28:11<9:06:03, 2978.48s/it]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/ml_e5/per_label_metrics.json
+[epoch 8] train/loss: 0.7941 | eval/loss: 0.6081 | roc_auc_micro: 0.7082 | roc_auc_weighted: 0.6889 | precision_micro: 0.4417 | precision_weighted: 0.4903 | recall_micro: 0.5668 | recall_weighted: 0.5668 | f1_micro: 0.4965 | f1_weighted: 0.5119 | elapsed_time: 26702.74s
+[INFO] Starting epoch 9
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+ 50%|██████████████████▌                  | 10/20 [8:15:46<8:10:03, 2940.32s/it]
+[epoch 9] train/loss: 0.8032 | eval/loss: 0.6135 | roc_auc_micro: 0.7059 | roc_auc_weighted: 0.6891 | precision_micro: 0.4351 | precision_weighted: 0.4877 | recall_micro: 0.5724 | recall_weighted: 0.5724 | f1_micro: 0.4944 | f1_weighted: 0.5118 | elapsed_time: 29725.07s
+[INFO] Starting epoch 10
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+ 55%|████████████████████▎                | 11/20 [9:04:12<7:19:28, 2929.82s/it]
+[epoch 10] train/loss: 0.7272 | eval/loss: 0.6092 | roc_auc_micro: 0.7064 | roc_auc_weighted: 0.6889 | precision_micro: 0.4380 | precision_weighted: 0.4919 | recall_micro: 0.5569 | recall_weighted: 0.5569 | f1_micro: 0.4904 | f1_weighted: 0.5068 | elapsed_time: 32638.32s
+[INFO] Starting epoch 11
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+ 55%|████████████████████▎                | 11/20 [9:04:12<7:19:28, 2929.82s/it]Configuration saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_11/config.json
+Model weights saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_11/pytorch_model.bin
+Several commits (8) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (8) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   665a245..c208425  fanciful-sunset-7 -> fanciful-sunset-7.09GB [02:17, 16.4MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/ml-e5-large_finetuned_violence_twitter_all_labels
+   665a245..c208425  fanciful-sunset-7 -> fanciful-sunset-7
+Upload file fanciful-sunset-7/epoch_11/pytorch_model.bin: 100%|█| 2.09G/2.09G [0
+ 60%|██████████████████████▏              | 12/20 [9:54:15<6:33:36, 2952.11s/it]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/ml_e5/per_label_metrics.json
+[epoch 11] train/loss: 0.7400 | eval/loss: 0.6176 | roc_auc_micro: 0.7097 | roc_auc_weighted: 0.6883 | precision_micro: 0.4394 | precision_weighted: 0.4887 | recall_micro: 0.5662 | recall_weighted: 0.5662 | f1_micro: 0.4948 | f1_weighted: 0.5114 | elapsed_time: 35461.22s
+[INFO] Starting epoch 12
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+ 65%|███████████████████████▍            | 13/20 [10:43:05<5:43:37, 2945.34s/it]
+[epoch 12] train/loss: 0.7553 | eval/loss: 0.6167 | roc_auc_micro: 0.7083 | roc_auc_weighted: 0.6880 | precision_micro: 0.4390 | precision_weighted: 0.4908 | recall_micro: 0.5535 | recall_weighted: 0.5535 | f1_micro: 0.4896 | f1_weighted: 0.5064 | elapsed_time: 38565.20s
+[INFO] Starting epoch 13
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+[INFO] Processed eval batch 512/512
+[epoch 13] train/loss: 0.6949 | eval/loss: 0.6205 | roc_auc_micro: 0.7096 | roc_auc_weighted: 0.6874 | precision_micro: 0.4375 | precision_weighted: 0.4858 | recall_micro: 0.5724 | recall_weighted: 0.5724 | f1_micro: 0.4960 | f1_weighted: 0.5128 | elapsed_time: 41455.58s
+
+ 70%|█████████████████████████▏          | 14/20 [11:31:21<4:53:02, 2930.44s/it]
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+[INFO] Processed eval batch 512/512
+[epoch 14] train/loss: 0.6963 | eval/loss: 0.6201 | roc_auc_micro: 0.7078 | roc_auc_weighted: 0.6860 | precision_micro: 0.4372 | precision_weighted: 0.4884 | recall_micro: 0.5553 | recall_weighted: 0.5553 | f1_micro: 0.4892 | f1_weighted: 0.5061 | elapsed_time: 44374.88s
+
+ 75%|███████████████████████████         | 15/20 [12:19:45<4:03:32, 2922.57s/it]
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+ 75%|███████████████████████████         | 15/20 [12:19:45<4:03:32, 2922.57s/it]Configuration saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_15/config.json
+Model weights saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_15/pytorch_model.bin
+Several commits (9) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (9) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   c208425..3d438bb  fanciful-sunset-7 -> fanciful-sunset-7.09GB [02:12, 18.3MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/ml-e5-large_finetuned_violence_twitter_all_labels
+   c208425..3d438bb  fanciful-sunset-7 -> fanciful-sunset-7
+Upload file fanciful-sunset-7/epoch_15/pytorch_model.bin: 100%|█| 2.09G/2.09G [0
+Upload file fanciful-sunset-7/epoch_15/pytorch_model.bin: 100%|█| 2.09G/2.09G [0
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/ml_e5/per_label_metrics.json
+[epoch 15] train/loss: 0.6825 | eval/loss: 0.6207 | roc_auc_micro: 0.7100 | roc_auc_weighted: 0.6860 | precision_micro: 0.4439 | precision_weighted: 0.4942 | recall_micro: 0.5357 | recall_weighted: 0.5357 | f1_micro: 0.4855 | f1_weighted: 0.5012 | elapsed_time: 47231.68s
+
+ 80%|████████████████████████████▊       | 16/20 [13:10:11<3:16:54, 2953.56s/it]
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+ 85%|██████████████████████████████▌     | 17/20 [13:57:36<2:26:02, 2920.92s/it]
+[epoch 16] train/loss: 0.7389 | eval/loss: 0.6412 | roc_auc_micro: 0.7068 | roc_auc_weighted: 0.6857 | precision_micro: 0.4339 | precision_weighted: 0.4859 | recall_micro: 0.5646 | recall_weighted: 0.5646 | f1_micro: 0.4907 | f1_weighted: 0.5088 | elapsed_time: 50248.45s
+[INFO] Starting epoch 17
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+ 85%|██████████████████████████████▌     | 17/20 [13:57:36<2:26:02, 2920.92s/it]Configuration saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_17/config.json
+Model weights saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_17/pytorch_model.bin
+Several commits (10) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (10) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   3d438bb..60b850d  fanciful-sunset-7 -> fanciful-sunset-799%|▉| 2.07G/2.09G [0
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/ml-e5-large_finetuned_violence_twitter_all_labels
+   3d438bb..60b850d  fanciful-sunset-7 -> fanciful-sunset-7
+Upload file fanciful-sunset-7/epoch_17/pytorch_model.bin: 100%|█| 2.09G/2.09G [0
+ 90%|████████████████████████████████▍   | 18/20 [14:47:53<1:38:19, 2949.88s/it]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/ml_e5/per_label_metrics.json
+[epoch 17] train/loss: 0.7044 | eval/loss: 0.6369 | roc_auc_micro: 0.7104 | roc_auc_weighted: 0.6860 | precision_micro: 0.4400 | precision_weighted: 0.4886 | recall_micro: 0.5579 | recall_weighted: 0.5579 | f1_micro: 0.4920 | f1_weighted: 0.5088 | elapsed_time: 53097.31s
+[INFO] Starting epoch 18
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+ 90%|████████████████████████████████▍   | 18/20 [14:47:53<1:38:19, 2949.88s/it]Configuration saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_18/config.json
+Model weights saved in /data4/mmendieta/models/ml-e5-large_finetuned_twitter_all_labels/fanciful-sunset-7/epoch_18/pytorch_model.bin
+Several commits (11) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (11) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   60b850d..428e979  fanciful-sunset-7 -> fanciful-sunset-7.09GB [02:10, 23.5MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/ml-e5-large_finetuned_violence_twitter_all_labels
+   60b850d..428e979  fanciful-sunset-7 -> fanciful-sunset-7
+Upload file fanciful-sunset-7/epoch_18/pytorch_model.bin: 100%|█| 2.09G/2.09G [0
+ 95%|████████████████████████████████████  | 19/20 [15:38:40<49:39, 2979.11s/it]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/ml_e5/per_label_metrics.json
+[epoch 18] train/loss: 0.6743 | eval/loss: 0.6304 | roc_auc_micro: 0.7127 | roc_auc_weighted: 0.6857 | precision_micro: 0.4488 | precision_weighted: 0.4963 | recall_micro: 0.5308 | recall_weighted: 0.5308 | f1_micro: 0.4864 | f1_weighted: 0.5016 | elapsed_time: 56144.07s
+[INFO] Starting epoch 19
+[DEBUG] - Processing step 1/2048 on device cuda:0
+[DEBUG] - Processing step 1001/2048 on device cuda:0
+[DEBUG] - Processing step 2001/2048 on device cuda:0
+[DEBUG] - Processing step 2048/2048 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 512
+[INFO] Processed eval batch 1/512
+[INFO] Processed eval batch 101/512
+[INFO] Processed eval batch 201/512
+[INFO] Processed eval batch 301/512
+[INFO] Processed eval batch 401/512
+[INFO] Processed eval batch 501/512
+
+100%|██████████████████████████████████████| 20/20 [16:26:16<00:00, 2942.09s/it]
+[epoch 19] train/loss: 0.6989 | eval/loss: 0.6408 | roc_auc_micro: 0.7108 | roc_auc_weighted: 0.6851 | precision_micro: 0.4401 | precision_weighted: 0.4870 | recall_micro: 0.5586 | recall_weighted: 0.5586 | f1_micro: 0.4923 | f1_weighted: 0.5090 | elapsed_time: 59165.16s

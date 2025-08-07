@@ -1,0 +1,979 @@
+
+[INFO] loading the tokenizer and the model ...
+Revision `polished-oath-32` does not exist. Created and checked out branch `polished-oath-32`.
+Could not locate the tokenizer configuration file, will try to use the model config instead.
+loading configuration file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/config.json from cache at /home/mmendieta/.cache/huggingface/transformers/a6b90a261219601cbdef14759cac8d96efe5cca8d364560ac79d3c2acbabd35c.f4d0ffccbbe43c94133958daf6651c5bf05e8ec5de8efd46ddab90dd67b50fb2
+Model config XLMRobertaConfig {
+  "_name_or_path": "cardiffnlp/twitter-xlm-roberta-base",
+  "architectures": [
+    "XLMRobertaForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "xlm-roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.19.0",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 250002
+}
+loading file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/sentencepiece.bpe.model from cache at /home/mmendieta/.cache/huggingface/transformers/6e74f475a3ac17548fcd7f24a1116652919ba2225b290de8ef3e7d4ad36393fb.71e50b08dbe7e5375398e165096cacc3d2086119d6a449364490da6908de655e
+loading file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/tokenizer.json from cache at /home/mmendieta/.cache/huggingface/transformers/c949b67b285c79e2b38b50fb89ca8d00428266f364d9fe0c10721a0492dbbeba.a984cf52fc87644bd4a2165f1e07e0ac880272c1e82d648b4674907056912bd7
+loading file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/added_tokens.json from cache at None
+loading file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/special_tokens_map.json from cache at None
+loading file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/tokenizer_config.json from cache at None
+loading configuration file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/config.json from cache at /home/mmendieta/.cache/huggingface/transformers/a6b90a261219601cbdef14759cac8d96efe5cca8d364560ac79d3c2acbabd35c.f4d0ffccbbe43c94133958daf6651c5bf05e8ec5de8efd46ddab90dd67b50fb2
+Model config XLMRobertaConfig {
+  "_name_or_path": "cardiffnlp/twitter-xlm-roberta-base",
+  "architectures": [
+    "XLMRobertaForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "xlm-roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.19.0",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 250002
+}
+loading configuration file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/config.json from cache at /home/mmendieta/.cache/huggingface/transformers/a6b90a261219601cbdef14759cac8d96efe5cca8d364560ac79d3c2acbabd35c.f4d0ffccbbe43c94133958daf6651c5bf05e8ec5de8efd46ddab90dd67b50fb2
+Model config XLMRobertaConfig {
+  "_name_or_path": "cardiffnlp/twitter-xlm-roberta-base",
+  "architectures": [
+    "XLMRobertaForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "post1geo10",
+    "1": "post1geo20",
+    "2": "post1geo30",
+    "3": "post1geo50",
+    "4": "post1geo70",
+    "5": "post2geo10",
+    "6": "post2geo20",
+    "7": "post2geo30",
+    "8": "post2geo50",
+    "9": "post2geo70",
+    "10": "post3geo10",
+    "11": "post3geo20",
+    "12": "post3geo30",
+    "13": "post3geo50",
+    "14": "post3geo70",
+    "15": "post7geo10",
+    "16": "post7geo20",
+    "17": "post7geo30",
+    "18": "post7geo50",
+    "19": "post7geo70",
+    "20": "pre1geo10",
+    "21": "pre1geo20",
+    "22": "pre1geo30",
+    "23": "pre1geo50",
+    "24": "pre1geo70",
+    "25": "pre2geo10",
+    "26": "pre2geo20",
+    "27": "pre2geo30",
+    "28": "pre2geo50",
+    "29": "pre2geo70",
+    "30": "pre3geo10",
+    "31": "pre3geo20",
+    "32": "pre3geo30",
+    "33": "pre3geo50",
+    "34": "pre3geo70",
+    "35": "pre7geo10",
+    "36": "pre7geo20",
+    "37": "pre7geo30",
+    "38": "pre7geo50",
+    "39": "pre7geo70"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "post1geo10": 0,
+    "post1geo20": 1,
+    "post1geo30": 2,
+    "post1geo50": 3,
+    "post1geo70": 4,
+    "post2geo10": 5,
+    "post2geo20": 6,
+    "post2geo30": 7,
+    "post2geo50": 8,
+    "post2geo70": 9,
+    "post3geo10": 10,
+    "post3geo20": 11,
+    "post3geo30": 12,
+    "post3geo50": 13,
+    "post3geo70": 14,
+    "post7geo10": 15,
+    "post7geo20": 16,
+    "post7geo30": 17,
+    "post7geo50": 18,
+    "post7geo70": 19,
+    "pre1geo10": 20,
+    "pre1geo20": 21,
+    "pre1geo30": 22,
+    "pre1geo50": 23,
+    "pre1geo70": 24,
+    "pre2geo10": 25,
+    "pre2geo20": 26,
+    "pre2geo30": 27,
+    "pre2geo50": 28,
+    "pre2geo70": 29,
+    "pre3geo10": 30,
+    "pre3geo20": 31,
+    "pre3geo30": 32,
+    "pre3geo50": 33,
+    "pre3geo70": 34,
+    "pre7geo10": 35,
+    "pre7geo20": 36,
+    "pre7geo30": 37,
+    "pre7geo50": 38,
+    "pre7geo70": 39
+  },
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "xlm-roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "problem_type": "multi_label_classification",
+  "transformers_version": "4.19.0",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 250002
+}
+loading weights file https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base/resolve/main/pytorch_model.bin from cache at /home/mmendieta/.cache/huggingface/transformers/de8103490e7e03ee5861271a32167a4f170ce820c6ab3aba4df4d6b00fe65163.824322f81a7eced2993b9bf64487652aa08c7cd2a81b38e00b0464c51b97280d
+Some weights of the model checkpoint at cardiffnlp/twitter-xlm-roberta-base were not used when initializing XLMRobertaForSequenceClassification: ['lm_head.bias', 'lm_head.layer_norm.bias', 'lm_head.dense.weight', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.weight', 'lm_head.decoder.bias']
+- This IS expected if you are initializing XLMRobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing XLMRobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of XLMRobertaForSequenceClassification were not initialized from the model checkpoint at cardiffnlp/twitter-xlm-roberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+fine_tune_mllm_script_all_labels_accelerate.py:142: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  label_tensor = torch.tensor(tokenized_ds["train"]["labels"])
+327540
+/home/mmendieta/transformers/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+[INFO] training starts...
+[INFO] Starting epoch 0
+  0%|                                                   | 0/20 [00:00<?, ?it/s]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+  0%|                                                   | 0/20 [00:00<?, ?it/s]Configuration saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_0/config.json
+Model weights saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_0/pytorch_model.bin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * [new branch]      polished-oath-32 -> polished-oath-32.04GB [01:04, 16.1MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/XLM-T_finetuned_violence_twitter_all_labels
+ * [new branch]      polished-oath-32 -> polished-oath-32
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/xlmt/per_label_metrics.json
+[epoch 0] train/loss: 0.9013 | eval/loss: 0.6563 | roc_auc_micro: 0.6488 | roc_auc_weighted: 0.6380 | precision_micro: 0.3970 | precision_weighted: 0.4485 | recall_micro: 0.5717 | recall_weighted: 0.5717 | f1_micro: 0.4686 | f1_weighted: 0.4859 | elapsed_time: 1807.65s
+[INFO] Starting epoch 1
+Upload file polished-oath-32/epoch_0/pytorch_model.bin: 100%|█| 1.04G/1.04G [01
+  5%|█▉                                    | 1/20 [31:42<10:02:29, 1902.58s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+  5%|█▉                                    | 1/20 [31:42<10:02:29, 1902.58s/it]Configuration saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_1/config.json
+Model weights saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_1/pytorch_model.bin
+Several commits (2) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (2) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   dd50046..8eeb15a  polished-oath-32 -> polished-oath-32.04GB [01:07, 16.1MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/XLM-T_finetuned_violence_twitter_all_labels
+   dd50046..8eeb15a  polished-oath-32 -> polished-oath-32
+Upload file polished-oath-32/epoch_1/pytorch_model.bin: 100%|█| 1.04G/1.04G [01
+Upload file polished-oath-32/epoch_1/pytorch_model.bin: 100%|█| 1.04G/1.04G [01
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/xlmt/per_label_metrics.json
+[epoch 1] train/loss: 0.9151 | eval/loss: 0.6420 | roc_auc_micro: 0.6640 | roc_auc_weighted: 0.6522 | precision_micro: 0.4075 | precision_weighted: 0.4579 | recall_micro: 0.5734 | recall_weighted: 0.5734 | f1_micro: 0.4764 | f1_weighted: 0.4933 | elapsed_time: 3674.82s
+
+ 10%|███▋                                 | 2/20 [1:02:50<9:24:39, 1882.20s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 10%|███▋                                 | 2/20 [1:02:50<9:24:39, 1882.20s/it]Configuration saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_2/config.json
+Model weights saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_2/pytorch_model.bin
+Several commits (3) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (3) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   8eeb15a..fdd553d  polished-oath-32 -> polished-oath-32.04GB [01:14, 16.9MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/XLM-T_finetuned_violence_twitter_all_labels
+   8eeb15a..fdd553d  polished-oath-32 -> polished-oath-32
+Upload file polished-oath-32/epoch_2/pytorch_model.bin: 100%|█| 1.04G/1.04G [01
+ 15%|█████▌                               | 3/20 [1:33:50<8:50:24, 1872.03s/it]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/xlmt/per_label_metrics.json
+[epoch 2] train/loss: 0.8713 | eval/loss: 0.6368 | roc_auc_micro: 0.6725 | roc_auc_weighted: 0.6594 | precision_micro: 0.4132 | precision_weighted: 0.4625 | recall_micro: 0.5837 | recall_weighted: 0.5837 | f1_micro: 0.4839 | f1_weighted: 0.4995 | elapsed_time: 5527.87s
+[INFO] Starting epoch 3
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 15%|█████▌                               | 3/20 [1:33:50<8:50:24, 1872.03s/it]Configuration saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_3/config.json
+Model weights saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_3/pytorch_model.bin
+Several commits (4) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (4) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   fdd553d..c2c30f1  polished-oath-32 -> polished-oath-32.04GB [01:03, 21.0MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/XLM-T_finetuned_violence_twitter_all_labels
+   fdd553d..c2c30f1  polished-oath-32 -> polished-oath-32
+Upload file polished-oath-32/epoch_3/pytorch_model.bin: 100%|█| 1.04G/1.04G [01
+ 20%|███████▍                             | 4/20 [2:04:52<8:18:11, 1868.20s/it]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/xlmt/per_label_metrics.json
+[epoch 3] train/loss: 0.8865 | eval/loss: 0.6245 | roc_auc_micro: 0.6796 | roc_auc_weighted: 0.6648 | precision_micro: 0.4233 | precision_weighted: 0.4739 | recall_micro: 0.5491 | recall_weighted: 0.5491 | f1_micro: 0.4781 | f1_weighted: 0.4927 | elapsed_time: 7394.44s
+[INFO] Starting epoch 4
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 20%|███████▍                             | 4/20 [2:04:52<8:18:11, 1868.20s/it]Configuration saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_4/config.json
+Model weights saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_4/pytorch_model.bin
+Several commits (5) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (5) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   c2c30f1..e639c8b  polished-oath-32 -> polished-oath-32.04GB [00:57, 22.4MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/XLM-T_finetuned_violence_twitter_all_labels
+   c2c30f1..e639c8b  polished-oath-32 -> polished-oath-32
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/xlmt/per_label_metrics.json
+[epoch 4] train/loss: 0.8855 | eval/loss: 0.6290 | roc_auc_micro: 0.6806 | roc_auc_weighted: 0.6685 | precision_micro: 0.4175 | precision_weighted: 0.4705 | recall_micro: 0.5741 | recall_weighted: 0.5741 | f1_micro: 0.4834 | f1_weighted: 0.5002 | elapsed_time: 9250.08s
+[INFO] Starting epoch 5
+Upload file polished-oath-32/epoch_4/pytorch_model.bin: 100%|█| 1.04G/1.04G [00
+ 25%|█████████▎                           | 5/20 [2:35:59<7:46:57, 1867.84s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 25%|█████████▎                           | 5/20 [2:35:59<7:46:57, 1867.84s/it]Configuration saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_5/config.json
+Model weights saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_5/pytorch_model.bin
+Several commits (6) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (6) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   e639c8b..3ab2b12  polished-oath-32 -> polished-oath-32.04GB [01:05, 18.3MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/XLM-T_finetuned_violence_twitter_all_labels
+   e639c8b..3ab2b12  polished-oath-32 -> polished-oath-32
+Upload file polished-oath-32/epoch_5/pytorch_model.bin: 100%|█| 1.04G/1.04G [01
+Upload file polished-oath-32/epoch_5/pytorch_model.bin: 100%|█| 1.04G/1.04G [01
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/xlmt/per_label_metrics.json
+[epoch 5] train/loss: 0.8657 | eval/loss: 0.6212 | roc_auc_micro: 0.6845 | roc_auc_weighted: 0.6718 | precision_micro: 0.4235 | precision_weighted: 0.4743 | recall_micro: 0.5708 | recall_weighted: 0.5708 | f1_micro: 0.4862 | f1_weighted: 0.5022 | elapsed_time: 11130.28s
+
+ 30%|███████████                          | 6/20 [3:07:14<7:16:20, 1870.04s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 30%|███████████                          | 6/20 [3:07:14<7:16:20, 1870.04s/it]Configuration saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_6/config.json
+Model weights saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_6/pytorch_model.bin
+Several commits (7) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (7) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   3ab2b12..0b39cd3  polished-oath-32 -> polished-oath-32.04GB [01:02, 16.2MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/XLM-T_finetuned_violence_twitter_all_labels
+   3ab2b12..0b39cd3  polished-oath-32 -> polished-oath-32
+Upload file polished-oath-32/epoch_6/pytorch_model.bin: 100%|█| 1.04G/1.04G [01
+Upload file polished-oath-32/epoch_6/pytorch_model.bin: 100%|█| 1.04G/1.04G [01
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/xlmt/per_label_metrics.json
+[epoch 6] train/loss: 0.8673 | eval/loss: 0.6210 | roc_auc_micro: 0.6869 | roc_auc_weighted: 0.6739 | precision_micro: 0.4224 | precision_weighted: 0.4736 | recall_micro: 0.5790 | recall_weighted: 0.5790 | f1_micro: 0.4884 | f1_weighted: 0.5049 | elapsed_time: 12982.99s
+
+ 35%|████████████▉                        | 7/20 [3:38:08<6:44:02, 1864.79s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 35%|████████████▉                        | 7/20 [3:38:08<6:44:02, 1864.79s/it]Configuration saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_7/config.json
+Model weights saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_7/pytorch_model.bin
+Several commits (8) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (8) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   0b39cd3..b6c1a46  polished-oath-32 -> polished-oath-3299%|▉| 1.03G/1.04G [01
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/XLM-T_finetuned_violence_twitter_all_labels
+   0b39cd3..b6c1a46  polished-oath-32 -> polished-oath-32
+Upload file polished-oath-32/epoch_7/pytorch_model.bin: 100%|█| 1.04G/1.04G [01
+ 40%|██████████████▊                      | 8/20 [4:09:04<6:12:24, 1862.08s/it]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/xlmt/per_label_metrics.json
+[epoch 7] train/loss: 0.8622 | eval/loss: 0.6269 | roc_auc_micro: 0.6882 | roc_auc_weighted: 0.6756 | precision_micro: 0.4184 | precision_weighted: 0.4706 | recall_micro: 0.5960 | recall_weighted: 0.5960 | f1_micro: 0.4917 | f1_weighted: 0.5097 | elapsed_time: 14855.71s
+[INFO] Starting epoch 8
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 40%|██████████████▊                      | 8/20 [4:09:04<6:12:24, 1862.08s/it]Configuration saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_8/config.json
+Model weights saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_8/pytorch_model.bin
+Several commits (9) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (9) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   b6c1a46..5637e1e  polished-oath-32 -> polished-oath-32.04GB [01:04, 21.7MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/XLM-T_finetuned_violence_twitter_all_labels
+   b6c1a46..5637e1e  polished-oath-32 -> polished-oath-32
+Upload file polished-oath-32/epoch_8/pytorch_model.bin: 100%|█| 1.04G/1.04G [01
+ 45%|████████████████▋                    | 9/20 [4:40:49<5:43:49, 1875.44s/it]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/xlmt/per_label_metrics.json
+[epoch 8] train/loss: 0.8449 | eval/loss: 0.6156 | roc_auc_micro: 0.6922 | roc_auc_weighted: 0.6766 | precision_micro: 0.4284 | precision_weighted: 0.4790 | recall_micro: 0.5674 | recall_weighted: 0.5674 | f1_micro: 0.4882 | f1_weighted: 0.5044 | elapsed_time: 16703.11s
+[INFO] Starting epoch 9
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 45%|████████████████▋                    | 9/20 [4:40:49<5:43:49, 1875.44s/it]Configuration saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_9/config.json
+Model weights saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_9/pytorch_model.bin
+Several commits (10) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (10) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Upload file polished-oath-32/epoch_9/pytorch_model.bin: 1.04GB [00:52, 23.0MB/s]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/xlmt/per_label_metrics.json
+[epoch 9] train/loss: 0.8535 | eval/loss: 0.6182 | roc_auc_micro: 0.6939 | roc_auc_weighted: 0.6775 | precision_micro: 0.4248 | precision_weighted: 0.4749 | recall_micro: 0.5862 | recall_weighted: 0.5862 | f1_micro: 0.4926 | f1_weighted: 0.5095 | elapsed_time: 18635.09s
+   5637e1e..0058163  polished-oath-32 -> polished-oath-32.04GB [00:52, 23.0MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/XLM-T_finetuned_violence_twitter_all_labels
+   5637e1e..0058163  polished-oath-32 -> polished-oath-32
+Upload file polished-oath-32/epoch_9/pytorch_model.bin: 100%|█| 1.04G/1.04G [00
+ 50%|██████████████████                  | 10/20 [5:12:02<5:12:25, 1874.60s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 50%|██████████████████                  | 10/20 [5:12:02<5:12:25, 1874.60s/it]Configuration saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_10/config.json
+Model weights saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_10/pytorch_model.bin
+Several commits (11) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (11) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   0058163..bd5dc30  polished-oath-32 -> polished-oath-321.04GB [01:09, 16.0MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/XLM-T_finetuned_violence_twitter_all_labels
+   0058163..bd5dc30  polished-oath-32 -> polished-oath-32
+Upload file polished-oath-32/epoch_10/pytorch_model.bin: 100%|█| 1.04G/1.04G [0
+Upload file polished-oath-32/epoch_10/pytorch_model.bin: 100%|█| 1.04G/1.04G [0
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/xlmt/per_label_metrics.json
+[epoch 10] train/loss: 0.8149 | eval/loss: 0.6123 | roc_auc_micro: 0.6951 | roc_auc_weighted: 0.6786 | precision_micro: 0.4281 | precision_weighted: 0.4776 | recall_micro: 0.5777 | recall_weighted: 0.5777 | f1_micro: 0.4918 | f1_weighted: 0.5082 | elapsed_time: 20500.41s
+
+ 55%|███████████████████▊                | 11/20 [5:43:15<4:41:09, 1874.35s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+[INFO] Processed eval batch 256/256
+[epoch 11] train/loss: 0.8372 | eval/loss: 0.6172 | roc_auc_micro: 0.6943 | roc_auc_weighted: 0.6788 | precision_micro: 0.4255 | precision_weighted: 0.4775 | recall_micro: 0.5773 | recall_weighted: 0.5773 | f1_micro: 0.4899 | f1_weighted: 0.5079 | elapsed_time: 22378.83s
+
+ 60%|█████████████████████▌              | 12/20 [6:13:14<4:06:51, 1851.45s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+[INFO] Processed eval batch 256/256
+[epoch 12] train/loss: 0.8097 | eval/loss: 0.6133 | roc_auc_micro: 0.6921 | roc_auc_weighted: 0.6790 | precision_micro: 0.4236 | precision_weighted: 0.4782 | recall_micro: 0.5729 | recall_weighted: 0.5729 | f1_micro: 0.4871 | f1_weighted: 0.5048 | elapsed_time: 24171.11s
+
+ 65%|███████████████████████▍            | 13/20 [6:42:51<3:33:20, 1828.65s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 65%|███████████████████████▍            | 13/20 [6:42:51<3:33:20, 1828.65s/it]Configuration saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_13/config.json
+Model weights saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_13/pytorch_model.bin
+Several commits (12) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (12) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Upload file polished-oath-32/epoch_13/pytorch_model.bin: 1.04GB [01:03, 20.8MB/s]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/xlmt/per_label_metrics.json
+[epoch 13] train/loss: 0.7893 | eval/loss: 0.6120 | roc_auc_micro: 0.6962 | roc_auc_weighted: 0.6792 | precision_micro: 0.4288 | precision_weighted: 0.4806 | recall_micro: 0.5650 | recall_weighted: 0.5650 | f1_micro: 0.4876 | f1_weighted: 0.5044 | elapsed_time: 25944.20s
+   bd5dc30..f398104  polished-oath-32 -> polished-oath-321.04GB [01:03, 20.8MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/XLM-T_finetuned_violence_twitter_all_labels
+   bd5dc30..f398104  polished-oath-32 -> polished-oath-32
+Upload file polished-oath-32/epoch_13/pytorch_model.bin: 100%|█| 1.04G/1.04G [0
+ 70%|█████████████████████████▏          | 14/20 [7:13:54<3:03:55, 1839.29s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+[INFO] Processed eval batch 256/256
+[epoch 14] train/loss: 0.8050 | eval/loss: 0.6175 | roc_auc_micro: 0.6957 | roc_auc_weighted: 0.6788 | precision_micro: 0.4262 | precision_weighted: 0.4791 | recall_micro: 0.5702 | recall_weighted: 0.5702 | f1_micro: 0.4878 | f1_weighted: 0.5053 | elapsed_time: 27838.17s
+
+ 75%|███████████████████████████         | 15/20 [7:44:04<2:32:31, 1830.35s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 80%|████████████████████████████▊       | 16/20 [8:14:38<2:02:05, 1831.34s/it]
+[epoch 15] train/loss: 0.8064 | eval/loss: 0.6116 | roc_auc_micro: 0.6962 | roc_auc_weighted: 0.6793 | precision_micro: 0.4272 | precision_weighted: 0.4798 | recall_micro: 0.5674 | recall_weighted: 0.5674 | f1_micro: 0.4874 | f1_weighted: 0.5049 | elapsed_time: 29627.92s
+[INFO] Starting epoch 16
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 85%|██████████████████████████████▌     | 17/20 [8:44:33<1:31:01, 1820.55s/it]
+[epoch 16] train/loss: 0.8113 | eval/loss: 0.6190 | roc_auc_micro: 0.6949 | roc_auc_weighted: 0.6797 | precision_micro: 0.4203 | precision_weighted: 0.4741 | recall_micro: 0.5913 | recall_weighted: 0.5913 | f1_micro: 0.4914 | f1_weighted: 0.5099 | elapsed_time: 31457.65s
+[INFO] Starting epoch 17
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+ 85%|██████████████████████████████▌     | 17/20 [8:44:33<1:31:01, 1820.55s/it]Configuration saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_17/config.json
+Model weights saved in /data4/mmendieta/models/xlmt_finetuned_twitter_all_labels/polished-oath-32/epoch_17/pytorch_model.bin
+Several commits (13) will be pushed upstream.
+WARNING:huggingface_hub.repository:Several commits (13) will be pushed upstream.
+The progress bars may be unreliable.
+WARNING:huggingface_hub.repository:The progress bars may be unreliable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Upload file polished-oath-32/epoch_17/pytorch_model.bin: 1.04GB [00:57, 17.8MB/s]
+[INFO] Per-label metrics written to: /data4/mmendieta/training_output/xlmt/per_label_metrics.json
+[epoch 17] train/loss: 0.7789 | eval/loss: 0.6133 | roc_auc_micro: 0.6966 | roc_auc_weighted: 0.6794 | precision_micro: 0.4245 | precision_weighted: 0.4774 | recall_micro: 0.5761 | recall_weighted: 0.5761 | f1_micro: 0.4888 | f1_weighted: 0.5071 | elapsed_time: 33286.61s
+   f398104..7e5ddef  polished-oath-32 -> polished-oath-321.04GB [00:57, 17.8MB/s]
+WARNING:huggingface_hub.repository:To https://huggingface.co/m2im/XLM-T_finetuned_violence_twitter_all_labels
+   f398104..7e5ddef  polished-oath-32 -> polished-oath-32
+Upload file polished-oath-32/epoch_17/pytorch_model.bin: 100%|█| 1.04G/1.04G [0
+ 90%|████████████████████████████████▍   | 18/20 [9:16:19<1:01:32, 1846.10s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+[INFO] Processed eval batch 256/256
+[epoch 18] train/loss: 0.7921 | eval/loss: 0.6178 | roc_auc_micro: 0.6948 | roc_auc_weighted: 0.6797 | precision_micro: 0.4214 | precision_weighted: 0.4770 | recall_micro: 0.5778 | recall_weighted: 0.5778 | f1_micro: 0.4874 | f1_weighted: 0.5061 | elapsed_time: 35205.42s
+
+ 95%|████████████████████████████████████  | 19/20 [9:46:49<30:41, 1841.26s/it]
+[DEBUG] - Processing step 1/1024 on device cuda:0
+[DEBUG] - Processing step 1001/1024 on device cuda:0
+[DEBUG] - Processing step 1024/1024 on device cuda:0
+[INFO] evaluating and saving model checkpoint...
+[DEBUG] Starting evaluation... Number of batches: 256
+[INFO] Processed eval batch 1/256
+[INFO] Processed eval batch 101/256
+[INFO] Processed eval batch 201/256
+
+100%|█████████████████████████████████████| 20/20 [10:17:00<00:00, 1832.23s/it]
+[epoch 19] train/loss: 0.7762 | eval/loss: 0.6255 | roc_auc_micro: 0.6942 | roc_auc_weighted: 0.6792 | precision_micro: 0.4166 | precision_weighted: 0.4719 | recall_micro: 0.5966 | recall_weighted: 0.5966 | f1_micro: 0.4906 | f1_weighted: 0.5106 | elapsed_time: 36984.52s

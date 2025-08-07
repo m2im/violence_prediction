@@ -1,0 +1,137 @@
+2025-07-21 22:37:05,832 INFO    StreamThr :3170 [internal.py:wandb_internal():88] W&B internal server running at pid: 3170, started at: 2025-07-21 22:37:05.831225
+2025-07-21 22:37:05,838 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: status
+2025-07-21 22:37:06,025 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: status
+2025-07-21 22:37:06,028 DEBUG   SenderThread:3170 [sender.py:send():303] send: header
+2025-07-21 22:37:06,028 INFO    WriterThread:3170 [datastore.py:open_for_write():75] open: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250721_223705-ykfdyz3k/run-ykfdyz3k.wandb
+2025-07-21 22:37:06,029 DEBUG   SenderThread:3170 [sender.py:send():303] send: run
+2025-07-21 22:37:06,316 INFO    SenderThread:3170 [dir_watcher.py:__init__():216] watching files in: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250721_223705-ykfdyz3k/files
+2025-07-21 22:37:06,316 INFO    SenderThread:3170 [sender.py:_start_run_threads():928] run started: ykfdyz3k with start time 1753162625.825251
+2025-07-21 22:37:06,317 DEBUG   SenderThread:3170 [sender.py:send():303] send: summary
+2025-07-21 22:37:06,317 INFO    SenderThread:3170 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-07-21 22:37:06,324 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: check_version
+2025-07-21 22:37:06,325 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: check_version
+2025-07-21 22:37:06,411 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: run_start
+2025-07-21 22:37:06,445 DEBUG   HandlerThread:3170 [meta.py:__init__():34] meta init
+2025-07-21 22:37:06,445 DEBUG   HandlerThread:3170 [meta.py:__init__():49] meta init done
+2025-07-21 22:37:06,445 DEBUG   HandlerThread:3170 [meta.py:probe():215] probe
+2025-07-21 22:37:06,463 DEBUG   HandlerThread:3170 [meta.py:_setup_git():205] setup git
+2025-07-21 22:37:06,491 DEBUG   HandlerThread:3170 [meta.py:_setup_git():212] setup git done
+2025-07-21 22:37:06,491 DEBUG   HandlerThread:3170 [meta.py:_save_pip():53] save pip
+2025-07-21 22:37:06,492 DEBUG   HandlerThread:3170 [meta.py:_save_pip():67] save pip done
+2025-07-21 22:37:06,493 DEBUG   HandlerThread:3170 [meta.py:probe():253] probe done
+2025-07-21 22:37:06,533 DEBUG   SenderThread:3170 [sender.py:send():303] send: files
+2025-07-21 22:37:06,534 INFO    SenderThread:3170 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2025-07-21 22:37:06,555 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-21 22:37:06,555 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: stop_status
+2025-07-21 22:37:06,680 DEBUG   SenderThread:3170 [sender.py:send():303] send: telemetry
+2025-07-21 22:37:06,681 DEBUG   SenderThread:3170 [sender.py:send():303] send: telemetry
+2025-07-21 22:37:06,681 DEBUG   SenderThread:3170 [sender.py:send():303] send: exit
+2025-07-21 22:37:06,681 INFO    SenderThread:3170 [sender.py:send_exit():442] handling exit code: 1
+2025-07-21 22:37:06,682 INFO    SenderThread:3170 [sender.py:send_exit():444] handling runtime: 0
+2025-07-21 22:37:06,684 INFO    SenderThread:3170 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-07-21 22:37:06,685 INFO    SenderThread:3170 [sender.py:send_exit():450] send defer
+2025-07-21 22:37:06,685 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: defer
+2025-07-21 22:37:06,686 INFO    HandlerThread:3170 [handler.py:handle_request_defer():161] handle defer: 0
+2025-07-21 22:37:06,686 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: defer
+2025-07-21 22:37:06,686 INFO    SenderThread:3170 [sender.py:send_request_defer():459] handle sender defer: 0
+2025-07-21 22:37:06,686 INFO    SenderThread:3170 [sender.py:transition_state():463] send defer: 1
+2025-07-21 22:37:06,687 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: defer
+2025-07-21 22:37:06,687 INFO    HandlerThread:3170 [handler.py:handle_request_defer():161] handle defer: 1
+2025-07-21 22:37:06,949 INFO    Thread-17 :3170 [upload_job.py:push():143] Uploaded file /tmp/tmp7wdfbluowandb/95nkcz3l-wandb-metadata.json
+2025-07-21 22:37:07,320 INFO    Thread-13 :3170 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250721_223705-ykfdyz3k/files/requirements.txt
+2025-07-21 22:37:07,321 INFO    Thread-13 :3170 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250721_223705-ykfdyz3k/files/wandb-metadata.json
+2025-07-21 22:37:07,321 INFO    Thread-13 :3170 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250721_223705-ykfdyz3k/files/wandb-summary.json
+2025-07-21 22:37:08,224 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: defer
+2025-07-21 22:37:08,225 INFO    SenderThread:3170 [sender.py:send_request_defer():459] handle sender defer: 1
+2025-07-21 22:37:08,225 INFO    SenderThread:3170 [sender.py:transition_state():463] send defer: 2
+2025-07-21 22:37:08,225 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: poll_exit
+2025-07-21 22:37:08,226 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: poll_exit
+2025-07-21 22:37:08,227 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: defer
+2025-07-21 22:37:08,228 DEBUG   SenderThread:3170 [sender.py:send():303] send: stats
+2025-07-21 22:37:08,229 INFO    HandlerThread:3170 [handler.py:handle_request_defer():161] handle defer: 2
+2025-07-21 22:37:08,232 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: defer
+2025-07-21 22:37:08,232 INFO    SenderThread:3170 [sender.py:send_request_defer():459] handle sender defer: 2
+2025-07-21 22:37:08,233 INFO    SenderThread:3170 [sender.py:transition_state():463] send defer: 3
+2025-07-21 22:37:08,234 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: defer
+2025-07-21 22:37:08,234 INFO    HandlerThread:3170 [handler.py:handle_request_defer():161] handle defer: 3
+2025-07-21 22:37:08,234 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: defer
+2025-07-21 22:37:08,235 INFO    SenderThread:3170 [sender.py:send_request_defer():459] handle sender defer: 3
+2025-07-21 22:37:08,235 INFO    SenderThread:3170 [sender.py:transition_state():463] send defer: 4
+2025-07-21 22:37:08,235 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: defer
+2025-07-21 22:37:08,235 INFO    HandlerThread:3170 [handler.py:handle_request_defer():161] handle defer: 4
+2025-07-21 22:37:08,236 DEBUG   SenderThread:3170 [sender.py:send():303] send: summary
+2025-07-21 22:37:08,237 INFO    SenderThread:3170 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-07-21 22:37:08,237 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: defer
+2025-07-21 22:37:08,237 INFO    SenderThread:3170 [sender.py:send_request_defer():459] handle sender defer: 4
+2025-07-21 22:37:08,237 INFO    SenderThread:3170 [sender.py:transition_state():463] send defer: 5
+2025-07-21 22:37:08,238 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: defer
+2025-07-21 22:37:08,238 INFO    HandlerThread:3170 [handler.py:handle_request_defer():161] handle defer: 5
+2025-07-21 22:37:08,238 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: defer
+2025-07-21 22:37:08,238 INFO    SenderThread:3170 [sender.py:send_request_defer():459] handle sender defer: 5
+2025-07-21 22:37:08,318 INFO    Thread-13 :3170 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250721_223705-ykfdyz3k/files/wandb-summary.json
+2025-07-21 22:37:08,370 INFO    SenderThread:3170 [sender.py:transition_state():463] send defer: 6
+2025-07-21 22:37:08,371 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: defer
+2025-07-21 22:37:08,371 INFO    HandlerThread:3170 [handler.py:handle_request_defer():161] handle defer: 6
+2025-07-21 22:37:08,372 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: defer
+2025-07-21 22:37:08,372 INFO    SenderThread:3170 [sender.py:send_request_defer():459] handle sender defer: 6
+2025-07-21 22:37:08,372 INFO    SenderThread:3170 [sender.py:transition_state():463] send defer: 7
+2025-07-21 22:37:08,372 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: defer
+2025-07-21 22:37:08,372 INFO    HandlerThread:3170 [handler.py:handle_request_defer():161] handle defer: 7
+2025-07-21 22:37:08,372 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: defer
+2025-07-21 22:37:08,373 INFO    SenderThread:3170 [sender.py:send_request_defer():459] handle sender defer: 7
+2025-07-21 22:37:08,373 INFO    SenderThread:3170 [dir_watcher.py:finish():362] shutting down directory watcher
+2025-07-21 22:37:08,560 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: poll_exit
+2025-07-21 22:37:09,319 INFO    Thread-13 :3170 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250721_223705-ykfdyz3k/files/config.yaml
+2025-07-21 22:37:09,320 INFO    SenderThread:3170 [dir_watcher.py:finish():392] scan: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250721_223705-ykfdyz3k/files
+2025-07-21 22:37:09,320 INFO    SenderThread:3170 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250721_223705-ykfdyz3k/files/requirements.txt requirements.txt
+2025-07-21 22:37:09,320 INFO    SenderThread:3170 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250721_223705-ykfdyz3k/files/config.yaml config.yaml
+2025-07-21 22:37:09,321 INFO    SenderThread:3170 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250721_223705-ykfdyz3k/files/wandb-metadata.json wandb-metadata.json
+2025-07-21 22:37:09,321 INFO    SenderThread:3170 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250721_223705-ykfdyz3k/files/wandb-summary.json wandb-summary.json
+2025-07-21 22:37:09,335 INFO    SenderThread:3170 [sender.py:transition_state():463] send defer: 8
+2025-07-21 22:37:09,335 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: poll_exit
+2025-07-21 22:37:09,342 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: defer
+2025-07-21 22:37:09,344 INFO    HandlerThread:3170 [handler.py:handle_request_defer():161] handle defer: 8
+2025-07-21 22:37:09,345 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: defer
+2025-07-21 22:37:09,346 INFO    SenderThread:3170 [sender.py:send_request_defer():459] handle sender defer: 8
+2025-07-21 22:37:09,347 INFO    SenderThread:3170 [file_pusher.py:finish():168] shutting down file pusher
+2025-07-21 22:37:09,571 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: poll_exit
+2025-07-21 22:37:09,571 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: poll_exit
+2025-07-21 22:37:09,746 INFO    Thread-20 :3170 [upload_job.py:push():143] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20250721_223705-ykfdyz3k/files/wandb-summary.json
+2025-07-21 22:37:09,789 INFO    Thread-19 :3170 [upload_job.py:push():143] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20250721_223705-ykfdyz3k/files/config.yaml
+2025-07-21 22:37:09,793 INFO    Thread-18 :3170 [upload_job.py:push():143] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20250721_223705-ykfdyz3k/files/requirements.txt
+2025-07-21 22:37:09,994 INFO    Thread-12 :3170 [sender.py:transition_state():463] send defer: 9
+2025-07-21 22:37:09,995 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: defer
+2025-07-21 22:37:09,996 INFO    HandlerThread:3170 [handler.py:handle_request_defer():161] handle defer: 9
+2025-07-21 22:37:09,996 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: defer
+2025-07-21 22:37:09,996 INFO    SenderThread:3170 [sender.py:send_request_defer():459] handle sender defer: 9
+2025-07-21 22:37:09,996 INFO    SenderThread:3170 [file_pusher.py:join():173] waiting for file pusher
+2025-07-21 22:37:09,996 INFO    SenderThread:3170 [sender.py:transition_state():463] send defer: 10
+2025-07-21 22:37:09,997 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: defer
+2025-07-21 22:37:09,997 INFO    HandlerThread:3170 [handler.py:handle_request_defer():161] handle defer: 10
+2025-07-21 22:37:09,997 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: defer
+2025-07-21 22:37:09,997 INFO    SenderThread:3170 [sender.py:send_request_defer():459] handle sender defer: 10
+2025-07-21 22:37:10,154 INFO    SenderThread:3170 [sender.py:transition_state():463] send defer: 11
+2025-07-21 22:37:10,155 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: defer
+2025-07-21 22:37:10,155 INFO    HandlerThread:3170 [handler.py:handle_request_defer():161] handle defer: 11
+2025-07-21 22:37:10,155 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: defer
+2025-07-21 22:37:10,155 INFO    SenderThread:3170 [sender.py:send_request_defer():459] handle sender defer: 11
+2025-07-21 22:37:10,156 INFO    SenderThread:3170 [sender.py:transition_state():463] send defer: 12
+2025-07-21 22:37:10,156 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: defer
+2025-07-21 22:37:10,157 DEBUG   SenderThread:3170 [sender.py:send():303] send: final
+2025-07-21 22:37:10,157 INFO    HandlerThread:3170 [handler.py:handle_request_defer():161] handle defer: 12
+2025-07-21 22:37:10,157 DEBUG   SenderThread:3170 [sender.py:send():303] send: footer
+2025-07-21 22:37:10,157 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: defer
+2025-07-21 22:37:10,157 INFO    SenderThread:3170 [sender.py:send_request_defer():459] handle sender defer: 12
+2025-07-21 22:37:10,160 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: poll_exit
+2025-07-21 22:37:10,161 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: server_info
+2025-07-21 22:37:10,161 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: poll_exit
+2025-07-21 22:37:10,162 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: get_summary
+2025-07-21 22:37:10,162 DEBUG   SenderThread:3170 [sender.py:send_request():317] send_request: server_info
+2025-07-21 22:37:10,163 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: sampled_history
+2025-07-21 22:37:10,378 DEBUG   HandlerThread:3170 [handler.py:handle_request():138] handle_request: shutdown
+2025-07-21 22:37:10,379 INFO    HandlerThread:3170 [handler.py:finish():814] shutting down handler
+2025-07-21 22:37:11,157 INFO    WriterThread:3170 [datastore.py:close():279] close: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250721_223705-ykfdyz3k/run-ykfdyz3k.wandb
+2025-07-21 22:37:11,376 INFO    SenderThread:3170 [sender.py:finish():1331] shutting down sender
+2025-07-21 22:37:11,376 INFO    SenderThread:3170 [file_pusher.py:finish():168] shutting down file pusher
+2025-07-21 22:37:11,376 INFO    SenderThread:3170 [file_pusher.py:join():173] waiting for file pusher
+2025-07-21 22:46:54,720 INFO    MainThread:3170 [internal.py:handle_exit():78] Internal process exited

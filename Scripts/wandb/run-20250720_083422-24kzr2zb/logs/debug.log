@@ -1,0 +1,26 @@
+2025-07-20 08:34:22,529 INFO    MainThread:3858 [wandb_setup.py:_flush():68] Configure stats pid to 3858
+2025-07-20 08:34:22,530 INFO    MainThread:3858 [wandb_setup.py:_flush():68] Loading settings from /home/mmendieta/.config/wandb/settings
+2025-07-20 08:34:22,530 INFO    MainThread:3858 [wandb_setup.py:_flush():68] Loading settings from /home/mmendieta/violence_prediction/Scripts/wandb/settings
+2025-07-20 08:34:22,530 INFO    MainThread:3858 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2025-07-20 08:34:22,530 INFO    MainThread:3858 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'Scripts/fine_tune_mllm_script_all_labels_accelerate.py', 'program': 'fine_tune_mllm_script_all_labels_accelerate.py'}
+2025-07-20 08:34:22,530 INFO    MainThread:3858 [wandb_init.py:_log_setup():476] Logging user logs to /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_083422-24kzr2zb/logs/debug.log
+2025-07-20 08:34:22,530 INFO    MainThread:3858 [wandb_init.py:_log_setup():477] Logging internal logs to /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_083422-24kzr2zb/logs/debug-internal.log
+2025-07-20 08:34:22,530 INFO    MainThread:3858 [wandb_init.py:init():516] calling init triggers
+2025-07-20 08:34:22,530 INFO    MainThread:3858 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2025-07-20 08:34:22,530 INFO    MainThread:3858 [wandb_init.py:init():569] starting backend
+2025-07-20 08:34:22,531 INFO    MainThread:3858 [wandb_init.py:init():573] setting up manager
+2025-07-20 08:34:22,539 INFO    MainThread:3858 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-07-20 08:34:22,542 INFO    MainThread:3858 [wandb_init.py:init():580] backend started and connected
+2025-07-20 08:34:22,546 INFO    MainThread:3858 [wandb_init.py:init():658] updated telemetry
+2025-07-20 08:34:22,573 INFO    MainThread:3858 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2025-07-20 08:34:23,043 INFO    MainThread:3858 [wandb_run.py:_on_init():2000] communicating current version
+2025-07-20 08:34:23,108 INFO    MainThread:3858 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.21.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-07-20 08:34:23,108 INFO    MainThread:3858 [wandb_init.py:init():728] starting run threads in backend
+2025-07-20 08:34:23,234 INFO    MainThread:3858 [wandb_run.py:_console_start():1980] atexit reg
+2025-07-20 08:34:23,234 INFO    MainThread:3858 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2025-07-20 08:34:23,235 INFO    MainThread:3858 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2025-07-20 08:34:23,236 INFO    MainThread:3858 [wandb_run.py:_redirect():1925] Redirects installed.
+2025-07-20 08:34:23,237 INFO    MainThread:3858 [wandb_init.py:init():765] run started, returning control to user process
+2025-07-20 08:35:24,060 WARNING MsgRouterThr:3858 [router.py:message_loop():77] message_loop has been closed

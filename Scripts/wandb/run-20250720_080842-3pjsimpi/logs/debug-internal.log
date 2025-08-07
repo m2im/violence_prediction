@@ -1,0 +1,383 @@
+2025-07-20 08:08:42,171 INFO    StreamThr :2993 [internal.py:wandb_internal():88] W&B internal server running at pid: 2993, started at: 2025-07-20 08:08:42.170646
+2025-07-20 08:08:42,177 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: status
+2025-07-20 08:08:42,348 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: status
+2025-07-20 08:08:42,351 DEBUG   SenderThread:2993 [sender.py:send():303] send: header
+2025-07-20 08:08:42,351 INFO    WriterThread:2993 [datastore.py:open_for_write():75] open: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/run-3pjsimpi.wandb
+2025-07-20 08:08:42,352 DEBUG   SenderThread:2993 [sender.py:send():303] send: run
+2025-07-20 08:08:42,616 INFO    SenderThread:2993 [dir_watcher.py:__init__():216] watching files in: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files
+2025-07-20 08:08:42,617 INFO    SenderThread:2993 [sender.py:_start_run_threads():928] run started: 3pjsimpi with start time 1753024122.165083
+2025-07-20 08:08:42,617 DEBUG   SenderThread:2993 [sender.py:send():303] send: summary
+2025-07-20 08:08:42,617 INFO    SenderThread:2993 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-07-20 08:08:42,618 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: check_version
+2025-07-20 08:08:42,619 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: check_version
+2025-07-20 08:08:42,691 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: run_start
+2025-07-20 08:08:42,716 DEBUG   HandlerThread:2993 [meta.py:__init__():34] meta init
+2025-07-20 08:08:42,716 DEBUG   HandlerThread:2993 [meta.py:__init__():49] meta init done
+2025-07-20 08:08:42,716 DEBUG   HandlerThread:2993 [meta.py:probe():215] probe
+2025-07-20 08:08:42,731 DEBUG   HandlerThread:2993 [meta.py:_setup_git():205] setup git
+2025-07-20 08:08:42,751 DEBUG   HandlerThread:2993 [meta.py:_setup_git():212] setup git done
+2025-07-20 08:08:42,752 DEBUG   HandlerThread:2993 [meta.py:_save_pip():53] save pip
+2025-07-20 08:08:42,753 DEBUG   HandlerThread:2993 [meta.py:_save_pip():67] save pip done
+2025-07-20 08:08:42,753 DEBUG   HandlerThread:2993 [meta.py:probe():253] probe done
+2025-07-20 08:08:42,791 DEBUG   SenderThread:2993 [sender.py:send():303] send: files
+2025-07-20 08:08:42,792 INFO    SenderThread:2993 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2025-07-20 08:08:42,804 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:08:42,804 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:08:42,939 DEBUG   SenderThread:2993 [sender.py:send():303] send: telemetry
+2025-07-20 08:08:43,285 INFO    Thread-17 :2993 [upload_job.py:push():143] Uploaded file /tmp/tmp3s16qut1wandb/midtuunp-wandb-metadata.json
+2025-07-20 08:08:43,620 INFO    Thread-13 :2993 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/output.log
+2025-07-20 08:08:43,621 INFO    Thread-13 :2993 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/wandb-metadata.json
+2025-07-20 08:08:43,621 INFO    Thread-13 :2993 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/wandb-summary.json
+2025-07-20 08:08:43,621 INFO    Thread-13 :2993 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/requirements.txt
+2025-07-20 08:08:45,618 INFO    Thread-13 :2993 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/output.log
+2025-07-20 08:08:47,620 INFO    Thread-13 :2993 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/output.log
+2025-07-20 08:08:49,621 INFO    Thread-13 :2993 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/output.log
+2025-07-20 08:08:57,964 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:08:57,965 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:09:11,633 INFO    Thread-13 :2993 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/output.log
+2025-07-20 08:09:13,187 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:09:13,187 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:09:13,634 INFO    Thread-13 :2993 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/output.log
+2025-07-20 08:09:13,635 INFO    Thread-13 :2993 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/config.yaml
+2025-07-20 08:09:15,635 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:09:15,639 INFO    Thread-13 :2993 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/output.log
+2025-07-20 08:09:28,412 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:09:28,413 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:09:43,552 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:09:43,552 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:09:50,418 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:09:58,759 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:09:58,759 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:10:14,351 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:10:14,352 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:10:25,162 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:10:29,508 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:10:29,509 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:10:44,635 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:10:44,636 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:10:59,852 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:10:59,852 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:11:00,061 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:11:15,068 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:11:15,069 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:11:30,253 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:11:30,253 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:11:34,758 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:11:45,468 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:11:45,469 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:12:00,710 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:12:00,710 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:12:09,470 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:12:15,829 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:12:15,830 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:12:31,032 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:12:31,033 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:12:44,285 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:12:46,268 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:12:46,268 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:13:01,475 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:13:01,476 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:13:16,623 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:13:16,624 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:13:19,115 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:13:31,778 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:13:31,779 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:13:46,908 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:13:46,908 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:13:53,918 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:14:02,085 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:14:02,085 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:14:17,341 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:14:17,341 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:14:28,604 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:14:32,512 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:14:32,512 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:14:47,711 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:14:47,711 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:15:02,947 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:15:02,947 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:15:03,405 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:15:18,137 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:15:18,138 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:15:33,292 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:15:33,292 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:15:38,167 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:15:48,421 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:15:48,421 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:16:03,589 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:16:03,590 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:16:12,836 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:16:18,702 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:16:18,702 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:16:33,876 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:16:33,877 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:16:47,557 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:16:49,029 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:16:49,029 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:17:04,177 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:17:04,177 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:17:19,288 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:17:19,288 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:17:22,204 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:17:34,501 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:17:34,502 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:17:49,634 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:17:49,635 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:17:56,927 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:18:04,783 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:18:04,784 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:18:19,915 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:18:19,916 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:18:31,600 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:18:35,127 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:18:35,128 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:18:50,337 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:18:50,338 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:19:05,534 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:19:05,535 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:19:06,312 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:19:20,732 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:19:20,732 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:19:35,862 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:19:35,863 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:19:40,955 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:19:51,063 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:19:51,063 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:20:06,299 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:20:06,299 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:20:15,706 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:20:21,445 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:20:21,445 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:20:36,698 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:20:36,699 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:20:50,381 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:20:51,908 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:20:51,908 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:21:07,118 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:21:07,119 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:21:22,305 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:21:22,306 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:21:25,104 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:21:37,442 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:21:37,442 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:21:52,647 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:21:52,647 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:21:59,759 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:22:07,778 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:22:07,778 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:22:22,974 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:22:22,975 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:22:34,467 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:22:38,128 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:22:38,128 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:22:53,273 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:22:53,274 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:23:08,407 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:23:08,408 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:23:09,125 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:23:23,567 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:23:23,568 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:23:38,754 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:23:38,755 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:23:43,828 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:23:53,892 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:23:53,892 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:24:09,123 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:24:09,124 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:24:18,415 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:24:24,329 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:24:24,330 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:24:39,470 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:24:39,470 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:24:53,133 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:24:54,637 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:24:54,637 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:25:09,843 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:25:09,844 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:25:24,980 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:25:24,980 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:25:27,826 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:25:40,145 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:25:40,146 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:25:55,252 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:25:55,253 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:26:02,603 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:26:10,412 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:26:10,412 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:26:25,651 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:26:25,652 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:26:37,301 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:26:40,901 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:26:40,902 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:26:56,089 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:26:56,089 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:27:11,241 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:27:11,242 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:27:12,015 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:27:26,384 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:27:26,385 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:27:41,550 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:27:41,551 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:27:46,683 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:27:56,691 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:27:56,691 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:28:11,872 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:28:11,872 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:28:21,509 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:28:27,012 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:28:27,013 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:28:42,145 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:28:42,145 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:28:56,304 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:28:57,297 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:28:57,298 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:29:12,457 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:29:12,458 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:29:27,613 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:29:27,613 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:29:31,057 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:29:42,772 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:29:42,772 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:29:57,936 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:29:57,937 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:30:05,913 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:30:13,141 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:30:13,142 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:30:28,349 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:30:28,349 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:30:40,681 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:30:43,498 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:30:43,498 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:30:58,682 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:30:58,682 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:31:13,838 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:31:13,838 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:31:15,337 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:31:29,003 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:31:29,004 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:31:44,246 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:31:44,247 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:31:50,028 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:31:59,442 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:31:59,442 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:32:14,632 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:32:14,632 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:32:24,787 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:32:29,762 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:32:29,763 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:32:44,989 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-20 08:32:44,989 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: stop_status
+2025-07-20 08:32:53,020 DEBUG   SenderThread:2993 [sender.py:send():303] send: exit
+2025-07-20 08:32:53,020 INFO    SenderThread:2993 [sender.py:send_exit():442] handling exit code: 255
+2025-07-20 08:32:53,020 INFO    SenderThread:2993 [sender.py:send_exit():444] handling runtime: 1450
+2025-07-20 08:32:53,021 INFO    SenderThread:2993 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-07-20 08:32:53,022 INFO    SenderThread:2993 [sender.py:send_exit():450] send defer
+2025-07-20 08:32:53,022 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: defer
+2025-07-20 08:32:53,022 INFO    HandlerThread:2993 [handler.py:handle_request_defer():161] handle defer: 0
+2025-07-20 08:32:53,023 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: defer
+2025-07-20 08:32:53,023 INFO    SenderThread:2993 [sender.py:send_request_defer():459] handle sender defer: 0
+2025-07-20 08:32:53,023 INFO    SenderThread:2993 [sender.py:transition_state():463] send defer: 1
+2025-07-20 08:32:53,023 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: defer
+2025-07-20 08:32:53,023 INFO    HandlerThread:2993 [handler.py:handle_request_defer():161] handle defer: 1
+2025-07-20 08:32:53,284 INFO    Thread-13 :2993 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/wandb-summary.json
+2025-07-20 08:32:53,338 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: defer
+2025-07-20 08:32:53,339 INFO    SenderThread:2993 [sender.py:send_request_defer():459] handle sender defer: 1
+2025-07-20 08:32:53,340 INFO    SenderThread:2993 [sender.py:transition_state():463] send defer: 2
+2025-07-20 08:32:53,340 DEBUG   SenderThread:2993 [sender.py:send():303] send: stats
+2025-07-20 08:32:53,342 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: defer
+2025-07-20 08:32:53,342 INFO    HandlerThread:2993 [handler.py:handle_request_defer():161] handle defer: 2
+2025-07-20 08:32:53,342 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: defer
+2025-07-20 08:32:53,343 INFO    SenderThread:2993 [sender.py:send_request_defer():459] handle sender defer: 2
+2025-07-20 08:32:53,343 INFO    SenderThread:2993 [sender.py:transition_state():463] send defer: 3
+2025-07-20 08:32:53,343 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: defer
+2025-07-20 08:32:53,343 INFO    HandlerThread:2993 [handler.py:handle_request_defer():161] handle defer: 3
+2025-07-20 08:32:53,344 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: defer
+2025-07-20 08:32:53,344 INFO    SenderThread:2993 [sender.py:send_request_defer():459] handle sender defer: 3
+2025-07-20 08:32:53,344 INFO    SenderThread:2993 [sender.py:transition_state():463] send defer: 4
+2025-07-20 08:32:53,344 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: defer
+2025-07-20 08:32:53,344 INFO    HandlerThread:2993 [handler.py:handle_request_defer():161] handle defer: 4
+2025-07-20 08:32:53,345 DEBUG   SenderThread:2993 [sender.py:send():303] send: summary
+2025-07-20 08:32:53,346 INFO    SenderThread:2993 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-07-20 08:32:53,346 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: defer
+2025-07-20 08:32:53,346 INFO    SenderThread:2993 [sender.py:send_request_defer():459] handle sender defer: 4
+2025-07-20 08:32:53,346 INFO    SenderThread:2993 [sender.py:transition_state():463] send defer: 5
+2025-07-20 08:32:53,347 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: defer
+2025-07-20 08:32:53,347 INFO    HandlerThread:2993 [handler.py:handle_request_defer():161] handle defer: 5
+2025-07-20 08:32:53,347 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: defer
+2025-07-20 08:32:53,348 INFO    SenderThread:2993 [sender.py:send_request_defer():459] handle sender defer: 5
+2025-07-20 08:32:53,348 INFO    SenderThread:2993 [sender.py:transition_state():463] send defer: 6
+2025-07-20 08:32:53,348 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: defer
+2025-07-20 08:32:53,348 INFO    HandlerThread:2993 [handler.py:handle_request_defer():161] handle defer: 6
+2025-07-20 08:32:53,348 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: defer
+2025-07-20 08:32:53,348 INFO    SenderThread:2993 [sender.py:send_request_defer():459] handle sender defer: 6
+2025-07-20 08:32:54,021 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: poll_exit
+2025-07-20 08:32:54,285 INFO    Thread-13 :2993 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/wandb-summary.json
+2025-07-20 08:32:54,855 INFO    SenderThread:2993 [sender.py:transition_state():463] send defer: 7
+2025-07-20 08:32:54,855 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: poll_exit
+2025-07-20 08:32:54,857 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: defer
+2025-07-20 08:32:54,857 INFO    HandlerThread:2993 [handler.py:handle_request_defer():161] handle defer: 7
+2025-07-20 08:32:54,857 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: defer
+2025-07-20 08:32:54,858 INFO    SenderThread:2993 [sender.py:send_request_defer():459] handle sender defer: 7
+2025-07-20 08:32:54,858 INFO    SenderThread:2993 [dir_watcher.py:finish():362] shutting down directory watcher
+2025-07-20 08:32:55,021 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: poll_exit
+2025-07-20 08:32:55,285 INFO    Thread-13 :2993 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/output.log
+2025-07-20 08:32:55,286 INFO    SenderThread:2993 [dir_watcher.py:finish():392] scan: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files
+2025-07-20 08:32:55,287 INFO    SenderThread:2993 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/requirements.txt requirements.txt
+2025-07-20 08:32:55,287 INFO    SenderThread:2993 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/output.log output.log
+2025-07-20 08:32:55,287 INFO    SenderThread:2993 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/config.yaml config.yaml
+2025-07-20 08:32:55,288 INFO    SenderThread:2993 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/wandb-metadata.json wandb-metadata.json
+2025-07-20 08:32:55,293 INFO    SenderThread:2993 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/wandb-summary.json wandb-summary.json
+2025-07-20 08:32:55,295 INFO    SenderThread:2993 [sender.py:transition_state():463] send defer: 8
+2025-07-20 08:32:55,301 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: poll_exit
+2025-07-20 08:32:55,310 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: defer
+2025-07-20 08:32:55,317 INFO    HandlerThread:2993 [handler.py:handle_request_defer():161] handle defer: 8
+2025-07-20 08:32:55,319 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: defer
+2025-07-20 08:32:55,319 INFO    SenderThread:2993 [sender.py:send_request_defer():459] handle sender defer: 8
+2025-07-20 08:32:55,319 INFO    SenderThread:2993 [file_pusher.py:finish():168] shutting down file pusher
+2025-07-20 08:32:55,705 INFO    Thread-21 :2993 [upload_job.py:push():143] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/wandb-summary.json
+2025-07-20 08:32:55,725 INFO    Thread-18 :2993 [upload_job.py:push():143] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/requirements.txt
+2025-07-20 08:32:55,796 INFO    Thread-20 :2993 [upload_job.py:push():143] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/config.yaml
+2025-07-20 08:32:55,807 INFO    Thread-19 :2993 [upload_job.py:push():143] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/files/output.log
+2025-07-20 08:32:56,008 INFO    Thread-12 :2993 [sender.py:transition_state():463] send defer: 9
+2025-07-20 08:32:56,009 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: defer
+2025-07-20 08:32:56,009 INFO    HandlerThread:2993 [handler.py:handle_request_defer():161] handle defer: 9
+2025-07-20 08:32:56,010 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: defer
+2025-07-20 08:32:56,010 INFO    SenderThread:2993 [sender.py:send_request_defer():459] handle sender defer: 9
+2025-07-20 08:32:56,010 INFO    SenderThread:2993 [file_pusher.py:join():173] waiting for file pusher
+2025-07-20 08:32:56,010 INFO    SenderThread:2993 [sender.py:transition_state():463] send defer: 10
+2025-07-20 08:32:56,011 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: defer
+2025-07-20 08:32:56,011 INFO    HandlerThread:2993 [handler.py:handle_request_defer():161] handle defer: 10
+2025-07-20 08:32:56,011 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: defer
+2025-07-20 08:32:56,011 INFO    SenderThread:2993 [sender.py:send_request_defer():459] handle sender defer: 10
+2025-07-20 08:32:56,023 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: poll_exit
+2025-07-20 08:32:56,102 INFO    SenderThread:2993 [sender.py:transition_state():463] send defer: 11
+2025-07-20 08:32:56,103 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: poll_exit
+2025-07-20 08:32:56,104 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: defer
+2025-07-20 08:32:56,104 INFO    HandlerThread:2993 [handler.py:handle_request_defer():161] handle defer: 11
+2025-07-20 08:32:56,105 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: defer
+2025-07-20 08:32:56,105 INFO    SenderThread:2993 [sender.py:send_request_defer():459] handle sender defer: 11
+2025-07-20 08:32:56,105 INFO    SenderThread:2993 [sender.py:transition_state():463] send defer: 12
+2025-07-20 08:32:56,106 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: defer
+2025-07-20 08:32:56,106 DEBUG   SenderThread:2993 [sender.py:send():303] send: final
+2025-07-20 08:32:56,107 INFO    HandlerThread:2993 [handler.py:handle_request_defer():161] handle defer: 12
+2025-07-20 08:32:56,107 DEBUG   SenderThread:2993 [sender.py:send():303] send: footer
+2025-07-20 08:32:56,107 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: defer
+2025-07-20 08:32:56,107 INFO    SenderThread:2993 [sender.py:send_request_defer():459] handle sender defer: 12
+2025-07-20 08:32:56,109 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: poll_exit
+2025-07-20 08:32:56,109 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: poll_exit
+2025-07-20 08:32:56,111 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: poll_exit
+2025-07-20 08:32:56,112 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: poll_exit
+2025-07-20 08:32:56,113 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: server_info
+2025-07-20 08:32:56,114 DEBUG   SenderThread:2993 [sender.py:send_request():317] send_request: server_info
+2025-07-20 08:32:56,119 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: get_summary
+2025-07-20 08:32:56,120 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: sampled_history
+2025-07-20 08:32:56,337 INFO    MainThread:2993 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2025-07-20 08:32:56,337 INFO    MainThread:2993 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2025-07-20 08:32:56,338 INFO    MainThread:2993 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2025-07-20 08:32:56,339 DEBUG   HandlerThread:2993 [handler.py:handle_request():138] handle_request: shutdown
+2025-07-20 08:32:56,339 INFO    HandlerThread:2993 [handler.py:finish():814] shutting down handler
+2025-07-20 08:32:57,107 INFO    WriterThread:2993 [datastore.py:close():279] close: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250720_080842-3pjsimpi/run-3pjsimpi.wandb
+2025-07-20 08:32:57,337 INFO    SenderThread:2993 [sender.py:finish():1331] shutting down sender
+2025-07-20 08:32:57,337 INFO    SenderThread:2993 [file_pusher.py:finish():168] shutting down file pusher
+2025-07-20 08:32:57,337 INFO    SenderThread:2993 [file_pusher.py:join():173] waiting for file pusher
+2025-07-20 08:32:57,342 INFO    MainThread:2993 [internal.py:handle_exit():78] Internal process exited

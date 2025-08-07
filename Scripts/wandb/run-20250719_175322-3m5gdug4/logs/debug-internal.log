@@ -1,0 +1,155 @@
+2025-07-19 17:53:22,373 INFO    StreamThr :30568 [internal.py:wandb_internal():88] W&B internal server running at pid: 30568, started at: 2025-07-19 17:53:22.372559
+2025-07-19 17:53:22,376 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: status
+2025-07-19 17:53:22,546 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: status
+2025-07-19 17:53:22,548 DEBUG   SenderThread:30568 [sender.py:send():303] send: header
+2025-07-19 17:53:22,548 INFO    WriterThread:30568 [datastore.py:open_for_write():75] open: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/run-3m5gdug4.wandb
+2025-07-19 17:53:22,549 DEBUG   SenderThread:30568 [sender.py:send():303] send: run
+2025-07-19 17:53:22,970 INFO    SenderThread:30568 [dir_watcher.py:__init__():216] watching files in: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files
+2025-07-19 17:53:22,971 INFO    SenderThread:30568 [sender.py:_start_run_threads():928] run started: 3m5gdug4 with start time 1752972802.363267
+2025-07-19 17:53:22,971 DEBUG   SenderThread:30568 [sender.py:send():303] send: summary
+2025-07-19 17:53:22,971 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: check_version
+2025-07-19 17:53:22,971 INFO    SenderThread:30568 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-07-19 17:53:22,972 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: check_version
+2025-07-19 17:53:23,050 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: run_start
+2025-07-19 17:53:23,069 DEBUG   HandlerThread:30568 [meta.py:__init__():34] meta init
+2025-07-19 17:53:23,069 DEBUG   HandlerThread:30568 [meta.py:__init__():49] meta init done
+2025-07-19 17:53:23,069 DEBUG   HandlerThread:30568 [meta.py:probe():215] probe
+2025-07-19 17:53:23,083 DEBUG   HandlerThread:30568 [meta.py:_setup_git():205] setup git
+2025-07-19 17:53:23,102 DEBUG   HandlerThread:30568 [meta.py:_setup_git():212] setup git done
+2025-07-19 17:53:23,102 DEBUG   HandlerThread:30568 [meta.py:_save_pip():53] save pip
+2025-07-19 17:53:23,103 DEBUG   HandlerThread:30568 [meta.py:_save_pip():67] save pip done
+2025-07-19 17:53:23,103 DEBUG   HandlerThread:30568 [meta.py:probe():253] probe done
+2025-07-19 17:53:23,141 DEBUG   SenderThread:30568 [sender.py:send():303] send: files
+2025-07-19 17:53:23,142 INFO    SenderThread:30568 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2025-07-19 17:53:23,148 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-19 17:53:23,148 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: stop_status
+2025-07-19 17:53:23,284 DEBUG   SenderThread:30568 [sender.py:send():303] send: telemetry
+2025-07-19 17:53:23,579 INFO    Thread-17 :30568 [upload_job.py:push():143] Uploaded file /tmp/tmpsqaqqb3ywandb/1gfo6l4k-wandb-metadata.json
+2025-07-19 17:53:23,974 INFO    Thread-13 :30568 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/requirements.txt
+2025-07-19 17:53:23,974 INFO    Thread-13 :30568 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/wandb-summary.json
+2025-07-19 17:53:23,974 INFO    Thread-13 :30568 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/wandb-metadata.json
+2025-07-19 17:53:23,974 INFO    Thread-13 :30568 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/output.log
+2025-07-19 17:53:25,972 INFO    Thread-13 :30568 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/output.log
+2025-07-19 17:53:27,973 INFO    Thread-13 :30568 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/output.log
+2025-07-19 17:53:31,975 INFO    Thread-13 :30568 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/output.log
+2025-07-19 17:53:38,312 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-19 17:53:38,312 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: stop_status
+2025-07-19 17:53:53,523 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-19 17:53:53,524 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: stop_status
+2025-07-19 17:53:53,988 INFO    Thread-13 :30568 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/config.yaml
+2025-07-19 17:53:53,988 INFO    Thread-13 :30568 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/output.log
+2025-07-19 17:53:56,418 DEBUG   SenderThread:30568 [sender.py:send():303] send: stats
+2025-07-19 17:53:57,990 INFO    Thread-13 :30568 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/output.log
+2025-07-19 17:54:08,711 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-19 17:54:08,711 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: stop_status
+2025-07-19 17:54:13,998 INFO    Thread-13 :30568 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/output.log
+2025-07-19 17:54:23,848 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: stop_status
+2025-07-19 17:54:23,849 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: stop_status
+2025-07-19 17:54:26,585 DEBUG   SenderThread:30568 [sender.py:send():303] send: exit
+2025-07-19 17:54:26,585 INFO    SenderThread:30568 [sender.py:send_exit():442] handling exit code: 1
+2025-07-19 17:54:26,586 INFO    SenderThread:30568 [sender.py:send_exit():444] handling runtime: 63
+2025-07-19 17:54:26,589 INFO    SenderThread:30568 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-07-19 17:54:26,590 INFO    SenderThread:30568 [sender.py:send_exit():450] send defer
+2025-07-19 17:54:26,591 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: defer
+2025-07-19 17:54:26,591 INFO    HandlerThread:30568 [handler.py:handle_request_defer():161] handle defer: 0
+2025-07-19 17:54:26,591 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: defer
+2025-07-19 17:54:26,591 INFO    SenderThread:30568 [sender.py:send_request_defer():459] handle sender defer: 0
+2025-07-19 17:54:26,591 INFO    SenderThread:30568 [sender.py:transition_state():463] send defer: 1
+2025-07-19 17:54:26,592 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: defer
+2025-07-19 17:54:26,592 INFO    HandlerThread:30568 [handler.py:handle_request_defer():161] handle defer: 1
+2025-07-19 17:54:26,983 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: defer
+2025-07-19 17:54:26,984 INFO    SenderThread:30568 [sender.py:send_request_defer():459] handle sender defer: 1
+2025-07-19 17:54:26,984 INFO    SenderThread:30568 [sender.py:transition_state():463] send defer: 2
+2025-07-19 17:54:26,984 DEBUG   SenderThread:30568 [sender.py:send():303] send: stats
+2025-07-19 17:54:26,986 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: defer
+2025-07-19 17:54:26,986 INFO    HandlerThread:30568 [handler.py:handle_request_defer():161] handle defer: 2
+2025-07-19 17:54:26,986 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: defer
+2025-07-19 17:54:26,986 INFO    SenderThread:30568 [sender.py:send_request_defer():459] handle sender defer: 2
+2025-07-19 17:54:26,986 INFO    SenderThread:30568 [sender.py:transition_state():463] send defer: 3
+2025-07-19 17:54:26,987 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: defer
+2025-07-19 17:54:26,987 INFO    HandlerThread:30568 [handler.py:handle_request_defer():161] handle defer: 3
+2025-07-19 17:54:26,987 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: defer
+2025-07-19 17:54:26,987 INFO    SenderThread:30568 [sender.py:send_request_defer():459] handle sender defer: 3
+2025-07-19 17:54:26,987 INFO    SenderThread:30568 [sender.py:transition_state():463] send defer: 4
+2025-07-19 17:54:26,988 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: defer
+2025-07-19 17:54:26,988 INFO    HandlerThread:30568 [handler.py:handle_request_defer():161] handle defer: 4
+2025-07-19 17:54:26,988 DEBUG   SenderThread:30568 [sender.py:send():303] send: summary
+2025-07-19 17:54:26,990 INFO    SenderThread:30568 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-07-19 17:54:26,990 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: defer
+2025-07-19 17:54:26,991 INFO    SenderThread:30568 [sender.py:send_request_defer():459] handle sender defer: 4
+2025-07-19 17:54:26,991 INFO    SenderThread:30568 [sender.py:transition_state():463] send defer: 5
+2025-07-19 17:54:26,991 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: defer
+2025-07-19 17:54:26,991 INFO    HandlerThread:30568 [handler.py:handle_request_defer():161] handle defer: 5
+2025-07-19 17:54:26,991 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: defer
+2025-07-19 17:54:26,991 INFO    SenderThread:30568 [sender.py:send_request_defer():459] handle sender defer: 5
+2025-07-19 17:54:26,992 INFO    SenderThread:30568 [sender.py:transition_state():463] send defer: 6
+2025-07-19 17:54:26,992 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: defer
+2025-07-19 17:54:26,992 INFO    HandlerThread:30568 [handler.py:handle_request_defer():161] handle defer: 6
+2025-07-19 17:54:26,992 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: defer
+2025-07-19 17:54:26,992 INFO    SenderThread:30568 [sender.py:send_request_defer():459] handle sender defer: 6
+2025-07-19 17:54:27,004 INFO    Thread-13 :30568 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/wandb-summary.json
+2025-07-19 17:54:27,586 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: poll_exit
+2025-07-19 17:54:28,005 INFO    Thread-13 :30568 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/output.log
+2025-07-19 17:54:29,417 INFO    SenderThread:30568 [sender.py:transition_state():463] send defer: 7
+2025-07-19 17:54:29,417 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: poll_exit
+2025-07-19 17:54:29,417 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: defer
+2025-07-19 17:54:29,418 INFO    HandlerThread:30568 [handler.py:handle_request_defer():161] handle defer: 7
+2025-07-19 17:54:29,418 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: defer
+2025-07-19 17:54:29,418 INFO    SenderThread:30568 [sender.py:send_request_defer():459] handle sender defer: 7
+2025-07-19 17:54:29,418 INFO    SenderThread:30568 [dir_watcher.py:finish():362] shutting down directory watcher
+2025-07-19 17:54:30,007 INFO    SenderThread:30568 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/output.log
+2025-07-19 17:54:30,008 INFO    SenderThread:30568 [dir_watcher.py:finish():392] scan: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files
+2025-07-19 17:54:30,009 INFO    SenderThread:30568 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/requirements.txt requirements.txt
+2025-07-19 17:54:30,009 INFO    SenderThread:30568 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/output.log output.log
+2025-07-19 17:54:30,010 INFO    SenderThread:30568 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/config.yaml config.yaml
+2025-07-19 17:54:30,012 INFO    SenderThread:30568 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/wandb-metadata.json wandb-metadata.json
+2025-07-19 17:54:30,012 INFO    SenderThread:30568 [dir_watcher.py:finish():406] scan save: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/wandb-summary.json wandb-summary.json
+2025-07-19 17:54:30,013 INFO    SenderThread:30568 [sender.py:transition_state():463] send defer: 8
+2025-07-19 17:54:30,021 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: defer
+2025-07-19 17:54:30,021 INFO    HandlerThread:30568 [handler.py:handle_request_defer():161] handle defer: 8
+2025-07-19 17:54:30,021 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: defer
+2025-07-19 17:54:30,021 INFO    SenderThread:30568 [sender.py:send_request_defer():459] handle sender defer: 8
+2025-07-19 17:54:30,021 INFO    SenderThread:30568 [file_pusher.py:finish():168] shutting down file pusher
+2025-07-19 17:54:30,399 INFO    Thread-19 :30568 [upload_job.py:push():143] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/output.log
+2025-07-19 17:54:30,458 INFO    Thread-20 :30568 [upload_job.py:push():143] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/config.yaml
+2025-07-19 17:54:30,491 INFO    Thread-21 :30568 [upload_job.py:push():143] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/wandb-summary.json
+2025-07-19 17:54:30,491 INFO    Thread-18 :30568 [upload_job.py:push():143] Uploaded file /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/files/requirements.txt
+2025-07-19 17:54:30,692 INFO    Thread-12 :30568 [sender.py:transition_state():463] send defer: 9
+2025-07-19 17:54:30,693 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: defer
+2025-07-19 17:54:30,693 INFO    HandlerThread:30568 [handler.py:handle_request_defer():161] handle defer: 9
+2025-07-19 17:54:30,694 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: defer
+2025-07-19 17:54:30,694 INFO    SenderThread:30568 [sender.py:send_request_defer():459] handle sender defer: 9
+2025-07-19 17:54:30,694 INFO    SenderThread:30568 [file_pusher.py:join():173] waiting for file pusher
+2025-07-19 17:54:30,694 INFO    SenderThread:30568 [sender.py:transition_state():463] send defer: 10
+2025-07-19 17:54:30,694 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: defer
+2025-07-19 17:54:30,694 INFO    HandlerThread:30568 [handler.py:handle_request_defer():161] handle defer: 10
+2025-07-19 17:54:30,695 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: defer
+2025-07-19 17:54:30,695 INFO    SenderThread:30568 [sender.py:send_request_defer():459] handle sender defer: 10
+2025-07-19 17:54:31,125 INFO    SenderThread:30568 [sender.py:transition_state():463] send defer: 11
+2025-07-19 17:54:31,126 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: defer
+2025-07-19 17:54:31,126 INFO    HandlerThread:30568 [handler.py:handle_request_defer():161] handle defer: 11
+2025-07-19 17:54:31,127 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: defer
+2025-07-19 17:54:31,127 INFO    SenderThread:30568 [sender.py:send_request_defer():459] handle sender defer: 11
+2025-07-19 17:54:31,127 INFO    SenderThread:30568 [sender.py:transition_state():463] send defer: 12
+2025-07-19 17:54:31,129 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: defer
+2025-07-19 17:54:31,129 DEBUG   SenderThread:30568 [sender.py:send():303] send: final
+2025-07-19 17:54:31,129 INFO    HandlerThread:30568 [handler.py:handle_request_defer():161] handle defer: 12
+2025-07-19 17:54:31,129 DEBUG   SenderThread:30568 [sender.py:send():303] send: footer
+2025-07-19 17:54:31,130 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: defer
+2025-07-19 17:54:31,130 INFO    SenderThread:30568 [sender.py:send_request_defer():459] handle sender defer: 12
+2025-07-19 17:54:31,132 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: poll_exit
+2025-07-19 17:54:31,133 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: poll_exit
+2025-07-19 17:54:31,134 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: server_info
+2025-07-19 17:54:31,134 DEBUG   SenderThread:30568 [sender.py:send_request():317] send_request: server_info
+2025-07-19 17:54:31,137 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: get_summary
+2025-07-19 17:54:31,137 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: sampled_history
+2025-07-19 17:54:31,318 INFO    MainThread:30568 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2025-07-19 17:54:31,318 INFO    MainThread:30568 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2025-07-19 17:54:31,318 INFO    MainThread:30568 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2025-07-19 17:54:31,319 DEBUG   HandlerThread:30568 [handler.py:handle_request():138] handle_request: shutdown
+2025-07-19 17:54:31,319 INFO    HandlerThread:30568 [handler.py:finish():814] shutting down handler
+2025-07-19 17:54:32,129 INFO    WriterThread:30568 [datastore.py:close():279] close: /home/mmendieta/violence_prediction/Scripts/wandb/run-20250719_175322-3m5gdug4/run-3m5gdug4.wandb
+2025-07-19 17:54:32,318 INFO    SenderThread:30568 [sender.py:finish():1331] shutting down sender
+2025-07-19 17:54:32,318 INFO    SenderThread:30568 [file_pusher.py:finish():168] shutting down file pusher
+2025-07-19 17:54:32,318 INFO    SenderThread:30568 [file_pusher.py:join():173] waiting for file pusher
+2025-07-19 17:54:32,323 INFO    MainThread:30568 [internal.py:handle_exit():78] Internal process exited

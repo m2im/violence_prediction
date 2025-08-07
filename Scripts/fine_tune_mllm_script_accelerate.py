@@ -22,7 +22,7 @@ from huggingface_hub import Repository, get_full_repo_name
 # Define some helper functions
 def get_grouped_params(model, no_decay=["bias", "LayerNorm.weight"]):
     '''
-    This functions differentiate he parameters that should receive weight decay
+    This functions differentiate the parameters that should receive weight decay
     (i.e. Biases and LayerNorm weights) are not subject to weight decay
     '''
     params_with_wd, params_without_wd = [], []

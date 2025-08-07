@@ -1,0 +1,6 @@
+Revision `light-disco-1` does not exist. Created and checked out branch `light-disco-1`.
+Traceback (most recent call last):
+  File "fine_tune_mllm_script_all_labels_accelerate.py", line 171, in <module>
+    labels = list(tokenized_ds["train"].features["labels"].feature.names)
+AttributeError: 'Value' object has no attribute 'names'
+[INFO] loading the tokenizer and the model ...
