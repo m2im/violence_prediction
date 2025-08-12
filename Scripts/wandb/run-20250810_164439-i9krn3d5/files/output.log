@@ -1,0 +1,17 @@
+wandb: Network error (ConnectionError), entering retry loop.
+[34m[1mwandb[39m[22m: Network error (ConnectionError), entering retry loop.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/local/miniconda3/lib/python3.8/logging/__init__.py", line 1085, in emit
+    self.flush()
+  File "/usr/local/miniconda3/lib/python3.8/logging/__init__.py", line 1065, in flush
+    self.stream.flush()
+OSError: [Errno 5] Input/output error
+Call stack:
+  File "/usr/local/miniconda3/lib/python3.8/threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/miniconda3/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/ipykernel/parentpoller.py", line 35, in run
+    get_logger().warning("Parent appears to have exited, shutting down.")
+Message: 'Parent appears to have exited, shutting down.'

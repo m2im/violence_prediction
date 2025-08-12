@@ -1,0 +1,38 @@
+2025-08-07 14:58:21,197 INFO    Thread-29 :53592 [wandb_setup.py:_flush():68] Configure stats pid to 53592
+2025-08-07 14:58:21,197 INFO    Thread-29 :53592 [wandb_setup.py:_flush():68] Loading settings from /home/mmendieta/.config/wandb/settings
+2025-08-07 14:58:21,197 INFO    Thread-29 :53592 [wandb_setup.py:_flush():68] Loading settings from /home/mmendieta/violence_prediction/Scripts/wandb/settings
+2025-08-07 14:58:21,197 INFO    Thread-29 :53592 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'rf_grid_search', 'entity': 'npsdaor', 'root_dir': '/home/mmendieta/violence_prediction/Scripts', 'run_id': 'iyzqllfu', 'sweep_param_path': '/home/mmendieta/violence_prediction/Scripts/wandb/sweep-l7kstfg7/config-iyzqllfu.yaml', 'sweep_id': 'l7kstfg7'}
+2025-08-07 14:58:21,197 INFO    Thread-29 :53592 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-08-07 14:58:21,197 INFO    Thread-29 :53592 [wandb_init.py:_log_setup():476] Logging user logs to /home/mmendieta/violence_prediction/Scripts/wandb/run-20250807_145821-iyzqllfu/logs/debug.log
+2025-08-07 14:58:21,198 INFO    Thread-29 :53592 [wandb_init.py:_log_setup():477] Logging internal logs to /home/mmendieta/violence_prediction/Scripts/wandb/run-20250807_145821-iyzqllfu/logs/debug-internal.log
+2025-08-07 14:58:21,198 INFO    Thread-29 :53592 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f2b1087cf40>
+2025-08-07 14:58:21,199 INFO    Thread-29 :53592 [wandb_init.py:init():516] calling init triggers
+2025-08-07 14:58:21,199 INFO    Thread-29 :53592 [wandb_init.py:init():519] wandb.init called with sweep_config: {'criterion': 'gini', 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 250}
+config: {}
+2025-08-07 14:58:21,199 INFO    Thread-29 :53592 [wandb_init.py:init():569] starting backend
+2025-08-07 14:58:21,199 INFO    Thread-29 :53592 [wandb_init.py:init():573] setting up manager
+2025-08-07 14:58:21,205 INFO    Thread-29 :53592 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-08-07 14:58:21,209 INFO    Thread-29 :53592 [wandb_init.py:init():580] backend started and connected
+2025-08-07 14:58:21,254 INFO    Thread-29 :53592 [wandb_run.py:_config_callback():1160] config_cb None None {'criterion': 'gini', 'min_samples_leaf': 5, 'min_samples_split': 50, 'n_estimators': 250}
+2025-08-07 14:58:21,260 INFO    Thread-29 :53592 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2025-08-07 14:58:21,261 INFO    Thread-29 :53592 [wandb_init.py:init():658] updated telemetry
+2025-08-07 14:58:28,960 INFO    Thread-29 :53592 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2025-08-07 14:58:29,215 INFO    Thread-29 :53592 [wandb_run.py:_on_init():2000] communicating current version
+2025-08-07 14:58:29,277 INFO    Thread-29 :53592 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.21.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-08-07 14:58:29,277 INFO    Thread-29 :53592 [wandb_init.py:init():728] starting run threads in backend
+2025-08-07 14:58:29,424 INFO    Thread-29 :53592 [wandb_run.py:_console_start():1980] atexit reg
+2025-08-07 14:58:29,425 INFO    Thread-29 :53592 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2025-08-07 14:58:29,425 INFO    Thread-29 :53592 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2025-08-07 14:58:29,425 INFO    Thread-29 :53592 [wandb_run.py:_redirect():1925] Redirects installed.
+2025-08-07 14:58:29,426 INFO    Thread-29 :53592 [wandb_init.py:init():765] run started, returning control to user process
+2025-08-08 07:45:27,901 INFO    Thread-29 :53592 [wandb_run.py:_finish():1746] finishing run npsdaor/rf_grid_search/iyzqllfu
+2025-08-08 07:45:27,902 INFO    Thread-29 :53592 [jupyter.py:save_history():448] not saving jupyter history
+2025-08-08 07:45:27,902 INFO    Thread-29 :53592 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2025-08-08 07:45:27,902 INFO    Thread-29 :53592 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2025-08-08 07:45:27,902 INFO    Thread-29 :53592 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2025-08-08 07:45:27,903 INFO    Thread-29 :53592 [wandb_run.py:_restore():1932] restore
+2025-08-08 07:45:27,903 INFO    Thread-29 :53592 [wandb_run.py:_restore():1938] restore done
+2025-08-08 07:45:31,685 INFO    Thread-29 :53592 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2025-08-08 07:45:31,686 INFO    Thread-29 :53592 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2025-08-08 07:45:31,696 INFO    Thread-29 :53592 [wandb_run.py:_footer_sync_info():3333] logging synced files

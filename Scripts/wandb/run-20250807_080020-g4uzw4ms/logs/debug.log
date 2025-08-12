@@ -26,3 +26,49 @@ config: {}
 2025-08-07 08:00:28,390 INFO    Thread-24 :53592 [wandb_run.py:_redirect():1903] Wrapping output streams.
 2025-08-07 08:00:28,390 INFO    Thread-24 :53592 [wandb_run.py:_redirect():1925] Redirects installed.
 2025-08-07 08:00:28,391 INFO    Thread-24 :53592 [wandb_init.py:init():765] run started, returning control to user process
+2025-08-07 13:26:24,411 ERROR   Thread-7  :53592 [internal_api.py:execute():216] 502 response executing GraphQL.
+2025-08-07 13:26:24,411 ERROR   Thread-7  :53592 [internal_api.py:execute():217] 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-08-07 14:07:02,652 ERROR   Thread-7  :53592 [internal_api.py:execute():216] 502 response executing GraphQL.
+2025-08-07 14:07:02,652 ERROR   Thread-7  :53592 [internal_api.py:execute():217] 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-08-07 14:09:56,192 ERROR   Thread-7  :53592 [internal_api.py:execute():216] 502 response executing GraphQL.
+2025-08-07 14:09:56,193 ERROR   Thread-7  :53592 [internal_api.py:execute():217] 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-08-07 14:58:07,133 INFO    Thread-24 :53592 [wandb_run.py:_finish():1746] finishing run npsdaor/rf_grid_search/g4uzw4ms
+2025-08-07 14:58:07,134 INFO    Thread-24 :53592 [jupyter.py:save_history():448] not saving jupyter history
+2025-08-07 14:58:07,134 INFO    Thread-24 :53592 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2025-08-07 14:58:07,134 INFO    Thread-24 :53592 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2025-08-07 14:58:07,134 INFO    Thread-24 :53592 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2025-08-07 14:58:07,135 INFO    Thread-24 :53592 [wandb_run.py:_restore():1932] restore
+2025-08-07 14:58:07,135 INFO    Thread-24 :53592 [wandb_run.py:_restore():1938] restore done
+2025-08-07 14:58:10,039 INFO    Thread-24 :53592 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2025-08-07 14:58:10,039 INFO    Thread-24 :53592 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2025-08-07 14:58:10,050 INFO    Thread-24 :53592 [wandb_run.py:_footer_sync_info():3333] logging synced files

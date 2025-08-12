@@ -1,0 +1,88 @@
+2025-08-10 16:44:39,596 INFO    Thread-49 :53592 [wandb_setup.py:_flush():68] Configure stats pid to 53592
+2025-08-10 16:44:39,596 INFO    Thread-49 :53592 [wandb_setup.py:_flush():68] Loading settings from /home/mmendieta/.config/wandb/settings
+2025-08-10 16:44:39,597 INFO    Thread-49 :53592 [wandb_setup.py:_flush():68] Loading settings from /home/mmendieta/violence_prediction/Scripts/wandb/settings
+2025-08-10 16:44:39,597 INFO    Thread-49 :53592 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'rf_grid_search', 'entity': 'npsdaor', 'root_dir': '/home/mmendieta/violence_prediction/Scripts', 'run_id': 'i9krn3d5', 'sweep_param_path': '/home/mmendieta/violence_prediction/Scripts/wandb/sweep-l7kstfg7/config-i9krn3d5.yaml', 'sweep_id': 'l7kstfg7'}
+2025-08-10 16:44:39,597 INFO    Thread-49 :53592 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-08-10 16:44:39,597 INFO    Thread-49 :53592 [wandb_init.py:_log_setup():476] Logging user logs to /home/mmendieta/violence_prediction/Scripts/wandb/run-20250810_164439-i9krn3d5/logs/debug.log
+2025-08-10 16:44:39,597 INFO    Thread-49 :53592 [wandb_init.py:_log_setup():477] Logging internal logs to /home/mmendieta/violence_prediction/Scripts/wandb/run-20250810_164439-i9krn3d5/logs/debug-internal.log
+2025-08-10 16:44:39,597 INFO    Thread-49 :53592 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f2a6c4de730>
+2025-08-10 16:44:39,598 INFO    Thread-49 :53592 [wandb_init.py:init():516] calling init triggers
+2025-08-10 16:44:39,598 INFO    Thread-49 :53592 [wandb_init.py:init():519] wandb.init called with sweep_config: {'criterion': 'gini', 'min_samples_leaf': 5, 'min_samples_split': 100, 'n_estimators': 500}
+config: {}
+2025-08-10 16:44:39,598 INFO    Thread-49 :53592 [wandb_init.py:init():569] starting backend
+2025-08-10 16:44:39,598 INFO    Thread-49 :53592 [wandb_init.py:init():573] setting up manager
+2025-08-10 16:44:39,603 INFO    Thread-49 :53592 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-08-10 16:44:39,607 INFO    Thread-49 :53592 [wandb_init.py:init():580] backend started and connected
+2025-08-10 16:44:39,626 INFO    Thread-49 :53592 [wandb_run.py:_config_callback():1160] config_cb None None {'criterion': 'gini', 'min_samples_leaf': 5, 'min_samples_split': 100, 'n_estimators': 500}
+2025-08-10 16:44:39,630 INFO    Thread-49 :53592 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2025-08-10 16:44:39,631 INFO    Thread-49 :53592 [wandb_init.py:init():658] updated telemetry
+2025-08-10 16:44:47,422 INFO    Thread-49 :53592 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2025-08-10 16:44:47,683 INFO    Thread-49 :53592 [wandb_run.py:_on_init():2000] communicating current version
+2025-08-10 16:44:47,747 INFO    Thread-49 :53592 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.21.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-08-10 16:44:47,747 INFO    Thread-49 :53592 [wandb_init.py:init():728] starting run threads in backend
+2025-08-10 16:44:47,889 INFO    Thread-49 :53592 [wandb_run.py:_console_start():1980] atexit reg
+2025-08-10 16:44:47,889 INFO    Thread-49 :53592 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2025-08-10 16:44:47,889 INFO    Thread-49 :53592 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2025-08-10 16:44:47,889 INFO    Thread-49 :53592 [wandb_run.py:_redirect():1925] Redirects installed.
+2025-08-10 16:44:47,890 INFO    Thread-49 :53592 [wandb_init.py:init():765] run started, returning control to user process
+2025-08-10 16:48:12,985 ERROR   Thread-7  :53592 [retry.py:__call__():154] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/miniconda3/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f2b10477880>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f2b10477880>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 213, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f2b10477880>: Failed to establish a new connection: [Errno -2] Name or service not known'))

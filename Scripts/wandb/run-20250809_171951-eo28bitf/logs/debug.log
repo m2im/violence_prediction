@@ -1,0 +1,69 @@
+2025-08-09 17:19:51,303 INFO    Thread-39 :53592 [wandb_setup.py:_flush():68] Configure stats pid to 53592
+2025-08-09 17:19:51,303 INFO    Thread-39 :53592 [wandb_setup.py:_flush():68] Loading settings from /home/mmendieta/.config/wandb/settings
+2025-08-09 17:19:51,303 INFO    Thread-39 :53592 [wandb_setup.py:_flush():68] Loading settings from /home/mmendieta/violence_prediction/Scripts/wandb/settings
+2025-08-09 17:19:51,303 INFO    Thread-39 :53592 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'rf_grid_search', 'entity': 'npsdaor', 'root_dir': '/home/mmendieta/violence_prediction/Scripts', 'run_id': 'eo28bitf', 'sweep_param_path': '/home/mmendieta/violence_prediction/Scripts/wandb/sweep-l7kstfg7/config-eo28bitf.yaml', 'sweep_id': 'l7kstfg7'}
+2025-08-09 17:19:51,303 INFO    Thread-39 :53592 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-08-09 17:19:51,303 INFO    Thread-39 :53592 [wandb_init.py:_log_setup():476] Logging user logs to /home/mmendieta/violence_prediction/Scripts/wandb/run-20250809_171951-eo28bitf/logs/debug.log
+2025-08-09 17:19:51,304 INFO    Thread-39 :53592 [wandb_init.py:_log_setup():477] Logging internal logs to /home/mmendieta/violence_prediction/Scripts/wandb/run-20250809_171951-eo28bitf/logs/debug-internal.log
+2025-08-09 17:19:51,304 INFO    Thread-39 :53592 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f2b2e3d78e0>
+2025-08-09 17:19:51,305 INFO    Thread-39 :53592 [wandb_init.py:init():516] calling init triggers
+2025-08-09 17:19:51,305 INFO    Thread-39 :53592 [wandb_init.py:init():519] wandb.init called with sweep_config: {'criterion': 'gini', 'min_samples_leaf': 5, 'min_samples_split': 100, 'n_estimators': 100}
+config: {}
+2025-08-09 17:19:51,305 INFO    Thread-39 :53592 [wandb_init.py:init():569] starting backend
+2025-08-09 17:19:51,305 INFO    Thread-39 :53592 [wandb_init.py:init():573] setting up manager
+2025-08-09 17:19:51,310 INFO    Thread-39 :53592 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-08-09 17:19:51,314 INFO    Thread-39 :53592 [wandb_init.py:init():580] backend started and connected
+2025-08-09 17:19:51,333 INFO    Thread-39 :53592 [wandb_run.py:_config_callback():1160] config_cb None None {'criterion': 'gini', 'min_samples_leaf': 5, 'min_samples_split': 100, 'n_estimators': 100}
+2025-08-09 17:19:51,337 INFO    Thread-39 :53592 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2025-08-09 17:19:51,337 INFO    Thread-39 :53592 [wandb_init.py:init():658] updated telemetry
+2025-08-09 17:19:58,401 INFO    Thread-39 :53592 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2025-08-09 17:19:58,819 INFO    Thread-39 :53592 [wandb_run.py:_on_init():2000] communicating current version
+2025-08-09 17:19:58,883 INFO    Thread-39 :53592 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.21.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-08-09 17:19:58,883 INFO    Thread-39 :53592 [wandb_init.py:init():728] starting run threads in backend
+2025-08-09 17:19:59,036 INFO    Thread-39 :53592 [wandb_run.py:_console_start():1980] atexit reg
+2025-08-09 17:19:59,037 INFO    Thread-39 :53592 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2025-08-09 17:19:59,037 INFO    Thread-39 :53592 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2025-08-09 17:19:59,037 INFO    Thread-39 :53592 [wandb_run.py:_redirect():1925] Redirects installed.
+2025-08-09 17:19:59,038 INFO    Thread-39 :53592 [wandb_init.py:init():765] run started, returning control to user process
+2025-08-09 20:23:21,345 ERROR   Thread-7  :53592 [internal_api.py:execute():216] 500 response executing GraphQL.
+2025-08-09 20:23:21,345 ERROR   Thread-7  :53592 [internal_api.py:execute():217] {"errors":[{"message":"dial tcp 35.226.229.132:3307: connect: connection refused","path":["agentHeartbeat"]}],"data":{"agentHeartbeat":null}}
+2025-08-09 20:23:22,972 ERROR   Thread-7  :53592 [internal_api.py:execute():216] 500 response executing GraphQL.
+2025-08-09 20:23:22,973 ERROR   Thread-7  :53592 [internal_api.py:execute():217] {"errors":[{"message":"dial tcp 35.226.229.132:3307: connect: connection refused","path":["agentHeartbeat"]}],"data":{"agentHeartbeat":null}}
+2025-08-09 20:23:25,566 ERROR   Thread-7  :53592 [internal_api.py:execute():216] 500 response executing GraphQL.
+2025-08-09 20:23:25,566 ERROR   Thread-7  :53592 [internal_api.py:execute():217] {"errors":[{"message":"dial tcp 35.226.229.132:3307: connect: connection refused","path":["agentHeartbeat"]}],"data":{"agentHeartbeat":null}}
+2025-08-09 20:23:25,568 ERROR   Thread-7  :53592 [retry.py:__call__():154] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 213, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/home/mmendieta/transformers/lib/python3.8/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.wandb.ai/graphql
+2025-08-09 20:24:25,387 ERROR   Thread-7  :53592 [internal_api.py:execute():216] 500 response executing GraphQL.
+2025-08-09 20:24:25,388 ERROR   Thread-7  :53592 [internal_api.py:execute():217] {"errors":[{"message":"context deadline exceeded"}]}
+2025-08-09 20:25:28,870 ERROR   Thread-7  :53592 [internal_api.py:execute():216] 500 response executing GraphQL.
+2025-08-09 20:25:28,870 ERROR   Thread-7  :53592 [internal_api.py:execute():217] {"error":"context deadline exceeded"}
+2025-08-09 20:26:42,860 ERROR   Thread-7  :53592 [internal_api.py:execute():216] 500 response executing GraphQL.
+2025-08-09 20:26:42,860 ERROR   Thread-7  :53592 [internal_api.py:execute():217] {"error":"context deadline exceeded"}
+2025-08-09 20:28:12,432 ERROR   Thread-7  :53592 [internal_api.py:execute():216] 500 response executing GraphQL.
+2025-08-09 20:28:12,433 ERROR   Thread-7  :53592 [internal_api.py:execute():217] {"error":"context deadline exceeded"}
+2025-08-09 20:30:22,738 ERROR   Thread-7  :53592 [internal_api.py:execute():216] 500 response executing GraphQL.
+2025-08-09 20:30:22,739 ERROR   Thread-7  :53592 [internal_api.py:execute():217] {"error":"context deadline exceeded"}
+2025-08-10 00:07:00,992 INFO    Thread-39 :53592 [wandb_run.py:_finish():1746] finishing run npsdaor/rf_grid_search/eo28bitf
+2025-08-10 00:07:00,993 INFO    Thread-39 :53592 [jupyter.py:save_history():448] not saving jupyter history
+2025-08-10 00:07:00,993 INFO    Thread-39 :53592 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2025-08-10 00:07:00,993 INFO    Thread-39 :53592 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2025-08-10 00:07:00,993 INFO    Thread-39 :53592 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2025-08-10 00:07:00,994 INFO    Thread-39 :53592 [wandb_run.py:_restore():1932] restore
+2025-08-10 00:07:00,994 INFO    Thread-39 :53592 [wandb_run.py:_restore():1938] restore done
+2025-08-10 00:07:06,109 INFO    Thread-39 :53592 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2025-08-10 00:07:06,110 INFO    Thread-39 :53592 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2025-08-10 00:07:06,120 INFO    Thread-39 :53592 [wandb_run.py:_footer_sync_info():3333] logging synced files
